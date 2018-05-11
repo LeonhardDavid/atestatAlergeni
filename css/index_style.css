@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Bellefair|Lora|Vollkorn|Tillana|Tangerine:700|Raleway');
+body {
+  z-index: -99;
+  overflow-x: hidden;
+  font-family: 'Raleway', serif;
+}
+
+header {
+  background-color: transparent;
+  position: relative;
+  z-index: 50;
+}
+
+.head {
+  font-family: 'Vollkorn', serif;
+  padding: 1rem;
+  background-color: var(--main-color-red);
+}
+
+.custom-nav{
+  font-size:1em; 
+  font-weight: bold; 
+  background-color: var(--main-color-red) !important; 
+  border-top: 2px solid var(--main-color-white) !important;
+  border-bottom: 0 !important;
+  color: white;
+}
+
+.styling {
+  height: 85vh;
+  background-image: url('../images/opacf2.png'), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/bg.jpg');
+  background-position: center bottom, center, center;
+  background-attachment: scroll, scroll, scroll;
+  background-repeat: no-repeat;
+  background-size: cover, cover, cover;
+  z-index: -99;
+}
+
+.nope
+{
+   opacity: 0;
+}
+
+.cust {
+  height: 5.5rem;
+}
+
+.cust1
+{
+  height:2rem;
+}
+
+.cust2
+{
+  height:2rem;
+  width:2rem;
+}
+
+.navbar {
+  font-family: 'Vollkorn', serif;
+  z-index: 99;
+}
+
+.nav-item:nth-child(n) {
+  margin-right: 20px;
+}
+
+.nav-link-cust a{
+  color: var(--main-color-white) !important;
+  font-size: 1rem !important;
+}
+
+.nav-link-cust:link {
+  color: var(--main-color-white) !important;
+  text-decoration: none;
+}
+
+.nav-link-cust:visited {
+  color: var(--main-color-white) !important;
+}
+
+.nav-link-cust:hover {
+  color: var(--main-color-hover) !important;
+  text-decoration: none;
+  transition-duration: 0.4s;
+}
+
+.nav-link-cust:active {
+  color: var(--main-color-hover) !important;
+}
+
+.head-text {
+  font-size: 15vh;
+  color: white;
+  font-family: 'Tangerine', serif;
+}
+
+.head-text-1 {
+  font-size: 4.5vh;
+  color: white;
+  font-family: 'Bellefair', serif;
+}
+
+.styling1 {
+  position: absolute;
+  top: 8em;
+  left: 85%;
+  z-index: 1;
+}
+
+.social {
+  height: 3rem;
+  width: 3rem;
+}
+
+.heading
+{
+  font-family: 'Lora', sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: orange;
+}
+
+.paragraph
+{
+  font-family: 'Raleway',serif;
+  font-size:20px;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.carousel {
+  height:90%
+}
+
+.heading1
+{
+  font-family: 'Lora', sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #FCCB1A;
+}
+
+ .first {
+  background-image: url('../images/bw.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size:100% cover;
+}
+
+.paragraph1
+{
+  font-family: 'Raleway',serif;
+  font-size:20px;
+  font-weight: bold;
+  text-align: justify;
+  color:#F7E9D4;
+}
+
+.top-title{
+    color: white;
+    font-size: 66px;
+    text-shadow: #c8c8c8 1px 1px 0px, #b4b4b4 0px 2px 0px, #a0a0a0 0px 3px 0px, rgba(140, 140, 140, 0.498039) 0px 4px 0px, #787878 0px 0px 0px, rgba(0, 0, 0, 0.498039) 0px 5px 10px;
+}
+
+.under-title{
+    color: white;
+    font-size: 40px;
+    text-shadow: #c8c8c8 1px 1px 0px, #b4b4b4 0px 2px 0px, #a0a0a0 0px 3px 0px, rgba(140, 140, 140, 0.498039) 0px 4px 0px, #787878 0px 0px 0px, rgba(0, 0, 0, 0.498039) 0px 5px 10px;
+}
+
+@media (min-width:576px) and (max-width: 768px){
+  .top-title{
+    font-size: 55px;
+  }
+  .under-title{
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 575px){
+  .top-title{
+    font-size: 44px;
+  }
+  .under-title{
+    font-size: 20px;
+  } 
+}
+
+.animated{
+    animation-duration: 2.5s !important;
+}
+
+.title-div{
+    position: absolute;
+    min-height: 7rem;
+    top: 15rem;
+}

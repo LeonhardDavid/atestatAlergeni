@@ -1,0 +1,6 @@
+:root {
+	--main-color-white: rgba(252,243,215,1);
+	--main-color-hover: rgba(169,150,95,1);
+	--main-color-red: rgba(125,25,23,1);
+	--main-color-red-opaque: rgba(125,25,23,.75);
+}
