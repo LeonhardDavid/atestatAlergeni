@@ -388,19 +388,19 @@
 
             },
             enableHTML: false,
-            buttonClass: 'btn btn-default',
+            buttonClass: 'btn btn-custom w-100',
             inheritClass: false,
             buttonWidth: 'auto',
-            buttonContainer: '<div class="btn-group" />',
+            buttonContainer: '<div class="btn-group w-100" />',
             dropRight: false,
             dropUp: false,
             selectedClass: 'active',
             // Maximum height of the dropdown menu.
             // If maximum height is exceeded a scrollbar will be displayed.
-            maxHeight: false,
-            includeSelectAllOption: false,
+            maxHeight: true,
+            includeSelectAllOption: true,
             includeSelectAllIfMoreThan: 0,
-            selectAllText: ' Select all',
+            selectAllText: ' Selectati toate',
             selectAllValue: 'multiselect-all',
             selectAllName: false,
             selectAllNumber: true,
@@ -424,7 +424,7 @@
             delimiterText: ', ',
             templates: {
                 button: '<button type="button" class="multiselect dropdown-toggle" data-toggle="dropdown"><span class="multiselect-selected-text"></span> <b class="caret"></b></button>',
-                ul: '<ul class="multiselect-container dropdown-menu"></ul>',
+                ul: '<ul class="multiselect-container bg-custom dropdown-menu max-h w-100" style=""></ul>',
                 filter: '<li class="multiselect-item multiselect-filter"><div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span><input class="form-control multiselect-search" type="text"></div></li>',
                 filterClearBtn: '<span class="input-group-btn"><button class="btn btn-default multiselect-clear-filter" type="button"><i class="glyphicon glyphicon-remove-circle"></i></button></span>',
                 li: '<li><a tabindex="0"><label></label></a></li>',

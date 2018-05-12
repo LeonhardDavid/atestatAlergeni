@@ -76,7 +76,7 @@
 	        <div class="col">
 	          <div id="round3">
 	              <div class="row text-center" >
-	                  <div class="col-4 mx-auto">
+	                  <div class="col-12 mx-auto">
 			            <select class="custom-select" title="alergeni" name="alergeni[]" id="multiselect" multiple="multiple">
 			                <option value="gluten">Gluten</option>
 		                    <option value="ovăz">Ovaz</option>
@@ -181,13 +181,13 @@
                                       foreach ($vector_alergeni as $alerta) {
                                           $message_allergen = "
                                           	<div class='alert bg-danger text-white alert-dismissible fade show mx-3' role='alert'>
-	                                          <strong> Atentie! </strong> 
-	                                          Produsul contine alergenul 
-	                                          <strong>$alerta</strong>! 
-											  <button type='button' class='close close-btn' data-dismiss='alert' aria-label='Close'>
-											    <span aria-hidden='true'>&times;</span>
-											  </button>
-											</div>
+  	                                          <strong> Atentie! </strong> 
+  	                                          Produsul contine alergenul 
+  	                                          <strong>$alerta</strong>! 
+                      											  <button type='button' class='close close-btn' data-dismiss='alert' aria-label='Close'>
+                      											    <span aria-hidden='true'>&times;</span>
+                      											  </button>
+                    											</div>
                                           ";
                                           echo "$message_allergen";
                                       }
@@ -231,7 +231,14 @@
                   }
               }
               elseif($ok == 0){
-                  $message_missing = '<div class="alert warning"><span class="closebtn" onclick="this.parentElement.style.display=\'none\';">&times;</span><strong>Introduceti un cod de bare!</strong></div>';
+                  $message_missing = "
+                    <div class='alert bg-warning text-dark alert-dismissible fade show mx-3' role='alert'>
+                      <strong>Introduceti un cod de bare!</strong>
+                      <button type='button' class='close close-btn' data-dismiss='alert' aria-label='Close'>
+                        <span aria-hidden='true'>&times;</span>
+                      </button>
+                  </div>
+                    ";
                   echo $message_missing;
               }
               else{

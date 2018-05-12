@@ -246,3 +246,9 @@ span.psw {
     color: black !important;
     text-decoration: underline !important
 }
+
+.bg-custom{
+    background-color: var(--main-color-white) !important;
+    color: var(--main-color-red) !important;
+
+}
