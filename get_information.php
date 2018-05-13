@@ -17,11 +17,29 @@ if(!empty($_GET['barcode'])){
 
         $existence = $off_array['status'];
         if ($existence == 1) {
-            $product_brand = $off_array['product']['brands'];
-            $product_name = $off_array['product']['product_name'];
+            if(!empty($off_array['product']['brands']))
+                $product_brand = $off_array['product']['brands'];
+            if(!empty($off_array['product']['product_name']))
+                $product_name = $off_array['product']['product_name'];
+            if(!empty($off_array['product']['generic_name']))
+                $generic_name = $off_array['product']['generic_name'];
+            if(!empty($off_array['product']['categories']))
+                $categories = $off_array['product']['categories'];
+            if(!empty($off_array['product']['traces']))
+                $traces = $off_array['product']['traces'];
+            if(!empty($off_array['product']['ingredients_text_with_allergens']))
+                $ingredients = $off_array['product']['ingredients_text_with_allergens'];
+
+            if(!empty($off_array['product']['countries_tags'])){
+                $countries_array = array();
+                $countries_array = $off_array['product']['countries_tags'];
+
+            }
+
             if (!empty($off_array['product']['image_front_url'])) {
                 $product_picture = $off_array['product']['image_front_url'];
             }
+
             if(!empty($off_array['product']['allergens_hierarchy'])){
                 //echo "ARE ALERGENI!<br/>";
                 $product_allergens = array();

@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   	<!-- Custom css -->
-	<link rel="stylesheet" href="css/colors.css" type="text/css">
-   	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	  <link rel="stylesheet" href="css/colors.css" type="text/css">
+   	<link rel="stylesheet" href="css/styles.css" type="text/css" >
   	<link rel="stylesheet" href="css/opt1_style.css" type="text/css">
   	<link rel="stylesheet" href="css/index_style.css" type="text/css">
   	
@@ -210,20 +210,122 @@
                               echo "$message_ok";
                           }
                           if (!empty($product_name)) {
-                              echo "<div class='text-center'><br/><strong >Produs: </strong>$product_name</div>";
+                              echo "
+                              <div class='row'>
+                              <div class='col-8 text-left'>
+                                <div class='col-12 my-1'>
+                                <span class='txt-bold'>Produs: </span> $product_name
+                                </div>
+                              ";
+                          echo "<hr class='my-0'>";
+                          }
+                          if (!empty($generic_name)) {
+                              echo "
+                              <div class='col-12 my-1'>
+                                <span class='txt-bold'>Nume general: </span> $generic_name 
+                                </div>
+                              
+                              ";
+                          echo "<hr class='my-0'>";
                           }
                           if (!empty($product_brand)) {
-                              echo "<div class='text-center'><br/><strong >Brand: </strong>$product_brand </div>";
+                              echo "
+                              <div class='col-12 my-1'>
+                                <span class='txt-bold'>Brand: </span> $product_brand 
+                                </div>
+                              
+                              ";
+                          echo "<hr class='my-0'>";
                           }
+                          if(!empty($categories)){
+                            echo "
+                              <div class='col-12 my-1'>
+                                <span class='txt-bold'> Categorii: </span>
+                                  $categories
+                                </div>
+                              
+                              ";
+                          echo "<hr class='my-0'>";
+                          }
+                          if(!empty($product_allergens)){
+                            echo "
+                              <div class='col-12 my-1'>
+                                <span class='txt-bold'> Substanțe sau produse care cauzează alergii sau intoleranțe: </span>
+                              ";
+                            $last_element = end($product_allergens);
+                            foreach((array)$product_allergens as $alergen){
+                              $alergen = substr((string)$alergen,3);
+                              echo ucfirst("$alergen");
+                              
+                              if($alergen != substr((string)$last_element,3))
+                                echo", ";
+                            }
+                            echo "
+                            </div>
+                            ";
+                          echo "<hr class='my-0'>";
+                          }
+                          if(!empty($traces)){
+                            echo "
+                              <div class='col-12 my-1'>
+                                <span class='txt-bold'> Poate contine urme de: </span>
+                                  $traces
+                                </div>
+                              
+                              ";
+                          echo "<hr class='my-0'>";
+                          }
+                          if(!empty($countries_array)){
+                             echo "
+                              <div class='col-12 my-1'>
+                                <span class='txt-bold'> Se vinde in: </span>
+                              ";
+                              $last_element = end($countries_array);
+                               foreach($countries_array as $country){
+                                    $country = substr((string)$country,3);
+                                    echo ucfirst("$country");
+
+                                    if($country != substr((string)$last_element,3))
+                                      echo", ";
+                                }
+                              echo "</div>";
+                          echo "<hr class='my-0'>";
+                          }
+                          if(!empty($ingredients)){
+                            echo "
+                              <div class='col-12 my-1'>
+                                <span class='txt-bold'> Lista ingrediente: </span>
+                                <br>
+                                $ingredients
+                              </div>
+                              ";
+                          echo "<hr class='my-0'>";
+                          }
+
+                          echo "</div>";
                           if (!empty($product_picture)) {
-                              echo "<br/><img id='enter' src='$product_picture'><br/>";
+                              echo "
+                              <div class='col-4'>
+                              <img id='enter' class='mx-auto d-block' src='$product_picture'>
+                              </div>
+                              </div>
+                              ";
                           } else {
                               include ("simple_html_dom.php");
-                              $search_keyword = "$product_name" . " " . "$product_brand";
+                              if(!empty($product_brand))
+                                $search_keyword = "$product_name" . " " . "$product_brand";
+                              else
+                                $search_keyword = "$product_name";
                               $search_keyword = str_replace(' ', '+', $search_keyword);
-                              $newhtml = file_get_html("http://www.google.com/search?q=" . $search_keyword . "&tbm=isch&gws_rd=cr&ei=16E0WMGSKYmisAHmp6b4Ag");
-                              $result_image_source = $newhtml->find('img', 0)->src;
-                              echo '<br/><img id="enter" src="' . $result_image_source . '"><br>';
+                              $newhtml = file_get_html("http://www.google.com/search?q=" . $search_keyword . "&tbm=isch&gws_rd=cr&ei=16E0WMGSKYmisAHmp6b4Ag&tbs=isz:lt,islt:svga,ic:specific,isc:white");
+
+                              $result_image_source = $newhtml->find('img', 1)->src;
+                              echo '
+                                <div class="col-4">
+                                  <img id="enter" class="d-block mx-auto" src="' . $result_image_source . '">
+                                </div>
+                                </div>
+                              ';
                           }
                       } else {
                           echo "$message_nan";
@@ -257,13 +359,6 @@
 	<script>
 	$(function() {  
 	 $('#multiselect').multiselect();
-
-	 $('#multiselectwithsearch').multiselect({
-	            includeSelectAllOption: true,
-	            enableFiltering: true,
-	            enableCaseInsensitiveFiltering: true,
-	            filterPlaceholder: 'Search for something...'
-	        }); 
 	});
 	</script>
   </footer>
