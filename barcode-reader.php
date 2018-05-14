@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   	<!-- Custom css -->
-	  <link rel="stylesheet" href="css/colors.css" type="text/css">
-   	<link rel="stylesheet" href="css/styles.css" type="text/css" >
+	<link rel="stylesheet" href="css/colors-v1.css" type="text/css">
+   	<link rel="stylesheet" href="css/styles-v1.css" type="text/css" >
   	<link rel="stylesheet" href="css/opt1_style.css" type="text/css">
   	<link rel="stylesheet" href="css/index_style.css" type="text/css">
   	

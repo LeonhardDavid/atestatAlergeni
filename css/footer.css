@@ -1,0 +1,119 @@
+.cont-extended-footer{
+	margin-left: -20px;
+	margin-right: -20px;
+
+	background-color: white;
+	border-radius: 0px 0px 15px 15px;
+	z-index: 1;
+    position: relative;
+    padding-bottom: 50px!important;
+}
+
+.footer-position{
+	position:relative!important;
+	bottom:30px!important;
+	margin-bottom:-30px!important;
+}
+.footer-background{
+	background: url("../images/footer-background.jpg") no-repeat top;
+	color: white;
+}
+
+.top-row, .bottom-row{
+	justify-content: space-around;
+}
+
+.top-row{
+	height: 25rem;
+	text-align: left;
+	font-size: 0.9rem;
+}
+
+.bottom-row{
+	background-color: var(--navbar-categories-bg-color);
+	height: 5rem;
+	position:relative!important;
+	bottom:-30px!important;
+}
+
+.footer-line{
+	width: 50%;
+	background-color: white;
+	height: 1px;
+
+	text-align: left;
+	margin-left: 0;
+}
+
+.footer-line-thicc{
+	width: 50%;
+	background-color: white;
+	height: 3px;
+}
+
+.footer-ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+.footer-a, .footer-a:hover{
+	color: var(--text-color-white);
+	text-decoration: underline;
+}
+
+.top-col{
+	padding: 15px 5px 5px 5px;
+}
+
+.top-col .footer-logo{
+	height: 3rem;
+}
+
+.top-col .social-icons{
+	list-style-type: none;
+	display: inline-flex;
+	padding: 0;
+}
+
+.top-col .social-icons-a{
+	color: white;
+	font-size: 30px;
+	padding: 5px;
+	border: 1px solid transparent;
+}
+
+.top-col .social-icons-a:hover{
+	border: 1px solid white;
+	border-radius: 3px;
+	padding: 5px;
+}
+
+.input-group-btn .footer-form-btn{
+	background-color: var(--main-bg-color);
+	border-radius: 0px 4px 4px 0px;
+	border-color: var(--main-bg-color);
+	font-weight: 600;
+	letter-spacing: 1px;
+	color: var(--text-color-white);
+}
+
+.input-group-btn .footer-form-btn:hover{
+	background-color: var(--main-bg-color-hover);
+	border-color: var(--main-bg-color-hover);
+}
+
+.top-col .lang-pick-mobile{
+	list-style-type: none;
+	display: inline-flex;
+	padding: 0;
+}
+
+.lang-pick-mobile .lang-pick-mobile-a{
+	color: white;
+	text-decoration: none;
+}
+
+.top-col .footer-logo-mobile{
+	height: 5.5rem;
+	margin-top: 25px;
+}

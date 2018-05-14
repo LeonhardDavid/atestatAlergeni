@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+*{
+	font-family: 'Lato', sans-serif;
+}
+
+body{
+	background-color: #fafafa;
+}
+
+@media (max-width: 992px){
+	.container{
+		max-width: 100% !important;
+	}
+}
+
+.line{
+	height: 1px;
+	background: #1e5799;
+	background: -moz-linear-gradient(left, #1e5799 0%, #207cca 39%, #b7b7b7 39%, #b7b7b7 39%, #b7b7b7 100%);
+	background: -webkit-linear-gradient(left, #1e5799 0%,#207cca 39%,#b7b7b7 39%,#b7b7b7 39%,#b7b7b7 100%);
+	background: linear-gradient(to right, #1e5799 0%,#207cca 39%,#b7b7b7 39%,#b7b7b7 39%,#b7b7b7 100%);
+	width:100%;
+}
+
+.img-fluid{
+	height: 3.5rem !important;
+}
+
+.cyan{
+	min-height: 5px !important;
+	background-color: var(--text-color-blue-hover);
+}
+
+.grey{
+	min-height: 5px !important;
+	background-color: var(--color-grey);
+}
+
+.border-right-white{
+	border-right: solid white 5px !important;
+}
+
+.translate-arrow{
+	transform: translateX(-10px);
+	position: absolute;
+}
+
+.roadmap-txt-cyan{
+	color: var(--text-color-blue-hover);
+}
+
+.roadmap-txt-grey{
+	color: var(--color-grey);
+}
+
+.bold-txt{
+	font-weight: bold;
+}
+
+.green-icon{
+	color: rgb(106,185,20);
+	font-size: 1.25rem;
+}
+
+.green-txt{
+	color: rgb(106,185,20);
+}
+
+.orange-txt{
+	color: rgb(242,103,0);
+}
+
+.box{
+	width: 120px;
+	line-height: .65;
+	border: solid rgb(211,221,231) 1px;
+	border-radius: 5px;
+}
+
+.font-sz{
+	font-size: .65rem;
+}
+
+.title{
+	margin-left: 10px;
+}
+
+@media (max-width: 576px){
+	.title{
+		font-size: 1.5rem !important;
+	}
+
+	.font-sz{
+		font-size: .5rem;
+	}
+	.box{
+		width: 100px !important;
+	}
+}
+
+@media (max-width: 375px){
+	.title{
+		font-size: 1.25rem !important;
+	}
+}
+
+@media (max-width: 400px){
+	.font-big{
+		font-size: 1.5rem;
+	}
+
+	.font-lg{
+		font-size: 1rem !important;
+	}
+
+	.font-md{
+		font-size: .75rem;
+	}
+
+	.font-sm{
+		font-size: .5rem !important;
+	}
+}
+
+@media (min-width: 401px) and (max-width: 910px){
+	.font-big{
+		font-size: 1.75rem;
+	}
+
+	.font-lg{
+		font-size: 1.25rem !important;
+	}
+
+	.font-md{
+		font-size: .875rem;
+	}
+
+	.font-sm{
+		font-size: .75rem !important;
+	}
+}
+
+@media (min-width: 911px){
+	.font-big{
+		font-size: 2rem;
+	}
+
+	.font-lg{
+		font-size: 1.5rem !important;
+	}
+
+	.font-md{
+		font-size: 1rem;
+	}
+
+	.font-sm{
+		font-size: .875rem !important;
+	}
+	
+}
+.blue-bg{
+	background-color: rgb(228,241,249);
+	border-radius: 5px;
+}
+
+.white-bg{
+	background-color: white;
+	border-radius: 5px;
+}
+
+.grey-bg{
+	background-color: rgb(249,249,249);
+	border-radius: 5px;
+	border: solid #eee 1px;
+}
+
+.step-number{
+	width: 30px;
+    height: 30px;
+    background-color: #404040;
+    color: #e4f1f9;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 700;
+    font-size: 16px;
+    margin-right: 25px;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.blue-txt{
+	color: rgb(23,99,170);
+}
+
+.grey-txt{
+	color: rgb(187,187,187);
+}
+
+.grey-2-txt{
+	color: rgb(102,102,102) !important;
+}
+
+
+/* The container */
+.container-radio {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    font-size: 1rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    padding-top: 14px;
+    height: 55px;
+    width: 100% !important;
+    background-color: white;
+}
+
+.border-radio{
+	border: solid rgb(23,99,170) 1px;
+    border-radius: 5px;
+}
+
+@media (min-width: 911px){
+	.address-radio{
+		height: 200px;	
+	}
+
+	.receipt-1-radio, .receipt-2-radio{
+		height: 75px;
+	}
+}
+
+
+@media (max-width: 910px){
+	.address-radio{
+		height: 180px;	
+	}
+
+	.receipt-1-radio, .receipt-2-radio{
+		height: 65px;
+	}
+}
+
+@media (max-width: 540px){
+	.address-radio{
+		height: 210px;
+	}
+	.receipt-1-radio, .receipt-2-radio{
+		height: 75px;
+	}
+}
+
+
+@media (max-width: 520px){
+	.address-radio{
+		height: 220px;
+	}
+}
+
+@media (max-width: 500px){
+	.address-radio{
+		height: 230px;
+	}
+}
+
+
+/* Hide the browser's default radio button */
+.container-radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border-radius: 50%;
+    border: solid rgb(23,99,170) 1px;
+}
+
+/* On mouse-over, add a grey background color */
+.container-radio:hover input ~ .checkmark {
+    background-color: #fafafa;
+}
+
+/* When the radio button is checked, add a blue background */
+.container-radio input:checked ~ .checkmark {
+    background-color: white;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container-radio input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.container-radio input:checked ~ .container-radio{
+	border: 0 !important;
+}
+
+/* Style the indicator (dot/circle) */
+.container-radio .checkmark:after {
+ 	top: 7px;
+	left: 7px;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: rgb(23,99,170);
+}
+
+.btn-outline-cust{
+	border-color: var(--navbar-categories-bg-color) !important;
+	color: var(--navbar-categories-bg-color) !important;
+}
+
+.btn-outline-cust:hover{
+	background-color: var(--navbar-categories-bg-color) !important;
+	color: white !important;
+	border-color: var(--navbar-categories-bg-color) !important;
+}
+
+@media (max-width: 767px){
+	.pad-left{
+		padding-left: 0;
+	}
+
+	.pad-right{
+		padding-right: 0;
+	}
+}
+
+
+@media (min-width: 768px){
+	.pad-l{
+		padding-left: .25rem !important;
+	}
+	.pad-r{
+		padding-right: .25rem !important;
+	}
+	.pad-left{
+		padding-left: 10rem;
+	}
+
+	.pad-right{
+		padding-right: 10rem;
+	}
+}
+
+@media (max-width: 768px){
+	.btn-outline-cust{
+		width: 100% !important;
+		margin-bottom: .5rem !important;
+	}
+}
+
+@media (max-width: 375px){
+	.btn-outline-cust{
+		font-size: .875rem !important;
+		padding: .25rem !important;
+	}
+}
+
+.nav-tabs{
+	border-bottom: 1px solid rgb(23,99,170) !important;
+	color: rgb(23,99,170) !important;
+}
+
+a.nav-link{
+	color: rgb(23,99,170) !important;	
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: rgb(23,99,170) !important;
+    background-color: #fff ;
+    border-color: rgb(23,99,170) rgb(23,99,170) #fff !important;
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border-color: #1763aa #1763aa #dee2e6 !important;
+}
+
+.info-box{
+	background-color: white;
+	border: 1px solid rgb(23,99,170);
+	border-radius: 5px;
+}
+
+.border-shadow{
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #aaaaaa;
+}
+
+@media (max-width: 576px){
+	.font-resp, h5, h6{
+		font-size: 1rem !important;
+	}
+	.font-resp-summary{
+		font-size: 0.875rem !important;
+	}
+}
+
+.font-resp{
+	font-size: 1.5rem;
+}
+
+.font-resp-summary{
+	font-size: 1rem;
+}
+
+.left-line
+{
+	border-left: 1px solid lightgrey!important;
+}
+
+@media (max-width: 768px){
+	.left-line
+	{
+		border:0 !important;
+	}
+}
+
+.btn-cust{
+	background-color: var(--navbar-categories-bg-color) !important;
+	border-color: var(--navbar-categories-bg-color) !important;
+}
+
+.btn-cust:hover{
+	background-color: var(--text-color-blue-hover) !important;
+	border-color: var(--text-color-blue-hover) !important;
+}
+
+.footer-container{
+	border-top: 1px solid lightgrey;
+}

@@ -1,6 +1,20 @@
 :root {
-	--main-color-white: rgba(252,243,215,1);
-	--main-color-hover: rgba(169,150,95,1);
-	--main-color-red: rgba(125,25,23,1);
-	--main-color-red-opaque: rgba(125,25,23,.75);
+  --main-bg-color: rgba(125,25,23,1);
+  --main-bg-color-hover: rgba(169,150,95,1);
+  --main-bg-color-opaque: rgba(20,41,68,0.7);
+  --main-bg-color-red: rgba(244,58,38,1);
+  --navbar-categories-bg-color:  rgba(125,25,23,1);
+  --bg-color-grey-hover: rgba(204,204,204,1);
+  --bg-color-white: rgba(255,255,255,1);
+
+  --text-color-black: rgba(29,33,35,1);
+  --text-color-blue: rgba(125,25,23,1);
+  --text-color-blue-hover: rgba(169,150,95,1);
+  --text-color-white: rgba(255,255,255,1);
+  --text-color-red: rgba(244,58,38,1);
+  --text-color-grey: rgba(146,146,146,1);
+  --text-color-green: rgba(0,153,0,1);
+
+  --color-cyan: rgba(90,202,246,1);
+  --color-grey: rgba(217,217,217,1);
 }

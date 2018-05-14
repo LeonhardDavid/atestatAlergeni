@@ -1,0 +1,61 @@
+body{
+	overflow-x: hidden;
+	background: url("../images/background.jpg") no-repeat center center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+
+}
+
+.cont-extended{
+	margin-left: -20px;
+	margin-right: -20px;
+	padding-left:20px;
+	background-color: white;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+.background-up
+{
+	height:50vh!important;
+	background-image: url("../images/hdr_bf.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: scroll;
+	position:relative;
+	bottom:120px;
+	margin-bottom:-120px;
+}
+.outline
+{
+	border:1px solid lightgrey;
+	border-radius: 10px;
+	box-shadow: 0px 1px 2px grey;
+}
+.white-up
+{
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	background-color: var(--bg-color-white);
+	position: relative;
+	bottom:50px;
+	margin-bottom:-50px;
+}
+.button-padding{
+	padding-top:10px!important;
+	padding-bottom:10px!important;
+}
+#ex1Slider .slider-selection {
+	background: #BABABA;
+}
+.up-margin{
+	padding-top:50px!important;
+}
+.dropdown-menu-2{
+	top:50px!important;
+	max-width:auto!important;
+	width:95%!important;
+}

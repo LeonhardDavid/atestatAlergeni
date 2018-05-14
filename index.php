@@ -1,159 +1,532 @@
-<!DOCTYPE html>
-<html>
+<?php require 'header_footer/header.php';?>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!-- Begin code -->
 
-  <link rel="stylesheet" href="css/colors.css" type="text/css">
-  <link rel="stylesheet" href="css/index_style.css" type="text/css">
-  
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<!-- Main photo slider desktop-->
+	<div id="carouselExampleIndicators-main1-desktop" class="carousel slide translate-y-up d-none d-md-block" data-ride="carousel" data-interval="false" data-keyboard="true">
+	  <ol class="carousel-indicators">
+	    <li data-target="#carouselExampleIndicators-main1-desktop" data-slide-to="0" class="active"></li>
+	    <li data-target="#carouselExampleIndicators-main1-desktop" data-slide-to="1"></li>
+	    <li data-target="#carouselExampleIndicators-main1-desktop" data-slide-to="2"></li>
+	  </ol>
 
-  <title> Mananca sanatos! </title>
-</head>
+	  <div class="carousel-inner">
+	    <div class="carousel-item active ">
+	      <img class="d-block w-100 main-slider " src="images/main-slider-image-desktop-1.jpg" alt="First slide" >
+	      <div class="animated fadeInUp container-fluid title-div"> 
+	      	 <div class="top-title text-center">Mănâncă sănătos!</div>
+	      	 <div class="under-title text-center"> Magazinul online care te ajută să fii sănătos!</div>
+	      </div>
+	    </div>
+	    <div class="carousel-item ">
+	      <img class="d-block w-100 main-slider" src="images/main-slider-image-desktop-2.jpg" alt="Second slide" >
 
-<body >
+	    </div>
+	    <div class="carousel-item ">
+	      <img class="d-block w-100 main-slider" src="images/main-slider-image-desktop-3.jpg" alt="Third slide" >
+	    </div>
 
-    <header>
-      <div class="container-fluid d-flex justify-content-around head">
-        <img src="images/logo_white.png" alt="na" class="cust">
-      </div>
-    </header>
+	  <a class="carousel-control-prev" href="#carouselExampleIndicators-main1-desktop" role="button" data-slide="prev">
+	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="carousel-control-next" href="#carouselExampleIndicators-main1-desktop" role="button" data-slide="next">
+	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	    <span class="sr-only">Next</span>
+	  </a>
+	</div>
+</div>
 
-      <nav class="navbar navbar-toggleable-sm navbar-expand-sm sticky-top custom-nav" >
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand nope" href="#">
-          <img src="images/logo_white.png" alt="Logo" class="cust1">
-        </a>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ml-auto">
-              <a class="nav-item nav-link-cust next" href="barcode-reader.php">Barcode reader</a>
-              <a class="nav-item nav-link-cust" href="#">Optiune2</a>
-              <a class="nav-item nav-link-cust" href="#">Optiune3</a>
-              <a class="nav-item nav-link-cust" href="#">Optiune4</a>
-            </div>
-        </div>
-      </nav>
+	<!-- Main photo slider mobile -->
 
-    <section style="height:85vh;">
-      <div class="styling">
-        <div class="container-fluid d-flex justify-content-center align-items-center" style="height:85vh;">
-          
-            <div class="animated fadeInUp container-fluid title-div"> 
-               <div class="top-title text-center">Mănâncă sănătos!</div>
-               <div class="under-title text-center"> Portalul care te ajută să fii sănătos!</div>
-            </div>
-          
-        </div>
-      </div>
+	<div id="carouselExampleIndicators-main1-mobile" class="carousel slide translate-y-up d-md-none" data-ride="carousel" data-interval="false" data-keyboard="true">
+	  <ol class="carousel-indicators">
+	    <li data-target="#carouselExampleIndicators-main1-mobile" data-slide-to="0" class="active"></li>
+	    <li data-target="#carouselExampleIndicators-main1-mobile" data-slide-to="1"></li>
+	    <li data-target="#carouselExampleIndicators-main1-mobile" data-slide-to="2"></li>
+	  </ol>
 
-    </section>
-    <section style="padding-top:60px; padding-bottom:60px;">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-4 d-flex justify-content-center">
-            <span class="align-middle">
-            <img src="images/main.png" alt="food" class="img-fluid" style="zoom:0.5">
-          </span>
-          </div>
+	  <div class="carousel-inner">
+	    <div class="carousel-item active ">
+	      <img class="d-block w-100 main-slider " src="images/main-slider-image-mobile-1.jpg" alt="First slide" >
 
-          <div class="col-md-8 d-flex justify-content-center">
-              <div class="row">
-                <div class="col-sm-9">
-                  <h1 class="heading ">Welcome eating well!</h1>
-                  <br>
-                  <div class="row">
-                    <div class="col-6 col-sm-6 paragraph">
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                    </div>
-                    <div class="col-6 col-sm-6 paragraph">
-                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                    </div>
-                  </div>
-                </div>
-              </div>
-        </div>
 
-      </div>
+	    </div>
+	    <div class="carousel-item ">
+	      <img class="d-block w-100 main-slider" src="images/main-slider-image-mobile-2.jpg" alt="Second slide" >
 
-    </section>
-    <section style="padding-top:60px; padding-bottom:60px;">
-      <center>
-       <h1 class="heading1"> How it works: </h1>
-      </center>
-      <div class="container-fluid d-flex justify-content-center">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active">
-              <img class="d-block img-fluid img-thumbnail" src="images/carousel1.jpg" alt="First slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block img-fluid img-thumbnail" src="images/carousel2.jpg" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block img-fluid img-thumbnail" src="images/carousel3.jpg" alt="Third slide">
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-      </div>
+	    </div>
+	    <div class="carousel-item ">
+	      <img class="d-block w-100 main-slider" src="images/main-slider-image-mobile-3.jpg" alt="Third slide" >
+	    </div>
 
-    </section>
-    <section class="first">
-      <div class="container-fluid d-flex " style="padding-top:40px; padding-bottom:60px;">
-        <div class="row">
-          <div class="col-md-4 d-flex justify-content-center">
-            <span class="align-middle">
+	  <a class="carousel-control-prev" href="#carouselExampleIndicators-main1-mobile" role="button" data-slide="prev">
+	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="carousel-control-next" href="#carouselExampleIndicators-main1-mobile" role="button" data-slide="next">
+	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	    <span class="sr-only">Next</span>
+	  </a>
+	</div>
+	</div>
 
-          </span>
-          </div>
+	<!-- Middle Bar -->
+		<div class="container pad1">
+			<br><br>
+			<div class="row-flex my-4">
+				<div class="col-md-12 mx-3 mt-3">
+						<span class="product-styling">Produse adaugate recent</span>
+						<div class="line my-2"></div>
+				</div>
+			</div>
+			<div class="my-5 mx-5">
+				<div class="product-carousel">
+					<div class="styling">
+						<div class="badge-group">
+							<span class="badge badge-danger custom-badge">NOU!</span>
+						</div>
+						<img src="images/pl1.jpg" alt="Product1" class="mx-auto d-block custom-height">
+						Banane
+						<br>
+						<span class="red">4,99 lei</span>
+						<span class="grey">/kg</span>
+						<br>
+						<div class="add-to-cart atc-index">
+						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+						<span class="shopping-cart">
+							<i class="fas fa-shopping-cart"></i>
+						</span>
+					</div>
+					</div>
+					<div class="styling">
+						<div class="badge-group">
+							<span class="badge badge-danger custom-badge">NOU!</span>
+							<span class="badge badge-danger custom-badge">-20%</span>
+						</div>
+						<img src="images/pl2.jpg" alt="Product1" class="mx-auto d-block custom-height">
+						Mere 
+						<br>
+						<span class="red">7,99 lei</span>
+						<span class="grey">/kg</span>
+						<br>
+						<div class="add-to-cart atc-index">
+							<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+							<span class="shopping-cart">
+								<i class="fas fa-shopping-cart"></i>
+							</span>
+						</div>
+					</div>
+					<div class="styling">
 
-          <div class="col-md-8 d-flex justify-content-center">
-              <div class="row">
-                <div class="col-sm-9">
+						<img src="images/pl3.jpg" alt="Product1" class="mx-auto d-block custom-height">
+						Pere
+						<br>
+						<span class="red">8,99 lei</span>
+						<span class="grey">/kg</span>
+						<br>
+						<div class="add-to-cart atc-index">
+						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+						<span class="shopping-cart">
+							<i class="fas fa-shopping-cart"></i>
+						</span>
+					</div>
+					</div>
+					<div class="styling">
 
-                  <br>
-                  <div class="row">
-                    <div class="col-6 col-sm-6 paragraph1">
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                    </div>
-                    <div class="col-6 col-sm-6 paragraph1">
-                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                    </div>
-                  </div>
-                </div>
-              </div>
-        </div>
-      </div>
-    </section>
-    <section class="" style="height:50vh;">
-      abc
-    </section>
-  </div>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+						<img src="images/pl4.jpg" alt="Product1" class="mx-auto d-block custom-height">
+						Lamai
+						<br>
+						<span class="red">6,99 lei</span>
+						<span class="grey">/kg</span>
+						<br>
+						<div class="add-to-cart atc-index">
+						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+						<span class="shopping-cart">
+							<i class="fas fa-shopping-cart"></i>
+						</span>
+					</div>
+					</div>
+					<div class="styling">
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/barba.js/1.0.0/barba.min.js" type="text/javascript"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script type="text/javascript" src="js/index_script.js"></script>
-</body>
+						<img src="images/pl5.jpg" alt="Product1" class="mx-auto d-block custom-height">
+						Portocale
+						<br>
+						<span class="red">3,99 lei</span>
+						<span class="grey">/kg</span>
+						<br>
+						<div class="add-to-cart atc-index">
+						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+						<span class="shopping-cart">
+							<i class="fas fa-shopping-cart"></i>
+						</span>
+					</div>
+					</div>
+					<div class="styling">
 
-</html>
+						<img src="images/pl6.jpg" alt="Product1" class="mx-auto d-block custom-height">
+						Castraveti
+						<br>
+						<span class="red">6,99 lei</span>
+						<span class="grey">/kg</span>
+						<br>
+						<div class="add-to-cart atc-index">
+						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+						<span class="shopping-cart">
+							<i class="fas fa-shopping-cart"></i>
+						</span>
+					</div>
+					</div>
+					<div class="styling">
+						<div class="badge-group">
+							<span class="badge badge-danger custom-badge">-20%</span>
+						</div>
+						<img src="images/pl7.jpg" alt="Product1" class="mx-auto d-block custom-height">
+						Rosii
+						<br>
+						<span class="red">7,99 lei</span>
+						<span class="grey">/kg</span>
+						<br>
+						<div class="add-to-cart atc-index">
+						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+						<span class="shopping-cart">
+							<i class="fas fa-shopping-cart"></i>
+						</span>
+					</div>
+					</div>
+					<div class="styling">
+						<div class="badge-group">
+							<span class="badge badge-danger custom-badge">NOU!</span>
+						</div>
+						<img src="images/pl8.jpg" alt="Product1" class="mx-auto d-block custom-height">
+						Morcovi
+						<br>
+						<span class="red">3,49 lei</span>
+						<span class="grey">/kg</span>
+						<br>
+						<div class="add-to-cart atc-index">
+						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+						<span class="shopping-cart">
+							<i class="fas fa-shopping-cart"></i>
+						</span>
+					</div>
+					</div>
+					<div class="styling">
+						<div class="badge-group">
+							<span class="badge badge-danger custom-badge">NOU!</span>
+							<span class="badge badge-danger custom-badge">-20%</span>
+						</div>
+						<img src="images/pl9.jpg" alt="Product1" class="mx-auto d-block custom-height">
+						Brocolli
+						<br>
+						<span class="red">10,99 lei</span>
+						<span class="grey">/kg</span>
+						<br>
+						<div class="add-to-cart atc-index">
+						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+						<span class="shopping-cart">
+							<i class="fas fa-shopping-cart"></i>
+						</span>
+					</div>
+					</div>
+					<div class="styling">
+						<img src="images/pl10.jpg" alt="Product1" class="mx-auto d-block custom-height">
+						Struguri
+						<br>
+						<span class="red">14,99 lei</span>
+						<span class="grey">/kg</span>
+						<br>
+						<div class="add-to-cart atc-index">
+						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+						<span class="shopping-cart">
+							<i class="fas fa-shopping-cart"></i>
+						</span>
+					</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-5 col-md-3 d-none d-sm-block">
+					<ul class="list-group list-group-flush">
+					 	<li class="list-group-item blue-bg d-flex justify-content-center">CATEGORII</li>
+						<li class="list-group-item d-flex justify-content-center other-bg"><a href="#">SPORTURI ACVATICE</a></li>
+						<li class="list-group-item d-flex justify-content-center other-bg"><a href="#">SPORTURI DE IARNA</a></li>
+						<li class="list-group-item d-flex justify-content-center other-bg"><a href="#">FITNESS & CARDIO</a></li>
+						<li class="list-group-item d-flex justify-content-center other-bg"><a href="#">FOTBAL & BASKET</a></li>
+					  	<li class="list-group-item d-flex justify-content-center other-bg"><a href="#">INCALTAMINTE</a></li>
+					  	<li class="list-group-item d-flex justify-content-center other-bg"><a href="#">GECI SI JACKETE</a></li>
+					  	<li class="list-group-item d-flex justify-content-center other-bg"><a href="#">SKATES & ROLLERS</a></li>
+					  	<li class="list-group-item d-flex justify-content-center other-bg"><a href="#">ACCESORII CAMPING</a></li>
+					  	<li class="list-group-item d-flex justify-content-center other-bg"><a href="#">DRUMETIE & TIMP LIBER</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-7 col-md-9">
+
+			      	<div class="row h-100">
+			      		<div class="col-md-6 h-100">
+
+			      			<!-- Mini-slider 1-->
+								<div id="carouselExampleIndicators-item1" class="carousel slide h-100 align" data-ride="carousel" data-interval="false" data-keyboard="true">
+									<ol class="carousel-indicators">
+								    	<li data-target="#carouselExampleIndicators-item1" data-slide-to="0" class="active"></li>
+								    	<li data-target="#carouselExampleIndicators-item1" data-slide-to="1"></li>
+								    	<li data-target="#carouselExampleIndicators-item1" data-slide-to="2"></li>
+								  	</ol>
+								  <div class="carousel-inner h-100">
+								    <div class="carousel-item h-100 active">
+
+								      <img class="d-block w-100 h-100 mini-slider" src="images/mini-slider-image-1.jpg" alt="First slide" >
+
+								    </div>
+								    <div class="carousel-item h-100">
+
+								      <img class="d-block w-100 h-100 mini-slider" src="images/mini-slider-image-2.jpg" alt="Second slide" >
+
+								    </div>
+								    <div class="carousel-item h-100">
+
+								      <img class="d-block w-100 h-100 mini-slider" src="images/mini-slider-image-3.jpg" alt="Third slide" >
+
+								    </div>
+								  </div>
+								</div>
+			      			</div>
+				      	<div class="col-md-6">
+				      		<!-- Extra Images 1 -->
+				      		<div class="row h-50 d-none d-lg-block" >
+				      			<img class="d-block w-100 h-100 extra" src="images/extra-image-1.png" alt="extra-image1" >
+				      		</div>
+
+				      		<!-- Extra Images 2 -->
+				      		<div class="row h-50">
+				      			<div class="col-lg-6 d-none d-md-block">
+				      				<div class="row">
+				      					<img class="d-block w-100 extra-2" src="images//extra-image-2.png" alt="extra-image2" >
+				      				</div>
+				      			</div>
+				      			<div class="col-lg-6 d-none d-md-block">
+				      				<div class="row">
+				      					<img class="d-block w-100 extra-2" src="images//extra-image-3.png" alt="extra-image3" >
+				      				</div>
+				      			</div>
+
+				      		</div>
+				      	</div>
+			      	</div>
+
+			      </div>
+				</div>
+			</div>
+
+						<div class="container-fluid section-bg" >
+								<div class="row mx-auto text">
+									<div class="col-12">
+										<h1 class="title-text text-center mx-auto my-3">
+												AMERICAN BASKET equipment
+										</h1>
+									</div>
+									<div class="col-12">
+										<h2 class="subtitle-text text-center mx-auto">
+											The Nike Shield Women's Running Jacket is water-resistant for lightweight protection from the elements.
+										</h2>
+									</div>
+								</div>
+								<div class="row basket-carousel">
+									<div class="styling">
+											<div class="badge-group">
+												<span class="badge badge-danger custom-badge">NOU!</span>
+												<br>
+												<span class="badge badge-danger custom-badge">-20%</span>
+											</div>
+											<img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
+											Adidas Women
+											<br>
+											reversible track jacket
+											<br>
+											<span class="red">134 lei</span>
+											<span class="grey">165 lei</span>
+											<br>
+											<div class="add-to-cart atc-index">
+											<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+											<span class="shopping-cart">
+												<i class="fas fa-shopping-cart"></i>
+											</span>
+										</div>
+									</div>
+									<div class="styling">
+
+											<img src="images/pb2.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
+											Adidas Women
+											<br>
+											reversible track jacket
+											<br>
+											<span class="red">134 lei</span>
+											<span class="grey">165 lei</span>
+											<br>
+											<div class="add-to-cart atc-index">
+											<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+											<span class="shopping-cart">
+												<i class="fas fa-shopping-cart"></i>
+											</span>
+										</div>
+									</div>
+									<div class="styling">
+										<div class="badge-group">
+											<span class="badge badge-danger custom-badge">NOU!</span>
+										</div>
+											<img src="images/pb3.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
+											Adidas Women
+											<br>
+											reversible track jacket
+											<br>
+											<span class="red">134 lei</span>
+											<span class="grey">165 lei</span>
+											<br>
+											<div class="add-to-cart atc-index">
+											<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+											<span class="shopping-cart">
+												<i class="fas fa-shopping-cart"></i>
+											</span>
+										</div>
+									</div>
+									<div class="styling">
+										<div class="badge-group">
+											<span class="badge badge-danger custom-badge">NOU!</span>
+										</div>
+											<img src="images/pb4.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
+											Adidas Women
+											<br>
+											reversible track jacket
+											<br>
+											<span class="red">134 lei</span>
+											<span class="grey">165 lei</span>
+											<br>
+											<div class="add-to-cart atc-index">
+											<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+											<span class="shopping-cart">
+												<i class="fas fa-shopping-cart"></i>
+											</span>
+										</div>
+									</div>
+									<div class="styling">
+										<div class="badge-group">
+											<span class="badge badge-danger custom-badge">-20%</span>
+										</div>
+											<img src="images/pb5.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
+											Adidas Women
+											<br>
+											reversible track jacket
+											<br>
+											<span class="red">134 lei</span>
+											<span class="grey">165 lei</span>
+											<br>
+											<div class="add-to-cart atc-index">
+											<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+											<span class="shopping-cart">
+												<i class="fas fa-shopping-cart"></i>
+											</span>
+										</div>
+									</div>
+									<div class="styling">
+										<div class="badge-group">
+											<span class="badge badge-danger custom-badge">NOU!</span>
+										</div>
+											<img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
+											Adidas Women
+											<br>
+											reversible track jacket
+											<br>
+											<span class="red">134 lei</span>
+											<span class="grey">165 lei</span>
+											<br>
+											<div class="add-to-cart atc-index">
+											<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+											<span class="shopping-cart">
+												<i class="fas fa-shopping-cart"></i>
+											</span>
+										</div>
+									</div>
+									<div class="styling">
+										<div class="badge-group">
+											<span class="badge badge-danger custom-badge">-20%</span>
+										</div>
+											<img src="images/pb2.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
+											Adidas Women
+											<br>
+											reversible track jacket
+											<br>
+											<span class="red">134 lei</span>
+											<span class="grey">165 lei</span>
+											<br>
+											<div class="add-to-cart atc-index">
+											<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+											<span class="shopping-cart">
+												<i class="fas fa-shopping-cart"></i>
+											</span>
+										</div>
+									</div>
+									<div class="styling">
+										<div class="badge-group">
+											<span class="badge badge-danger custom-badge">NOU!</span>
+											<br>
+											<span class="badge badge-danger custom-badge">-20%</span>
+										</div>
+											<img src="images/pb3.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
+											Adidas Women
+											<br>
+											reversible track jacket
+											<br>
+											<span class="red">134 lei</span>
+											<span class="grey">165 lei</span>
+											<br>
+											<div class="add-to-cart atc-index">
+											<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+											<span class="shopping-cart">
+												<i class="fas fa-shopping-cart"></i>
+											</span>
+										</div>
+									</div>
+									<div class="styling">
+
+											<img src="images/pb4.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
+											Adidas Women
+											<br>
+											reversible track jacket
+											<br>
+											<span class="red">134 lei</span>
+											<span class="grey">165 lei</span>
+											<br>
+											<div class="add-to-cart atc-index">
+											<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+											<span class="shopping-cart">
+												<i class="fas fa-shopping-cart"></i>
+											</span>
+										</div>
+									</div>
+									<div class="styling">
+										<div class="badge-group">
+											<span class="badge badge-danger custom-badge">NOU!</span>
+										</div>
+											<img src="images/pb5.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
+											Adidas Women
+											<br>
+											reversible track jacket
+											<br>
+											<span class="red">134 lei</span>
+											<span class="grey">165 lei</span>
+											<br>
+											<div class="add-to-cart atc-index">
+											<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+											<span class="shopping-cart">
+												<i class="fas fa-shopping-cart"></i>
+											</span>
+										</div>
+									</div>
+								</div>
+						</div>
+
+			
+<!-- End code -->
+
+<?php require 'header_footer/footer.php';?>
