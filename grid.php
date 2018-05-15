@@ -517,12 +517,14 @@
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
+                <a href="cart.php" class="normal-link">
                 <div class="add-to-cart atc-index">
     						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
     						<span class="shopping-cart">
     							<i class="fas fa-shopping-cart"></i>
     						</span>
     					</div>
+            </a>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                   <label class="form-check-label" for="defaultCheck1">
@@ -546,12 +548,14 @@
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
+                <a href="cart.php" class="normal-link">
                 <div class="add-to-cart atc-index">
     						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
     						<span class="shopping-cart">
     							<i class="fas fa-shopping-cart"></i>
     						</span>
     					</div>
+            </a>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                   <label class="form-check-label" for="defaultCheck1">
@@ -575,12 +579,14 @@
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
+                <a href="cart.php" class="normal-link">
                 <div class="add-to-cart atc-index">
     						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
     						<span class="shopping-cart">
     							<i class="fas fa-shopping-cart"></i>
     						</span>
     					</div>
+            </a>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                   <label class="form-check-label" for="defaultCheck1">
@@ -604,12 +610,14 @@
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
+                <a href="cart.php" class="normal-link">
                 <div class="add-to-cart atc-index">
     						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
     						<span class="shopping-cart">
     							<i class="fas fa-shopping-cart"></i>
     						</span>
     					</div>
+            </a>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                   <label class="form-check-label" for="defaultCheck1">
@@ -635,12 +643,14 @@
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
+                <a href="cart.php" class="normal-link">
                 <div class="add-to-cart atc-index">
     						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
     						<span class="shopping-cart">
     							<i class="fas fa-shopping-cart"></i>
     						</span>
     					</div>
+            </a>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                   <label class="form-check-label" for="defaultCheck1">
@@ -664,12 +674,14 @@
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
+                <a href="cart.php" class="normal-link">
                 <div class="add-to-cart atc-index">
     						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
     						<span class="shopping-cart">
     							<i class="fas fa-shopping-cart"></i>
     						</span>
     					</div>
+            </a>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                   <label class="form-check-label" for="defaultCheck1">
@@ -693,12 +705,14 @@
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
+                <a href="cart.php" class="normal-link">
                 <div class="add-to-cart atc-index">
     						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
     						<span class="shopping-cart">
     							<i class="fas fa-shopping-cart"></i>
     						</span>
     					</div>
+            </a>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                   <label class="form-check-label" for="defaultCheck1">
@@ -722,12 +736,14 @@
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
+                <a href="cart.php" class="normal-link">
                 <div class="add-to-cart atc-index">
     						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
     						<span class="shopping-cart">
     							<i class="fas fa-shopping-cart"></i>
     						</span>
     					</div>
+            </a>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                   <label class="form-check-label" for="defaultCheck1">
@@ -753,12 +769,14 @@
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
+                <a href="cart.php" class="normal-link">
                 <div class="add-to-cart atc-index">
     						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
     						<span class="shopping-cart">
     							<i class="fas fa-shopping-cart"></i>
     						</span>
     					</div>
+            </a>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                   <label class="form-check-label" for="defaultCheck1">
@@ -782,12 +800,14 @@
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
+                <a href="cart.php" class="normal-link">
                 <div class="add-to-cart atc-index">
     						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
     						<span class="shopping-cart">
     							<i class="fas fa-shopping-cart"></i>
     						</span>
     					</div>
+            </a>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                   <label class="form-check-label" for="defaultCheck1">
@@ -811,12 +831,14 @@
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
+                <a href="cart.php" class="normal-link">
                 <div class="add-to-cart atc-index">
     						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
     						<span class="shopping-cart">
     							<i class="fas fa-shopping-cart"></i>
     						</span>
     					</div>
+            </a>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                   <label class="form-check-label" for="defaultCheck1">
@@ -839,12 +861,14 @@
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
+                <a href="cart.php" class="normal-link">
                 <div class="add-to-cart atc-index">
     						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
     						<span class="shopping-cart">
     							<i class="fas fa-shopping-cart"></i>
     						</span>
     					</div>
+            </a>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                   <label class="form-check-label" for="defaultCheck1">
@@ -869,12 +893,14 @@
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
+                <a href="cart.php" class="normal-link">
                 <div class="add-to-cart atc-index">
     						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
     						<span class="shopping-cart">
     							<i class="fas fa-shopping-cart"></i>
     						</span>
     					</div>
+            </a>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                   <label class="form-check-label" for="defaultCheck1">
@@ -895,12 +921,14 @@
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
+                <a href="cart.php" class="normal-link">
                 <div class="add-to-cart atc-index">
     						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
     						<span class="shopping-cart">
     							<i class="fas fa-shopping-cart"></i>
     						</span>
     					</div>
+            </a>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                   <label class="form-check-label" for="defaultCheck1">
@@ -921,12 +949,14 @@
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
+                <a href="cart.php" class="normal-link">
                 <div class="add-to-cart atc-index">
     						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
     						<span class="shopping-cart">
     							<i class="fas fa-shopping-cart"></i>
     						</span>
     					</div>
+            </a>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                   <label class="form-check-label" for="defaultCheck1">
@@ -948,12 +978,14 @@
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
+                <a href="cart.php" class="normal-link">
                 <div class="add-to-cart atc-index">
     						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
     						<span class="shopping-cart">
     							<i class="fas fa-shopping-cart"></i>
     						</span>
     					</div>
+            </a>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                   <label class="form-check-label" for="defaultCheck1">
@@ -977,12 +1009,14 @@
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
+                <a href="cart.php" class="normal-link">
                 <div class="add-to-cart atc-index">
     						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
     						<span class="shopping-cart">
     							<i class="fas fa-shopping-cart"></i>
     						</span>
     					</div>
+            </a>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                   <label class="form-check-label" for="defaultCheck1">
@@ -1005,12 +1039,14 @@
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
+                <a href="cart.php" class="normal-link">
                 <div class="add-to-cart atc-index">
     						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
     						<span class="shopping-cart">
     							<i class="fas fa-shopping-cart"></i>
     						</span>
     					</div>
+            </a>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                   <label class="form-check-label" for="defaultCheck1">
@@ -1033,12 +1069,14 @@
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
+                <a href="cart.php" class="normal-link">
                 <div class="add-to-cart atc-index">
     						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
     						<span class="shopping-cart">
     							<i class="fas fa-shopping-cart"></i>
     						</span>
     					</div>
+            </a>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                   <label class="form-check-label" for="defaultCheck1">
@@ -1058,12 +1096,14 @@
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
+                <a href="cart.php" class="normal-link">
                 <div class="add-to-cart atc-index">
     						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
     						<span class="shopping-cart">
     							<i class="fas fa-shopping-cart"></i>
     						</span>
     					</div>
+            </a>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                   <label class="form-check-label" for="defaultCheck1">

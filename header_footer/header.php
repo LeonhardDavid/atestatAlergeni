@@ -152,7 +152,9 @@
   <div class="row header-background">
 
     <div class="col-md-2 d-flex logo-header">
+      <a href="index.php" class="normal-link my-auto">
       <img class="mx-auto my-auto logo logo-white" src="images/logo-white.gif" alt ="Logo-header">
+      </a>
     </div>
 
     <!-- Search form -->

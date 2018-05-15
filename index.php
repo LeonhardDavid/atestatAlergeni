@@ -287,7 +287,7 @@
 			<div class="row">
 				<div class="col-sm-5 col-md-3 d-none d-sm-block">
 					<ul class="list-group list-group-flush">
-					 	<li class="list-group-item blue-bg d-flex justify-content-center">CATEGORII</li>
+					 	<li class="list-group-item blue-bg d-flex justify-content-center"><a href="grid.php" class="normal-link" style="color:white !important;">CATEGORII</a></li>
 						<li class="list-group-item d-flex justify-content-center other-bg"><a href="#">FRUCTE</a></li>
 						<li class="list-group-item d-flex justify-content-center other-bg"><a href="#">LEGUME</a></li>
 						<li class="list-group-item d-flex justify-content-center other-bg"><a href="#">SUCURI NATURALE</a></li>
