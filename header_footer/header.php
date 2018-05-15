@@ -54,7 +54,7 @@
         <button class="navbar-toggler px-0" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <img class="nav-mobile-icon-img logo-white" src="images/lions-logo.svg">
+        <img class="nav-mobile-icon-img logo-white" src="images/logo-white.gif">
       </div>
 
       <div class="float-right d-lg-none">
@@ -152,7 +152,7 @@
   <div class="row header-background">
 
     <div class="col-md-2 d-flex logo-header">
-      <img class="mx-auto my-auto logo logo-white" src="images/lions-logo.svg" alt ="Logo-header">
+      <img class="mx-auto my-auto logo logo-white" src="images/logo-white.gif" alt ="Logo-header">
     </div>
 
     <!-- Search form -->
@@ -2060,7 +2060,7 @@
 
     <!-- Logo -->
     <div class="col-lg-1 px-0 my-auto d-flex logo-header">
-      <img class="mx-auto my-auto logo logo-height logo-white" src="images/lions-logo.svg" alt ="Logo-header">
+      <img class="mx-auto my-auto logo logo-height logo-white" src="images/logo-white.gif" alt ="Logo-header">
     </div>
 
     <!-- Search form -->
