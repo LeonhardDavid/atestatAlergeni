@@ -110,12 +110,14 @@
 						<span class="red">4,99 lei</span>
 						<span class="grey">/kg</span>
 						<br>
-						<div class="add-to-cart atc-index">
-						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
-						<span class="shopping-cart">
-							<i class="fas fa-shopping-cart"></i>
-						</span>
-					</div>
+						<a href="cart.php" class="normal-link">
+							<div class="add-to-cart atc-index">
+							<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+							<span class="shopping-cart">
+								<i class="fas fa-shopping-cart"></i>
+							</span>
+						</div>
+					</a>
 					</div>
 					<div class="styling">
 						<div class="badge-group">
@@ -128,12 +130,14 @@
 						<span class="red">7,99 lei</span>
 						<span class="grey">/kg</span>
 						<br>
+						<a href="cart.php" class="normal-link">
 						<div class="add-to-cart atc-index">
 							<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
 							<span class="shopping-cart">
 								<i class="fas fa-shopping-cart"></i>
 							</span>
 						</div>
+					</a>
 					</div>
 					<div class="styling">
 
@@ -143,13 +147,15 @@
 						<span class="red">8,99 lei</span>
 						<span class="grey">/kg</span>
 						<br>
+						<a href="cart.php" class="normal-link">
 						<div class="add-to-cart atc-index">
 						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
 						<span class="shopping-cart">
 							<i class="fas fa-shopping-cart"></i>
 						</span>
 					</div>
-					</div>
+	
+	</a>				</div>
 					<div class="styling">
 
 						<img src="images/pl4.jpg" alt="Product1" class="mx-auto d-block custom-height">
@@ -158,13 +164,15 @@
 						<span class="red">6,99 lei</span>
 						<span class="grey">/kg</span>
 						<br>
+						<a href="cart.php" class="normal-link">
 						<div class="add-to-cart atc-index">
 						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
 						<span class="shopping-cart">
 							<i class="fas fa-shopping-cart"></i>
 						</span>
 					</div>
-					</div>
+	
+	</a>				</div>
 					<div class="styling">
 
 						<img src="images/pl5.jpg" alt="Product1" class="mx-auto d-block custom-height">
@@ -173,13 +181,15 @@
 						<span class="red">3,99 lei</span>
 						<span class="grey">/kg</span>
 						<br>
+						<a href="cart.php" class="normal-link">
 						<div class="add-to-cart atc-index">
 						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
 						<span class="shopping-cart">
 							<i class="fas fa-shopping-cart"></i>
 						</span>
 					</div>
-					</div>
+	
+	</a>				</div>
 					<div class="styling">
 
 						<img src="images/pl6.jpg" alt="Product1" class="mx-auto d-block custom-height">
@@ -188,13 +198,15 @@
 						<span class="red">6,99 lei</span>
 						<span class="grey">/kg</span>
 						<br>
+						<a href="cart.php" class="normal-link">
 						<div class="add-to-cart atc-index">
 						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
 						<span class="shopping-cart">
 							<i class="fas fa-shopping-cart"></i>
 						</span>
 					</div>
-					</div>
+	
+	</a>				</div>
 					<div class="styling">
 						<div class="badge-group">
 							<span class="badge badge-danger custom-badge">-20%</span>
@@ -205,13 +217,15 @@
 						<span class="red">7,99 lei</span>
 						<span class="grey">/kg</span>
 						<br>
+						<a href="cart.php" class="normal-link">
 						<div class="add-to-cart atc-index">
 						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
 						<span class="shopping-cart">
 							<i class="fas fa-shopping-cart"></i>
 						</span>
 					</div>
-					</div>
+	
+	</a>				</div>
 					<div class="styling">
 						<div class="badge-group">
 							<span class="badge badge-danger custom-badge">NOU!</span>
@@ -222,13 +236,15 @@
 						<span class="red">3,49 lei</span>
 						<span class="grey">/kg</span>
 						<br>
+						<a href="cart.php" class="normal-link">
 						<div class="add-to-cart atc-index">
 						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
 						<span class="shopping-cart">
 							<i class="fas fa-shopping-cart"></i>
 						</span>
 					</div>
-					</div>
+	
+	</a>				</div>
 					<div class="styling">
 						<div class="badge-group">
 							<span class="badge badge-danger custom-badge">NOU!</span>
@@ -240,13 +256,15 @@
 						<span class="red">10,99 lei</span>
 						<span class="grey">/kg</span>
 						<br>
+						<a href="cart.php" class="normal-link">
 						<div class="add-to-cart atc-index">
 						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
 						<span class="shopping-cart">
 							<i class="fas fa-shopping-cart"></i>
 						</span>
 					</div>
-					</div>
+	
+	</a>				</div>
 					<div class="styling">
 						<img src="images/pl10.jpg" alt="Product1" class="mx-auto d-block custom-height">
 						Struguri
@@ -254,13 +272,15 @@
 						<span class="red">14,99 lei</span>
 						<span class="grey">/kg</span>
 						<br>
+						<a href="cart.php" class="normal-link">
 						<div class="add-to-cart atc-index">
 						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
 						<span class="shopping-cart">
 							<i class="fas fa-shopping-cart"></i>
 						</span>
 					</div>
-					</div>
+	
+	</a>				</div>
 
 				</div>
 			</div>
@@ -365,12 +385,14 @@
 											<span class="red">134 lei</span>
 											<span class="grey">165 lei</span>
 											<br>
+											<a href="cart.php" class="normal-link">
 											<div class="add-to-cart atc-index">
 											<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
 											<span class="shopping-cart">
 												<i class="fas fa-shopping-cart"></i>
 											</span>
 										</div>
+									</a>
 									</div>
 									<div class="styling">
 
@@ -382,12 +404,14 @@
 											<span class="red">134 lei</span>
 											<span class="grey">165 lei</span>
 											<br>
+											<a href="cart.php" class="normal-link">
 											<div class="add-to-cart atc-index">
 											<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
 											<span class="shopping-cart">
 												<i class="fas fa-shopping-cart"></i>
 											</span>
 										</div>
+									</a>
 									</div>
 									<div class="styling">
 										<div class="badge-group">
@@ -401,12 +425,14 @@
 											<span class="red">134 lei</span>
 											<span class="grey">165 lei</span>
 											<br>
+											<a href="cart.php" class="normal-link">
 											<div class="add-to-cart atc-index">
 											<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
 											<span class="shopping-cart">
 												<i class="fas fa-shopping-cart"></i>
 											</span>
 										</div>
+									</a>
 									</div>
 									<div class="styling">
 										<div class="badge-group">
@@ -420,12 +446,14 @@
 											<span class="red">134 lei</span>
 											<span class="grey">165 lei</span>
 											<br>
+											<a href="cart.php" class="normal-link">
 											<div class="add-to-cart atc-index">
 											<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
 											<span class="shopping-cart">
 												<i class="fas fa-shopping-cart"></i>
 											</span>
 										</div>
+									</a>
 									</div>
 									<div class="styling">
 										<div class="badge-group">
@@ -439,12 +467,14 @@
 											<span class="red">134 lei</span>
 											<span class="grey">165 lei</span>
 											<br>
+											<a href="cart.php" class="normal-link">
 											<div class="add-to-cart atc-index">
 											<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
 											<span class="shopping-cart">
 												<i class="fas fa-shopping-cart"></i>
 											</span>
 										</div>
+									</a>
 									</div>
 									<div class="styling">
 										<div class="badge-group">
@@ -458,12 +488,14 @@
 											<span class="red">134 lei</span>
 											<span class="grey">165 lei</span>
 											<br>
+											<a href="cart.php" class="normal-link">
 											<div class="add-to-cart atc-index">
 											<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
 											<span class="shopping-cart">
 												<i class="fas fa-shopping-cart"></i>
 											</span>
 										</div>
+									</a>
 									</div>
 									<div class="styling">
 										<div class="badge-group">
@@ -477,12 +509,14 @@
 											<span class="red">134 lei</span>
 											<span class="grey">165 lei</span>
 											<br>
+											<a href="cart.php" class="normal-link">
 											<div class="add-to-cart atc-index">
 											<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
 											<span class="shopping-cart">
 												<i class="fas fa-shopping-cart"></i>
 											</span>
 										</div>
+									</a>
 									</div>
 									<div class="styling">
 										<div class="badge-group">
@@ -498,12 +532,14 @@
 											<span class="red">134 lei</span>
 											<span class="grey">165 lei</span>
 											<br>
+											<a href="cart.php" class="normal-link">
 											<div class="add-to-cart atc-index">
 											<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
 											<span class="shopping-cart">
 												<i class="fas fa-shopping-cart"></i>
 											</span>
 										</div>
+									</a>
 									</div>
 									<div class="styling">
 
@@ -515,12 +551,14 @@
 											<span class="red">134 lei</span>
 											<span class="grey">165 lei</span>
 											<br>
+											<a href="cart.php" class="normal-link">
 											<div class="add-to-cart atc-index">
 											<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
 											<span class="shopping-cart">
 												<i class="fas fa-shopping-cart"></i>
 											</span>
 										</div>
+									</a>
 									</div>
 									<div class="styling">
 										<div class="badge-group">
@@ -534,12 +572,14 @@
 											<span class="red">134 lei</span>
 											<span class="grey">165 lei</span>
 											<br>
+											<a href="cart.php" class="normal-link">
 											<div class="add-to-cart atc-index">
 											<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
 											<span class="shopping-cart">
 												<i class="fas fa-shopping-cart"></i>
 											</span>
 										</div>
+									</a>
 									</div>
 								</div>
 						</div>

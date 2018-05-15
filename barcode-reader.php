@@ -49,15 +49,12 @@
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand nope" href="#">
-        <img src="images/logo_whtie.png" alt="Logo" class="cust1">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo-white.gif" alt="Logo" class="cust1">
       </a>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link-cust" href="index.php">Acasa</a>
-            <a class="nav-item nav-link-cust" href="#">Optiune2</a>
-            <a class="nav-item nav-link-cust" href="#">Optiune3</a>
-            <a class="nav-item nav-link-cust" href="#">Optiune4</a>
+          <div class="navbar-nav mr-auto float-left">
+            <a class="nav-item nav-link-cust" href="index.php"> <i class="fas fa-home"></i> &nbsp; Acasa</a>
           </div>
       </div>
     </nav>
@@ -246,7 +243,7 @@
                           if (!empty($product_name)) {
                               echo "
                               <div class='row'>
-                              <div class='col-12 text-left'>
+                              <div class='col-8 text-left'>
                                 <div class='col-12 my-1'>
                                 <span class='txt-bold'>Produs: </span> $product_name
                                 </div>
@@ -339,7 +336,7 @@
                           echo "</div>";
                           if (!empty($product_picture)) {
                               echo "
-                              <div class='col-12'>
+                              <div class='col-4'>
                               <img id='enter' class='mx-auto d-block' src='$product_picture'>
                               </div>
                               </div>
@@ -355,7 +352,7 @@
 
                               $result_image_source = $newhtml->find('img', 1)->src;
                               echo '
-                                <div class="col-12">
+                                <div class="col-4">
                                   <img id="enter" class="d-block mx-auto" src="' . $result_image_source . '">
                                 </div>
                                 </div>

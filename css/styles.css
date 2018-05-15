@@ -91,6 +91,11 @@ Top bar
 
 }
 
+.normal-link:link, .normal-link:hover, .normal-link:active, .normal-link:visited{
+	color: inherit !important;
+	text-decoration: none !important;
+}
+
 .dropdown:hover > .dropdown-menu {
   display: block;
 }
