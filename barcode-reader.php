@@ -10,10 +10,10 @@
    	<link rel="stylesheet" href="css/styles-v1.css" type="text/css" >
   	<link rel="stylesheet" href="css/opt1_style.css" type="text/css">
   	<link rel="stylesheet" href="css/index_style.css" type="text/css">
-  	
+
   	<!-- Font awesome -->
   	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-  	
+
   	<!-- Animate css -->
   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
@@ -21,7 +21,7 @@
   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	-->
 
 	<!-- Bootstrap css, js-->
@@ -33,8 +33,11 @@
 
 	<!-- Multiselect css and jquery -->
 	<link rel="stylesheet" href="css/bootstrap-multiselect.css" type="text/css"/>
-	<script   src="https://code.jquery.com/jquery-3.2.1.min.js"   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="js/bootstrap-multiselect.js"></script>
+
+  <script src="js/barcode.js"> </script>
+
 
   <title> Barcode reader </title>
 </head>
@@ -70,10 +73,10 @@
           <h1 class="text-center">Verificati alergenii produsului</h1>
           <hr>
           <div class="row">
-          	<div class="col-9">
+          	<div class="col-12">
 	          <h3 id="form" class="text-center"> 1. Selectati alergenii care va pot provoca alergii sau intolerante:</h3>
 	        </div>
-	        <div class="col">
+	        <div class="col-12">
 	          <div id="round3">
 	              <div class="row text-center" >
 	                  <div class="col-12 mx-auto">
@@ -101,18 +104,49 @@
 	        </div>
 		    </div>
               <hr>
-              <div class="col">
+              <div class="col-12">
 	              <h3 id="form" class="text-left">2. Introduceti/Scanati codul de bare:</h3>
 	              <div class="row my-2">
-	              	<div class="col-6 mx-auto">
-	              		<input autofocus id="scanner_input" class="form-control input-barcode my-auto" name="barcode" placeholder="Introduceti codul de bare..." type="text" />
+	              	<div class="col-12 mx-auto">
+	              		<input id="result_box" class="form-control input-barcode my-auto" name="barcode" placeholder="Introduceti codul de bare..." type="text" />
 	              	</div>
+                  <div class="col-md-12">
+                    <button class="btn btn-primary" type="button">
+                      <i class="fas fa-camera mx-auto"></i>
+                        <span class="mx-auto"> Sau scanati codul direct</span>
+                      </button>
+                  </div>
+	              	<div class="col-md-12 justify-content-center d-flex">
 
-	              	<div class="col-6 mx-auto">
-	              		<button class="btn btn-custom btn-scan w-100" type="button" data-toggle="modal" data-target="#livestream_scanner" data-backdrop="false" id="pad1">
-			                <i class="fas fa-camera mx-auto"></i> 	
-		                  	<span class="mx-auto"> Sau scanati codul direct</span>
-	                  	</button>
+                        <script type="text/javascript">
+                        var sound = new Audio("barcode.wav");
+
+                        $(document).ready(function() {
+
+                        	barcode.config.start = 0.1;
+                        	barcode.config.end = 0.9;
+                        	barcode.config.video = '#barcodevideo';
+                        	barcode.config.canvas = '#barcodecanvas';
+                        	barcode.config.canvasg = '#barcodecanvasg';
+                        	barcode.setHandler(function(barcode) {
+                        		$('#result').html(barcode);
+                        	});
+                        	barcode.init();
+
+                        	$('#result').bind('DOMSubtreeModified', function(e) {
+                        		sound.play();
+                            $("#result_box").val($("#result").text());
+                        	});
+
+                        });
+                        </script>
+
+                    <div id="barcode">
+                    	<video id="barcodevideo" autoplay></video>
+                    	<canvas id="barcodecanvasg"></canvas>
+                    </div>
+                    <canvas id="barcodecanvas"></canvas>
+                    <div id="result" class="d-none"></div>
 	              	</div>
 	              </div>
 	          </div>
@@ -146,7 +180,7 @@
 				  </button>
 				</div>
 				";
-              $message_love = "<!-- <audio controls autoplay='autoplay' hidden='hidden'> <source src='images/uhah.mp3' type='audio/mp3'> </audio> --> 
+              $message_love = "<!-- <audio controls autoplay='autoplay' hidden='hidden'> <source src='images/uhah.mp3' type='audio/mp3'> </audio> -->
 
              	<div class='alert bg-danger text-white alert-dismissible fade show mx-3' role='alert'>
 				  <strong> Pentru remedierea problemei de dragoste va rugam vizitati site-ul <a class='white-link' href='https://www.bautura-online.ro/catalogsearch/result/?q=jack+daniels&&gclid=Cj0KEQjwofHHBRDS0Pnhpef89ucBEiQASEp6LPcVaQjw7EyVhQ611Ikl8cbgVuFieq5WZkzL0S_ICDMaAtvb8P8HAQ' target='_blank'>acesta</a>!
@@ -181,9 +215,9 @@
                                       foreach ($vector_alergeni as $alerta) {
                                           $message_allergen = "
                                           	<div class='alert bg-danger text-white alert-dismissible fade show mx-3' role='alert'>
-  	                                          <strong> Atentie! </strong> 
-  	                                          Produsul contine alergenul 
-  	                                          <strong>$alerta</strong>! 
+  	                                          <strong> Atentie! </strong>
+  	                                          Produsul contine alergenul
+  	                                          <strong>$alerta</strong>!
                       											  <button type='button' class='close close-btn' data-dismiss='alert' aria-label='Close'>
                       											    <span aria-hidden='true'>&times;</span>
                       											  </button>
@@ -212,7 +246,7 @@
                           if (!empty($product_name)) {
                               echo "
                               <div class='row'>
-                              <div class='col-8 text-left'>
+                              <div class='col-12 text-left'>
                                 <div class='col-12 my-1'>
                                 <span class='txt-bold'>Produs: </span> $product_name
                                 </div>
@@ -222,18 +256,18 @@
                           if (!empty($generic_name)) {
                               echo "
                               <div class='col-12 my-1'>
-                                <span class='txt-bold'>Nume general: </span> $generic_name 
+                                <span class='txt-bold'>Nume general: </span> $generic_name
                                 </div>
-                              
+
                               ";
                           echo "<hr class='my-0'>";
                           }
                           if (!empty($product_brand)) {
                               echo "
                               <div class='col-12 my-1'>
-                                <span class='txt-bold'>Brand: </span> $product_brand 
+                                <span class='txt-bold'>Brand: </span> $product_brand
                                 </div>
-                              
+
                               ";
                           echo "<hr class='my-0'>";
                           }
@@ -243,7 +277,7 @@
                                 <span class='txt-bold'> Categorii: </span>
                                   $categories
                                 </div>
-                              
+
                               ";
                           echo "<hr class='my-0'>";
                           }
@@ -256,7 +290,7 @@
                             foreach((array)$product_allergens as $alergen){
                               $alergen = substr((string)$alergen,3);
                               echo ucfirst("$alergen");
-                              
+
                               if($alergen != substr((string)$last_element,3))
                                 echo", ";
                             }
@@ -271,7 +305,7 @@
                                 <span class='txt-bold'> Poate contine urme de: </span>
                                   $traces
                                 </div>
-                              
+
                               ";
                           echo "<hr class='my-0'>";
                           }
@@ -305,7 +339,7 @@
                           echo "</div>";
                           if (!empty($product_picture)) {
                               echo "
-                              <div class='col-4'>
+                              <div class='col-12'>
                               <img id='enter' class='mx-auto d-block' src='$product_picture'>
                               </div>
                               </div>
@@ -321,7 +355,7 @@
 
                               $result_image_source = $newhtml->find('img', 1)->src;
                               echo '
-                                <div class="col-4">
+                                <div class="col-12">
                                   <img id="enter" class="d-block mx-auto" src="' . $result_image_source . '">
                                 </div>
                                 </div>
@@ -357,7 +391,7 @@
 
   	<!-- Initialize the plugin: -->
 	<script>
-	$(function() {  
+	$(function() {
 	 $('#multiselect').multiselect();
 	});
 	</script>
