@@ -9,14 +9,14 @@
       <div class="col-md-2 my-5 mx-4 d-none d-lg-block">
         <div class="row outline">
           <div class="col-md-12">
-            <h6 class="mx-2 my-3">Brand</h6>
+            <h6 class="mx-2 my-3">Tip</h6>
             <hr>
             <form>
               <div class="form-group">
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                   <label class="form-check-label" for="defaultCheck1">
-                    Adidas
+                    Fructe
                   </label>
                   <div class="float-right"> (4) </div>
                 </div>
@@ -24,26 +24,26 @@
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                   <label class="form-check-label" for="defaultCheck1">
-                    Nike
+                    Legume
                   </label>
                     <div class="float-right"> (13) </div>
                 </div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                   <label class="form-check-label" for="defaultCheck1">
-                    Reebok
+                    Sucuri
                   </label>
                     <div class="float-right"> (2) </div>
                 </div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                   <label class="form-check-label" for="defaultCheck1">
-                    Bontimes
+                    Vegetale
                   </label>
                     <div class="float-right"> (9) </div>
                 </div>
                 <div class="float-right button-padding">
-                      <button type="button" class="btn btn-primary btn-sm">Remove all</button>
+                      <button type="button" class="btn btn-danger btn-sm">Remove all</button>
                 </div>
               </div>
             </form>
@@ -57,7 +57,7 @@
                   <div class="form-group">
                     <input id="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="14"/>
                     <div class="float-right button-padding">
-                          <button type="button" class="btn btn-primary btn-sm">Apply</button>
+                          <button type="button" class="btn btn-danger btn-sm">Apply</button>
                     </div>
                   </div>
                 </form>
@@ -66,51 +66,51 @@
         </div>
         <div class="row outline my-4">
             <div class="col-md-12">
-                <h6 class="mx-2 my-3">Collection</h6>
+                <h6 class="mx-2 my-3">Familia</h6>
                 <hr>
                 <form>
                   <div class="form-group">
                     <div class="form-check">
                       <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                       <label class="form-check-label" for="defaultCheck1">
-                        Barricade
+                        Legume1
                       </label>
                         <div class="float-right"> (8) </div>
                     </div>
                     <div class="form-check">
                       <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                       <label class="form-check-label" for="defaultCheck1">
-                        Mygame
+                        Legume2
                       </label>
                         <div class="float-right"> (6) </div>
                     </div>
                     <div class="form-check">
                       <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                       <label class="form-check-label" for="defaultCheck1">
-                        Pharrell
+                        Legume3
                         <br>
-                        Williams
+                        cu nume lung
                       </label>
                         <div class="float-right"> (11) </div>
                     </div>
                     <div class="form-check">
                       <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                       <label class="form-check-label" for="defaultCheck1">
-                        Nike Air Max
+                        Fructe1
                       </label>
                         <div class="float-right"> (20) </div>
                     </div>
                     <div class="form-check">
                       <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                       <label class="form-check-label" for="defaultCheck1">
-                        Nike Zoom
+                        Fructe2
                       </label>
                         <div class="float-right"> (19) </div>
                     </div>
                     <div class="form-check">
                       <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                       <label class="form-check-label" for="defaultCheck1">
-                        Nike Free
+                        Fructe3
                       </label>
                         <div class="float-right"> (19) </div>
                     </div>
@@ -120,49 +120,42 @@
         </div>
         <div class="row outline my-4">
             <div class="col-md-12">
-                <h6 class="mx-2 my-3">Function</h6>
+                <h6 class="mx-2 my-3">Intrebuintare</h6>
                 <hr>
                 <form>
                   <div class="form-group">
                     <div class="form-check">
                       <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                       <label class="form-check-label" for="defaultCheck1">
-                        Polo Shirts
+                        Salate
                       </label>
                         <div class="float-right"> (8) </div>
                     </div>
                     <div class="form-check">
                       <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                       <label class="form-check-label" for="defaultCheck1">
-                        Sports Shorts
+                        Pentru sucuri
                       </label>
                         <div class="float-right"> (6) </div>
                     </div>
                     <div class="form-check">
                       <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                       <label class="form-check-label" for="defaultCheck1">
-                        Short Sleeves
+                        Alcoolice
                       </label>
                         <div class="float-right"> (11) </div>
                     </div>
                     <div class="form-check">
                       <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                       <label class="form-check-label" for="defaultCheck1">
-                        Hoodies
+                        Conserve
                       </label>
                         <div class="float-right"> (20) </div>
                     </div>
                     <div class="form-check">
                       <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                       <label class="form-check-label" for="defaultCheck1">
-                        Light Jackets
-                      </label>
-                        <div class="float-right"> (19) </div>
-                    </div>
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
-                      <label class="form-check-label" for="defaultCheck1">
-                        Sweatpants
+                        Fresh
                       </label>
                         <div class="float-right"> (19) </div>
                     </div>
@@ -172,28 +165,28 @@
         </div>
         <div class="row outline my-4">
             <div class="col-md-12">
-                <h6 class="mx-2 my-3">Technology</h6>
+                <h6 class="mx-2 my-3">Provenienta</h6>
                 <hr>
                 <form>
                   <div class="form-group">
                     <div class="form-check">
                       <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                       <label class="form-check-label" for="defaultCheck1">
-                        Boost
+                        Import
                       </label>
                         <div class="float-right"> (8) </div>
                     </div>
                     <div class="form-check">
                       <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                       <label class="form-check-label" for="defaultCheck1">
-                        Climacool
+                        Din tara
                       </label>
                         <div class="float-right"> (6) </div>
                     </div>
                     <div class="form-check">
                       <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                       <label class="form-check-label" for="defaultCheck1">
-                        Climalite
+                        Locala
                       </label>
                         <div class="float-right"> (11) </div>
                     </div>
@@ -203,28 +196,28 @@
         </div>
         <div class="row outline my-4">
             <div class="col-md-12">
-                <h6 class="mx-2 my-3">Availability</h6>
+                <h6 class="mx-2 my-3">Disponibilitate</h6>
                 <hr>
                 <form>
                   <div class="form-group">
                     <div class="form-check">
                       <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                       <label class="form-check-label" for="defaultCheck1">
-                        Yes
+                        Da
                       </label>
                         <div class="float-right"> (8) </div>
                     </div>
                     <div class="form-check">
                       <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                       <label class="form-check-label" for="defaultCheck1">
-                        No
+                        Nu
                       </label>
                         <div class="float-right"> (6) </div>
                     </div>
                     <div class="form-check">
                       <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                       <label class="form-check-label" for="defaultCheck1">
-                        Manufacturer
+                        Producator
                       </label>
                         <div class="float-right"> (11) </div>
                     </div>
@@ -239,7 +232,7 @@
           <div class="col-12">
             <nav class="navbar navbar-expand-lg navbar-light d-lg-none my-1" style="margin-right:20px;">
               <div class="container outline" style="padding:5px">
-                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" id="check">
+                <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" id="check">
                  <i class="fas fa-angle-down show" style="font-size:1.5rem"></i>
                  <i class="fas fa-angle-up hide" style="font-size:1.5rem"></i>
                 </button>
@@ -251,14 +244,14 @@
                   <div class=" my-2 mx-5 d-lg-none">
                     <div class="row outline">
                       <div class="col-md-12">
-                        <h6 class="mx-2 my-3">Brand</h6>
+                        <h6 class="mx-2 my-3">Tip</h6>
                         <hr>
                         <form>
                           <div class="form-group">
                             <div class="form-check">
                               <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                               <label class="form-check-label" for="defaultCheck1">
-                                Adidas
+                                Fructe
                               </label>
                               <div class="float-right"> (4) </div>
                             </div>
@@ -266,26 +259,26 @@
                             <div class="form-check">
                               <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                               <label class="form-check-label" for="defaultCheck1">
-                                Nike
+                                Legume
                               </label>
                                 <div class="float-right"> (13) </div>
                             </div>
                             <div class="form-check">
                               <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                               <label class="form-check-label" for="defaultCheck1">
-                                Reebok
+                                Sucuri
                               </label>
                                 <div class="float-right"> (2) </div>
                             </div>
                             <div class="form-check">
                               <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                               <label class="form-check-label" for="defaultCheck1">
-                                Bontimes
+                                Vegetale
                               </label>
                                 <div class="float-right"> (9) </div>
                             </div>
                             <div class="float-right button-padding">
-                                  <button type="button" class="btn btn-primary btn-sm">Remove all</button>
+                                  <button type="button" class="btn btn-danger btn-sm">Remove all</button>
                             </div>
                           </div>
                         </form>
@@ -299,7 +292,7 @@
                               <div class="form-group">
                                 <input id="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="14"/>
                                 <div class="float-right button-padding">
-                                      <button type="button" class="btn btn-primary btn-sm">Apply</button>
+                                      <button type="button" class="btn btn-danger btn-sm">Apply</button>
                                 </div>
                               </div>
                             </form>
@@ -308,51 +301,51 @@
                     </div>
                     <div class="row outline my-4">
                         <div class="col-md-12">
-                            <h6 class="mx-2 my-3">Collection</h6>
+                            <h6 class="mx-2 my-3">Familia</h6>
                             <hr>
                             <form>
                               <div class="form-group">
                                 <div class="form-check">
                                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                                   <label class="form-check-label" for="defaultCheck1">
-                                    Barricade
+                                    Legume1
                                   </label>
                                     <div class="float-right"> (8) </div>
                                 </div>
                                 <div class="form-check">
                                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                                   <label class="form-check-label" for="defaultCheck1">
-                                    Mygame
+                                    Legume2
                                   </label>
                                     <div class="float-right"> (6) </div>
                                 </div>
                                 <div class="form-check">
                                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                                   <label class="form-check-label" for="defaultCheck1">
-                                    Pharrell
+                                    Legume3
                                     <br>
-                                    Williams
+                                    cu nume lung
                                   </label>
                                     <div class="float-right"> (11) </div>
                                 </div>
                                 <div class="form-check">
                                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                                   <label class="form-check-label" for="defaultCheck1">
-                                    Nike Air Max
+                                    Fructe1
                                   </label>
                                     <div class="float-right"> (20) </div>
                                 </div>
                                 <div class="form-check">
                                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                                   <label class="form-check-label" for="defaultCheck1">
-                                    Nike Zoom
+                                    Fructe2
                                   </label>
                                     <div class="float-right"> (19) </div>
                                 </div>
                                 <div class="form-check">
                                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                                   <label class="form-check-label" for="defaultCheck1">
-                                    Nike Free
+                                    Fructe3
                                   </label>
                                     <div class="float-right"> (19) </div>
                                 </div>
@@ -362,80 +355,74 @@
                     </div>
                     <div class="row outline my-4">
                         <div class="col-md-12">
-                            <h6 class="mx-2 my-3">Function</h6>
+                            <h6 class="mx-2 my-3">Intrebuintare</h6>
                             <hr>
                             <form>
                               <div class="form-group">
                                 <div class="form-check">
                                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                                   <label class="form-check-label" for="defaultCheck1">
-                                    Polo Shirts
+                                    Salate
                                   </label>
                                     <div class="float-right"> (8) </div>
                                 </div>
                                 <div class="form-check">
                                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                                   <label class="form-check-label" for="defaultCheck1">
-                                    Sports Shorts
+                                    Pentru sucuri
                                   </label>
                                     <div class="float-right"> (6) </div>
                                 </div>
                                 <div class="form-check">
                                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                                   <label class="form-check-label" for="defaultCheck1">
-                                    Short Sleeves
+                                    Alcoolice
                                   </label>
                                     <div class="float-right"> (11) </div>
                                 </div>
                                 <div class="form-check">
                                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                                   <label class="form-check-label" for="defaultCheck1">
-                                    Hoodies
+                                    Conserve
                                   </label>
                                     <div class="float-right"> (20) </div>
                                 </div>
                                 <div class="form-check">
                                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                                   <label class="form-check-label" for="defaultCheck1">
-                                    Light Jackets
+                                    Fresh
                                   </label>
                                     <div class="float-right"> (19) </div>
                                 </div>
-                                <div class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
-                                  <label class="form-check-label" for="defaultCheck1">
-                                    Sweatpants
-                                  </label>
-                                    <div class="float-right"> (19) </div>
-                                </div>
+
                               </div>
                             </form>
                         </div>
                     </div>
                     <div class="row outline my-4">
                         <div class="col-md-12">
-                            <h6 class="mx-2 my-3">Technology</h6>
+                            <h6 class="mx-2 my-3">Provenienta</h6>
                             <hr>
                             <form>
                               <div class="form-group">
                                 <div class="form-check">
                                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                                   <label class="form-check-label" for="defaultCheck1">
-                                    Boost
+                                    Import
                                   </label>
                                     <div class="float-right"> (8) </div>
                                 </div>
                                 <div class="form-check">
                                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                                   <label class="form-check-label" for="defaultCheck1">
-                                    Climacool
+                                    Din tara
                                   </label>
                                     <div class="float-right"> (6) </div>
                                 </div>
                                 <div class="form-check">
                                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                                   <label class="form-check-label" for="defaultCheck1">
-                                    Climalite
+                                    Locala
                                   </label>
                                     <div class="float-right"> (11) </div>
                                 </div>
@@ -445,28 +432,28 @@
                     </div>
                     <div class="row outline my-4">
                         <div class="col-md-12">
-                            <h6 class="mx-2 my-3">Availability</h6>
+                            <h6 class="mx-2 my-3">Disponibilitate</h6>
                             <hr>
                             <form>
                               <div class="form-group">
                                 <div class="form-check">
                                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                                   <label class="form-check-label" for="defaultCheck1">
-                                    Yes
+                                    Da
                                   </label>
                                     <div class="float-right"> (8) </div>
                                 </div>
                                 <div class="form-check">
                                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                                   <label class="form-check-label" for="defaultCheck1">
-                                    No
+                                    Nu
                                   </label>
                                     <div class="float-right"> (6) </div>
                                 </div>
                                 <div class="form-check">
                                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                                   <label class="form-check-label" for="defaultCheck1">
-                                    Manufacturer
+                                    Producator
                                   </label>
                                     <div class="float-right"> (11) </div>
                                 </div>
@@ -481,10 +468,10 @@
           </div>
         </div>
         <div class="row up-margin mx-2">
-          <a href="#">Clothing & shoes </a> >
-          <a href="#"> Shoes </a> >
-          <a href="#"> Nike </a> >
-          <span>Nike Men's ACG.07.KMTR</span>
+          <a href="#">Fructe proaspete  </a> >
+          <a href="#"> Alte fructe proaspete </a> >
+          <a href="#"> Banane </a> >
+          <span>Banane kg(vrac)</span>
         </div>
         <div class="row">
           <div class="col-md-4">
@@ -523,17 +510,19 @@
                   <span class="badge badge-danger custom-badge">-20%</span>
                 </div>
                 <img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
-                Adidas Women
+                Banane
                 <br>
-                reversible track jacket
+                import
                 <br>
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
-                <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-                </div>
+                <div class="add-to-cart atc-index">
+    						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+    						<span class="shopping-cart">
+    							<i class="fas fa-shopping-cart"></i>
+    						</span>
+    					</div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                   <label class="form-check-label" for="defaultCheck1">
@@ -550,17 +539,19 @@
                   <span class="badge badge-danger custom-badge">-20%</span>
                 </div>
                 <img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
-                Adidas Women
+                Banane
                 <br>
-                reversible track jacket
+                import
                 <br>
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
-                <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-                </div>
+                <div class="add-to-cart atc-index">
+    						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+    						<span class="shopping-cart">
+    							<i class="fas fa-shopping-cart"></i>
+    						</span>
+    					</div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                   <label class="form-check-label" for="defaultCheck1">
@@ -577,17 +568,19 @@
                   <span class="badge badge-danger custom-badge">-20%</span>
                 </div>
                 <img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
-                Adidas Women
+                Banane
                 <br>
-                reversible track jacket
+                import
                 <br>
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
-                <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-                </div>
+                <div class="add-to-cart atc-index">
+    						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+    						<span class="shopping-cart">
+    							<i class="fas fa-shopping-cart"></i>
+    						</span>
+    					</div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                   <label class="form-check-label" for="defaultCheck1">
@@ -604,17 +597,19 @@
                   <span class="badge badge-danger custom-badge">-20%</span>
                 </div>
                 <img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
-                Adidas Women
+                Banane
                 <br>
-                reversible track jacket
+                import
                 <br>
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
-                <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-                </div>
+                <div class="add-to-cart atc-index">
+    						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+    						<span class="shopping-cart">
+    							<i class="fas fa-shopping-cart"></i>
+    						</span>
+    					</div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                   <label class="form-check-label" for="defaultCheck1">
@@ -633,17 +628,19 @@
                   <span class="badge badge-danger custom-badge">-20%</span>
                 </div>
                 <img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
-                Adidas Women
+                Banane
                 <br>
-                reversible track jacket
+                import
                 <br>
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
-                <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-                </div>
+                <div class="add-to-cart atc-index">
+    						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+    						<span class="shopping-cart">
+    							<i class="fas fa-shopping-cart"></i>
+    						</span>
+    					</div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                   <label class="form-check-label" for="defaultCheck1">
@@ -660,17 +657,19 @@
                   <span class="badge badge-danger custom-badge">-20%</span>
                 </div>
                 <img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
-                Adidas Women
+                Banane
                 <br>
-                reversible track jacket
+                import
                 <br>
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
-                <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-                </div>
+                <div class="add-to-cart atc-index">
+    						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+    						<span class="shopping-cart">
+    							<i class="fas fa-shopping-cart"></i>
+    						</span>
+    					</div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                   <label class="form-check-label" for="defaultCheck1">
@@ -687,17 +686,19 @@
 
                 </div>
                 <img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
-                Adidas Women
+                Banane
                 <br>
-                reversible track jacket
+                import
                 <br>
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
-                <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-                </div>
+                <div class="add-to-cart atc-index">
+    						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+    						<span class="shopping-cart">
+    							<i class="fas fa-shopping-cart"></i>
+    						</span>
+    					</div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                   <label class="form-check-label" for="defaultCheck1">
@@ -714,17 +715,19 @@
 
                 </div>
                 <img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
-                Adidas Women
+                Banane
                 <br>
-                reversible track jacket
+                import
                 <br>
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
-                <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-                </div>
+                <div class="add-to-cart atc-index">
+    						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+    						<span class="shopping-cart">
+    							<i class="fas fa-shopping-cart"></i>
+    						</span>
+    					</div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                   <label class="form-check-label" for="defaultCheck1">
@@ -743,17 +746,19 @@
 
                 </div>
                 <img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
-                Adidas Women
+                Banane
                 <br>
-                reversible track jacket
+                import
                 <br>
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
-                <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-                </div>
+                <div class="add-to-cart atc-index">
+    						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+    						<span class="shopping-cart">
+    							<i class="fas fa-shopping-cart"></i>
+    						</span>
+    					</div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                   <label class="form-check-label" for="defaultCheck1">
@@ -770,17 +775,19 @@
                   <span class="badge badge-danger custom-badge">-20%</span>
                 </div>
                 <img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
-                Adidas Women
+                Banane
                 <br>
-                reversible track jacket
+                import
                 <br>
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
-                <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-                </div>
+                <div class="add-to-cart atc-index">
+    						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+    						<span class="shopping-cart">
+    							<i class="fas fa-shopping-cart"></i>
+    						</span>
+    					</div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                   <label class="form-check-label" for="defaultCheck1">
@@ -797,17 +804,19 @@
                   <span class="badge badge-danger custom-badge">-20%</span>
                 </div>
                 <img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
-                Adidas Women
+                Banane
                 <br>
-                reversible track jacket
+                import
                 <br>
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
-                <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-                </div>
+                <div class="add-to-cart atc-index">
+    						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+    						<span class="shopping-cart">
+    							<i class="fas fa-shopping-cart"></i>
+    						</span>
+    					</div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                   <label class="form-check-label" for="defaultCheck1">
@@ -823,17 +832,19 @@
                   <span class="badge badge-danger custom-badge">-20%</span>
                 </div>
                 <img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
-                Adidas Women
+                Banane
                 <br>
-                reversible track jacket
+                import
                 <br>
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
-                <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-                </div>
+                <div class="add-to-cart atc-index">
+    						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+    						<span class="shopping-cart">
+    							<i class="fas fa-shopping-cart"></i>
+    						</span>
+    					</div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                   <label class="form-check-label" for="defaultCheck1">
@@ -851,17 +862,19 @@
                   <span class="badge badge-danger custom-badge">-20%</span>
                 </div>
                 <img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
-                Adidas Women
+                Banane
                 <br>
-                reversible track jacket
+                import
                 <br>
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
-                <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-                </div>
+                <div class="add-to-cart atc-index">
+    						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+    						<span class="shopping-cart">
+    							<i class="fas fa-shopping-cart"></i>
+    						</span>
+    					</div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                   <label class="form-check-label" for="defaultCheck1">
@@ -875,17 +888,19 @@
             <div class="text-center">
 
                 <img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
-                Adidas Women
+                Banane
                 <br>
-                reversible track jacket
+                import
                 <br>
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
-                <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-                </div>
+                <div class="add-to-cart atc-index">
+    						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+    						<span class="shopping-cart">
+    							<i class="fas fa-shopping-cart"></i>
+    						</span>
+    					</div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                   <label class="form-check-label" for="defaultCheck1">
@@ -899,17 +914,19 @@
             <div class="text-center">
 
                 <img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
-                Adidas Women
+                Banane
                 <br>
-                reversible track jacket
+                import
                 <br>
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
-                <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-                </div>
+                <div class="add-to-cart atc-index">
+    						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+    						<span class="shopping-cart">
+    							<i class="fas fa-shopping-cart"></i>
+    						</span>
+    					</div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                   <label class="form-check-label" for="defaultCheck1">
@@ -924,17 +941,19 @@
                   <span class="badge badge-danger custom-badge">NOU!</span>
                 </div>
                 <img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
-                Adidas Women
+                Banane
                 <br>
-                reversible track jacket
+                import
                 <br>
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
-                <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-                </div>
+                <div class="add-to-cart atc-index">
+    						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+    						<span class="shopping-cart">
+    							<i class="fas fa-shopping-cart"></i>
+    						</span>
+    					</div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                   <label class="form-check-label" for="defaultCheck1">
@@ -951,17 +970,19 @@
 
 
                 <img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
-                Adidas Women
+                Banane
                 <br>
-                reversible track jacket
+                import
                 <br>
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
-                <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-                </div>
+                <div class="add-to-cart atc-index">
+    						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+    						<span class="shopping-cart">
+    							<i class="fas fa-shopping-cart"></i>
+    						</span>
+    					</div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                   <label class="form-check-label" for="defaultCheck1">
@@ -977,17 +998,19 @@
                   <span class="badge badge-danger custom-badge">-20%</span>
                 </div>
                 <img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
-                Adidas Women
+                Banane
                 <br>
-                reversible track jacket
+                import
                 <br>
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
-                <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-                </div>
+                <div class="add-to-cart atc-index">
+    						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+    						<span class="shopping-cart">
+    							<i class="fas fa-shopping-cart"></i>
+    						</span>
+    					</div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                   <label class="form-check-label" for="defaultCheck1">
@@ -1003,17 +1026,19 @@
                   <span class="badge badge-danger custom-badge">NOU!</span>
                 </div>
                 <img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
-                Adidas Women
+                Banane
                 <br>
-                reversible track jacket
+                import
                 <br>
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
-                <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-                </div>
+                <div class="add-to-cart atc-index">
+    						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+    						<span class="shopping-cart">
+    							<i class="fas fa-shopping-cart"></i>
+    						</span>
+    					</div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                   <label class="form-check-label" for="defaultCheck1">
@@ -1026,17 +1051,19 @@
             <div class="text-center">
 
                 <img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
-                Adidas Women
+                Banane
                 <br>
-                reversible track jacket
+                import
                 <br>
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
-                <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-                </div>
+                <div class="add-to-cart atc-index">
+    						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+    						<span class="shopping-cart">
+    							<i class="fas fa-shopping-cart"></i>
+    						</span>
+    					</div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
                   <label class="form-check-label" for="defaultCheck1">

@@ -13,7 +13,7 @@
 	  <div class="carousel-inner">
 	    <div class="carousel-item active ">
 	      <img class="d-block w-100 main-slider " src="images/main-slider-image-desktop-1.jpg" alt="First slide" >
-	      <div class="animated fadeInUp container-fluid title-div"> 
+	      <div class="animated fadeInUp container-fluid title-div">
 	      	 <div class="top-title text-center">Mănâncă sănătos!</div>
 	      	 <div class="under-title text-center"> Magazinul online care te ajută să fii sănătos!</div>
 	      </div>
@@ -105,7 +105,7 @@
 							<span class="badge badge-danger custom-badge">-20%</span>
 						</div>
 						<img src="images/pl2.jpg" alt="Product1" class="mx-auto d-block custom-height">
-						Mere 
+						Mere
 						<br>
 						<span class="red">7,99 lei</span>
 						<span class="grey">/kg</span>
@@ -250,15 +250,15 @@
 				<div class="col-sm-5 col-md-3 d-none d-sm-block">
 					<ul class="list-group list-group-flush">
 					 	<li class="list-group-item blue-bg d-flex justify-content-center">CATEGORII</li>
-						<li class="list-group-item d-flex justify-content-center other-bg"><a href="#">SPORTURI ACVATICE</a></li>
-						<li class="list-group-item d-flex justify-content-center other-bg"><a href="#">SPORTURI DE IARNA</a></li>
-						<li class="list-group-item d-flex justify-content-center other-bg"><a href="#">FITNESS & CARDIO</a></li>
-						<li class="list-group-item d-flex justify-content-center other-bg"><a href="#">FOTBAL & BASKET</a></li>
-					  	<li class="list-group-item d-flex justify-content-center other-bg"><a href="#">INCALTAMINTE</a></li>
-					  	<li class="list-group-item d-flex justify-content-center other-bg"><a href="#">GECI SI JACKETE</a></li>
-					  	<li class="list-group-item d-flex justify-content-center other-bg"><a href="#">SKATES & ROLLERS</a></li>
-					  	<li class="list-group-item d-flex justify-content-center other-bg"><a href="#">ACCESORII CAMPING</a></li>
-					  	<li class="list-group-item d-flex justify-content-center other-bg"><a href="#">DRUMETIE & TIMP LIBER</a></li>
+						<li class="list-group-item d-flex justify-content-center other-bg"><a href="#">FRUCTE</a></li>
+						<li class="list-group-item d-flex justify-content-center other-bg"><a href="#">LEGUME</a></li>
+						<li class="list-group-item d-flex justify-content-center other-bg"><a href="#">SUCURI NATURALE</a></li>
+						<li class="list-group-item d-flex justify-content-center other-bg"><a href="#">SALATE</a></li>
+					  	<li class="list-group-item d-flex justify-content-center other-bg"><a href="#">PLANTE AROMATICE</a></li>
+					  	<li class="list-group-item d-flex justify-content-center other-bg"><a href="#">SOIA, VEGETALE, CEAIURI</a></li>
+					  	<li class="list-group-item d-flex justify-content-center other-bg"><a href="#">PRODUSE PENTRU DIETA</a></li>
+					  	<li class="list-group-item d-flex justify-content-center other-bg"><a href="#">ALIMENTE SI SUPLIMENTE SPORT</a></li>
+					  	<li class="list-group-item d-flex justify-content-center other-bg"><a href="#">PRODUSE VEGANE</a></li>
 					</ul>
 				</div>
 				<div class="col-sm-7 col-md-9">
@@ -323,12 +323,12 @@
 								<div class="row mx-auto text">
 									<div class="col-12">
 										<h1 class="title-text text-center mx-auto my-3">
-												AMERICAN BASKET equipment
+												CELE MAI CUMPARATE PRODUSE
 										</h1>
 									</div>
 									<div class="col-12">
 										<h2 class="subtitle-text text-center mx-auto">
-											The Nike Shield Women's Running Jacket is water-resistant for lightweight protection from the elements.
+											Cele mai cumparate produse de catre utilizatorii nostri.
 										</h2>
 									</div>
 								</div>
@@ -340,9 +340,9 @@
 												<span class="badge badge-danger custom-badge">-20%</span>
 											</div>
 											<img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
-											Adidas Women
+											Banane
 											<br>
-											reversible track jacket
+											import
 											<br>
 											<span class="red">134 lei</span>
 											<span class="grey">165 lei</span>
@@ -357,9 +357,9 @@
 									<div class="styling">
 
 											<img src="images/pb2.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
-											Adidas Women
+											Mere
 											<br>
-											reversible track jacket
+											Romania
 											<br>
 											<span class="red">134 lei</span>
 											<span class="grey">165 lei</span>
@@ -376,9 +376,9 @@
 											<span class="badge badge-danger custom-badge">NOU!</span>
 										</div>
 											<img src="images/pb3.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
-											Adidas Women
+										  Pere
 											<br>
-											reversible track jacket
+											Import
 											<br>
 											<span class="red">134 lei</span>
 											<span class="grey">165 lei</span>
@@ -395,9 +395,9 @@
 											<span class="badge badge-danger custom-badge">NOU!</span>
 										</div>
 											<img src="images/pb4.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
-											Adidas Women
+											Lamai
 											<br>
-											reversible track jacket
+											Canada
 											<br>
 											<span class="red">134 lei</span>
 											<span class="grey">165 lei</span>
@@ -414,9 +414,9 @@
 											<span class="badge badge-danger custom-badge">-20%</span>
 										</div>
 											<img src="images/pb5.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
-											Adidas Women
+											Portocale
 											<br>
-											reversible track jacket
+											Spania
 											<br>
 											<span class="red">134 lei</span>
 											<span class="grey">165 lei</span>
@@ -433,9 +433,9 @@
 											<span class="badge badge-danger custom-badge">NOU!</span>
 										</div>
 											<img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
-											Adidas Women
+											Banane
 											<br>
-											reversible track jacket
+											import
 											<br>
 											<span class="red">134 lei</span>
 											<span class="grey">165 lei</span>
@@ -452,9 +452,9 @@
 											<span class="badge badge-danger custom-badge">-20%</span>
 										</div>
 											<img src="images/pb2.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
-											Adidas Women
+											Mere
 											<br>
-											reversible track jacket
+											Romania
 											<br>
 											<span class="red">134 lei</span>
 											<span class="grey">165 lei</span>
@@ -473,9 +473,9 @@
 											<span class="badge badge-danger custom-badge">-20%</span>
 										</div>
 											<img src="images/pb3.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
-											Adidas Women
+											Pere
 											<br>
-											reversible track jacket
+											Import
 											<br>
 											<span class="red">134 lei</span>
 											<span class="grey">165 lei</span>
@@ -490,9 +490,9 @@
 									<div class="styling">
 
 											<img src="images/pb4.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
-											Adidas Women
+											Lamai
 											<br>
-											reversible track jacket
+											Canada
 											<br>
 											<span class="red">134 lei</span>
 											<span class="grey">165 lei</span>
@@ -509,9 +509,9 @@
 											<span class="badge badge-danger custom-badge">NOU!</span>
 										</div>
 											<img src="images/pb5.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
-											Adidas Women
+											Portocale
 											<br>
-											reversible track jacket
+											Spania
 											<br>
 											<span class="red">134 lei</span>
 											<span class="grey">165 lei</span>
@@ -526,7 +526,7 @@
 								</div>
 						</div>
 
-			
+
 <!-- End code -->
 
 <?php require 'header_footer/footer.php';?>

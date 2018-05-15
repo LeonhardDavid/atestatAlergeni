@@ -2,7 +2,7 @@
 
 	<div class="container product-container py-0">
 		<div class="cont pt-5 px-4 mb-0">
-		<p class="product-path mb-1"> 
+		<p class="product-path mb-1">
 			<a class="product-path-a" href="#"> Fructe proaspete</a>
 			>
 			<a class="product-path-a" href="#">Alte fructe proaspete</a>
@@ -32,7 +32,7 @@
 			<div class="col-md-6 product-photos">
 				<!-- <img class="product-photos-img" src="images/product-images/product-image-1.jpg">-->
 				<div class="preview">
-						
+
 						<div class="preview-pic tab-content">
 						  <div class="tab-pane active" id="pic-1"><img src="images/product-images/product-image-1.jpg" /></div>
 						  <div class="tab-pane" id="pic-2"><img src="images/product-images/product-image-2.jpg" /></div>
@@ -57,14 +57,14 @@
 						</ul>
 					-->
 				</div>
-				
+
 			</div>
 			<div class="col-md-6">
 				<div class="row px-2">
 					<div class="col-lg-6 product-details-1 text-left font-sz">
 						<ul class="ul-col-left px-0">
 									<li> <span class="grey-text"> opinia clientilor:</span> </li>
-									<li class="mb-2"> 
+									<li class="mb-2">
 										<a href="#" class="col-left-a normal-link no-und-hov dsp-flex">
 											<div class="stars">
 
@@ -82,7 +82,7 @@
 												</table>
 
 											</div>
-											
+
 											<span class="ml-2">3.14</span>
 										</a>
 										<a href="#" class="normal-link"> 7 review-uri </a>
@@ -90,7 +90,7 @@
 									<li class="mb-2"> <span class="grey-text"> Vandut de: </span> <span class="black-text"> Mega Image</span> </li>
 									<li class="mb-2"> <span class="grey-text"> Ajunge in: </span> <span class="black-text"> <strong> Suceava (Suceava)</strong></span> <a href="#" class="normal-link"> schimba </a> </li>
 									<hr>
-									<li class="my-2"> 
+									<li class="my-2">
 										<div class="row font-sz">
 											<div class="col-2">
 												<i class="fas fa-truck"></i>
@@ -100,10 +100,10 @@
 											</div>
 											<div class="col-3 px-1">
 												<span class="green-text float-right"> Gratuita </span>
-											</div>  
+											</div>
 									</li>
 									<hr>
-									<li class="my-2"> 
+									<li class="my-2">
 										<div class="row font-sz">
 											<div class="col-2">
 												<i class="far fa-calendar-check"></i>
@@ -146,7 +146,7 @@
 									</div>
 								</div>
 							</li>
-							<li class="mb-3"> 
+							<li class="mb-3">
 										<div class="add-to-cart w-100">
 											<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
 											<span class="shopping-cart">
@@ -154,7 +154,7 @@
 											</span>
 										</div>
 							</li>
-							<li class="mb-3"> 
+							<li class="mb-3">
 										<div class="add-to-fav w-100">
 											<input class="add-to-fav-btn" type="submit" value="Adauga la favorite">
 											<span class="heart">
@@ -167,90 +167,6 @@
 				</div>
 			</div>
 		</div>
-
-			<div class="row-flex mx-3">
-						<div class="col-md-12 my-3">
-								<span class>Produse similare:</span>
-						</div>
-			</div>
-					
-			<div class="similar-products-carousel row mx-5 pb-4">
-					<div class="styling_bottom">
-							<div class="badge-group">
-								<span class="badge badge-danger custom-badge">NOU!</span>
-								<span class="badge badge-danger custom-badge">-20%</span>
-							</div>
-							<img src="images/product-images/similar-product-1.jpg" alt="Tricou1" class="mx-auto d-block">
-							<br>
-							<span>Adidas Women reversible<br> track jacket</span>
-							<br>
-							<span class="red">134 lei</span>
-							<span class="grey">165 lei</span>
-							<br>
-							<div class="btn-group" role="group" aria-label="Basic example">
-								<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-								<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>					
-							</div>
-					</div>
-					<div class="styling_bottom">
-							<div class="badge-group">
-								<span class="badge badge-danger custom-badge">NOU!</span>
-							</div>
-								<img src="images/product-images/similar-product-2.jpg" alt="Tricou2" class="mx-auto d-block">
-								<br>
-								<span>Adidas Women reversible<br> track jacket</span>
-								<br>
-								<span class="red">134 lei</span>
-								<span class="grey">165 lei</span>
-								<br>
-								<div class="btn-group" role="group" aria-label="Basic example">
-									<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-									<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-								</div>
-					</div>
-					<div class="styling_bottom">
-								<img src="images/product-images/similar-product-3.jpg" alt="Tricou3" class="mx-auto d-block">
-								<br>
-								<span>Adidas Women reversible<br> track jacket</span>
-								<br>
-								<span class="red">134 lei</span>
-								<span class="grey">165 lei</span>
-								<br>
-								<div class="btn-group" role="group" aria-label="Basic example">
-									<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-									<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-								</div>
-					</div>
-					<div class="styling_bottom">
-								<img src="images/product-images/similar-product-4.jpg" alt="Tricou4" class="mx-auto d-block">
-								<br>
-								<span>Adidas Women reversible<br> track jacket</span>
-								<br>
-								<span class="red">134 lei</span>
-								<span class="grey">165 lei</span>
-								<br>
-								<div class="btn-group" role="group" aria-label="Basic example">
-									<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-									<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-								</div>
-					</div>
-					<div class="styling_bottom" >
-							<div class="badge-group">
-								<span class="badge badge-danger custom-badge">-20%</span>
-							</div>
-								<img src="images/product-images/similar-product-5.jpg" alt="Tricou5" class="mx-auto d-block">
-								<br>
-								<span>Adidas Women reversible<br> track jacket</span>
-								<br>
-								<span class="red">134 lei</span>
-								<span class="grey">165 lei</span>
-								<br>
-								<div class="btn-group" role="group" aria-label="Basic example">
-									<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-									<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-								</div>
-					</div>
-			</div>
 			<div class="line-blank"></div>
 	</div>
 </div>
@@ -271,7 +187,7 @@
 						<div class="row my-3">
 							<div class="col-lg-8">
 								<h2 class="heading-style-desc"> MOVE. ADAPT. PROTECT. </h2>
-								<p class="paragraph-style-desc"> 
+								<p class="paragraph-style-desc">
 									The first iteration of the Nike Komyuter, the ACG.07.KMTR, silhouette's function guides its stance. The upper transforms from its loose, open state into a sleek, fast silhouette that marries gracefully to a full-rubber bottom with wet traction lugs (derived from the tooling of the Nike Tallac Flyknit ACG). Compositionally, this build simultaneously conveys comfort in speed and a readiness to take on anything.
 								</p>
 								<p class="paragraph-style-desc">
@@ -289,7 +205,7 @@
 							</div>
 							<div class="col-lg-8">
 								<h2 class="heading-style-desc"> CONSTRUCTED TO PROTECT. BUILT TO MOVE. </h2>
-								<p class="paragraph-style-desc"> 
+								<p class="paragraph-style-desc">
 									A proposition for increased access and ease led designers to place a bag around a foot and scrunch it to form the shape of a shoe. This elementary act informed an inventive outcome: facilitating the metamorphosis of a single-piece upper from a wide-open entry to a supportive closed state would result in a new performance silhouette.
 								</p>
 								<p class="paragraph-style-desc">
@@ -417,9 +333,9 @@
 									<div class="col-7 px-0 my-auto">
 										<div class="progress ">
 									  		 <div class="progress-bar bg-warning" style="width:85%">
-									  		 	
+
 									  	</div>
-									 
+
 									</div>
 									</div>
 									<div class="col-2">
@@ -433,9 +349,9 @@
 									<div class="col-7 px-0 my-auto">
 										<div class="progress ">
 									  		 <div class="progress-bar bg-warning" style="width:10%">
-									  		 	
+
 									  	</div>
-									 
+
 									</div>
 									</div>
 									<div class="col-2">
@@ -449,9 +365,9 @@
 									<div class="col-7 px-0 my-auto">
 										<div class="progress ">
 									  		 <div class="progress-bar bg-warning" style="width:10%">
-									  		 	
+
 									  	</div>
-									 
+
 									</div>
 									</div>
 									<div class="col-2">
@@ -465,9 +381,9 @@
 									<div class="col-7 px-0 my-auto">
 										<div class="progress ">
 									  		 <div class="progress-bar bg-warning" style="width:0%">
-									  		 	
+
 									  	</div>
-									 
+
 									</div>
 									</div>
 									<div class="col-2">
@@ -481,9 +397,9 @@
 									<div class="col-7 px-0 my-auto">
 										<div class="progress ">
 									  		 <div class="progress-bar bg-warning" style="width:5%">
-									  		 	
+
 									  	</div>
-									 
+
 									</div>
 									</div>
 									<div class="col-2">
@@ -509,10 +425,10 @@
 									</div>
 								</div>
 								<div class="row px-3">
-									<button class="btn btn-review"> Adauga un review </button> 
+									<button class="btn btn-review"> Adauga un review </button>
 								</div>
 						</div>
-					
+
 					<div class="line"></div>
 
 					<div class="row w-100 mt-3 mx-auto">
@@ -548,9 +464,9 @@
 							    </select>
 							  </div>
 						</div>
-						
+
 						<div class="col-xl-1 d-xl-block d-none">
-							
+
 						</div>
 
 						<div class="col-xl-3 col-lg-4 d-lg-block d-none px-0">
@@ -563,7 +479,7 @@
 
 					<div class="line"></div>
 					<!-- Review user 1-->
-					
+
 					<div class="row user-review-row mt-3 mx-auto">
 						<div class="col-md-2">
 							<ul class="lst-none">
@@ -575,7 +491,7 @@
 						<div class="col-md-10">
 							<ul class="lst-none">
 								<li> <a class="review-title" href="#">  TV Samsung 40MU6102 - Best buy la un buget de 2k </a></li>
-								<li> 
+								<li>
 								<div class="stars">
 
 									<table class="star-rating">
@@ -593,9 +509,9 @@
 
 								</div>
 								</li>
-								<li class="text-left"> 
+								<li class="text-left">
 									<p>
-										Il am de 2 zile si pot sa va zic ca mi-a depasit un pic asteptarile... Imaginea este foarte buna, mai am un Sony XD8077 si evident imaginea e mai buna la Sony dar si pretul pe masura. 
+										Il am de 2 zile si pot sa va zic ca mi-a depasit un pic asteptarile... Imaginea este foarte buna, mai am un Sony XD8077 si evident imaginea e mai buna la Sony dar si pretul pe masura.
 									</p>
 									<p>
 										In schimb meniul la Samsung si partea de smart sunt incredibil de fluide/rapide chiar mai bune decat la Sony. Mi-a luat un pic sa ma obisnuesc cu telecomanda foarte fina/minimalista in materie de butoane dar isi face treaba destul de bine. Setarile initiale se fac rapid, i-am pus un cablu de lan si un card CI, vede instant reteaua fara setari suplimentare. Pt a vedea si canalele blocate gen HBO trebuie sa sunati la provider (in cazul meu RDS) ca sa reinitializeze ei cardul.
@@ -631,7 +547,7 @@
 						<div class="col-md-10">
 							<ul class="lst-none">
 								<li> <a class="review-title" href="#">  Dezamagitor </a></li>
-								<li> 
+								<li>
 								<div class="stars">
 
 									<table class="star-rating">
@@ -649,7 +565,7 @@
 
 								</div>
 								</li>
-								<li class="text-left"> 
+								<li class="text-left">
 									<p>
 										Salut,
 
@@ -657,7 +573,7 @@
 
 										Tv-ul are ultima versiune de firmware instalata...
 									</p>
-									
+
 								</li>
 								<li>
 									<ul class="lst-none dsp-flex">
@@ -683,7 +599,7 @@
 						<div class="col-md-10">
 							<ul class="lst-none">
 								<li> <a class="review-title" href="#">  Foarte multumit! </a></li>
-								<li> 
+								<li>
 								<div class="stars">
 
 									<table class="star-rating">
@@ -701,15 +617,15 @@
 
 								</div>
 								</li>
-								<li class="text-left"> 
+								<li class="text-left">
 									<p>
 										Am tinut neaparat sa scriu acest review, pentru ca am fost cat pe ce sa returnez produsul pentru neatenția mea!
-										Am achiziționat acum o saptamana acest produs si l-am incercat in diferite feluri. Calitatea imaginii in videoclipurile 4K este ireproșabila, partea Smart la fel, se misca foarte foarte bine. 
+										Am achiziționat acum o saptamana acest produs si l-am incercat in diferite feluri. Calitatea imaginii in videoclipurile 4K este ireproșabila, partea Smart la fel, se misca foarte foarte bine.
 									</p>
 									<p>
-										DAR... La conectarea consolelor de jocuri Xbox sau PlayStation, in timpul jocurilor, imaginea sacada... Echivalentul scăderii Frame-urilor in joc, lucru extrem de frustrant având in vedere calitatea imaginii si potențialul pe care tv ul il avea in filme / clipuri 4K. 
+										DAR... La conectarea consolelor de jocuri Xbox sau PlayStation, in timpul jocurilor, imaginea sacada... Echivalentul scăderii Frame-urilor in joc, lucru extrem de frustrant având in vedere calitatea imaginii si potențialul pe care tv ul il avea in filme / clipuri 4K.
 										Menționez ca am testat consolele pe un tv mai vechi full hd samsung pe care il am si imaginea avea o calitate mai slaba dar jocul era fluent si nesacadat.
-										Astazi m am interesat care sunt demersurile pentru returnarea lui si chiar inainte de a il împacheta am decis sa ma joc cu setările acestuia. 
+										Astazi m am interesat care sunt demersurile pentru returnarea lui si chiar inainte de a il împacheta am decis sa ma joc cu setările acestuia.
 									</p>
 									<p>
 										Era foarte simplu, la setările avansate am posibilitatea de a activa modul game care este special pentru console video si rezolva problema mai sus menționata prin optimizarea imaginii la configurația consolei.
@@ -727,7 +643,7 @@
 								</li>
 							</ul>
 						</div>
-						
+
 						<div class="line"> </div>
 
 						<!-- Pagination -->
@@ -757,10 +673,10 @@
 					<div class="col-12 py-3 px-0" id="qanda">
 						<div class="row pb-3 mx-auto">
 							<div class="col-xl-10 col-lg-9 col-md-8 my-auto pb-1">
-								<h2 class="heading-style-desc resp-font-sz my-auto"> Intrebarile si raspunsurile clientilor <span class="grey-text font-sz"> (50 de intrebari) </span> </h2> 
+								<h2 class="heading-style-desc resp-font-sz my-auto"> Intrebarile si raspunsurile clientilor <span class="grey-text font-sz"> (50 de intrebari) </span> </h2>
 							</div>
 							<div class="col-xl-2 col-lg-3 col-md-4 my-auto pb-1">
-								<button class="btn btn-question text-center w-100"> Adauga intrebare</button> 
+								<button class="btn btn-question text-center w-100"> Adauga intrebare</button>
 							</div>
 						</div>
 
@@ -776,15 +692,15 @@
 									<ul class="lst-none">
 										<li> <a href="#" class="normal-link bold-link"> Bogdan </a></li>
 										<li> <span class="grey-text"> 01 Mar 2018 </span> </li>
-										<li> 
-											<p class="question-p"> Pot sa conectez un PS4 PRO? </p> 
+										<li>
+											<p class="question-p"> Pot sa conectez un PS4 PRO? </p>
 										</li>
 										<li> <a href="#" class="normal-link no-underline font-sz"><i class="far fa-comment-alt"></i> Adauga un raspuns </a></li>
 									</ul>
 									<div class="line mb-2"> </div>
 								</div>
 								<div class="row answers-row">
-									
+
 									<!-- Answer 1 -->
 									<div class="row">
 										<div class="col-md-1 col-sm-2 col-3 px-auto pt-3">
@@ -795,8 +711,8 @@
 												<ul class="lst-none">
 													<li> <a href="#" class="normal-link bold-link"> Anghel Alexandru </a></li>
 													<li> <span class="grey-text"> 22 Mar 2018 </span> </li>
-													<li> 
-														<p class="answer-p"> De ce doamne iarta-ma nu ai putea sa conectezi un ps4 pro la el? </p> 
+													<li>
+														<p class="answer-p"> De ce doamne iarta-ma nu ai putea sa conectezi un ps4 pro la el? </p>
 													</li>
 													<li> <a href="#" class="normal-link no-underline font-sz"><i class="far fa-thumbs-up"></i> 51 </a></li>
 												</ul>
@@ -815,8 +731,8 @@
 												<ul class="lst-none">
 													<li> <a href="#" class="normal-link bold-link"> Neculae Gabriel </a></li>
 													<li> <span class="grey-text"> 07 Apr 2018 </span> </li>
-													<li> 
-														<p class="answer-p"> Ca sa arata ca si-a luat si PS4 PRO... </p> 
+													<li>
+														<p class="answer-p"> Ca sa arata ca si-a luat si PS4 PRO... </p>
 													</li>
 													<li> <a href="#" class="normal-link no-underline font-sz"><i class="far fa-thumbs-up"></i> A fost util raspunsul? </a></li>
 												</ul>
@@ -840,15 +756,15 @@
 									<ul class="lst-none">
 										<li> <a href="#" class="normal-link bold-link"> Emilian </a></li>
 										<li> <span class="grey-text"> 19 Apr 2018 </span> </li>
-										<li> 
-											<p class="question-p"> Am cumparat tv Samsung seria 6 si nu reusesc deloc sa fac lista de canale in ordinea pe care o vreau eu. Ma poate ajuta cineva?  </p> 
+										<li>
+											<p class="question-p"> Am cumparat tv Samsung seria 6 si nu reusesc deloc sa fac lista de canale in ordinea pe care o vreau eu. Ma poate ajuta cineva?  </p>
 										</li>
 										<li> <a href="#" class="normal-link no-underline font-sz"><i class="far fa-comment-alt"></i> Adauga un raspuns </a></li>
 									</ul>
 									<div class="line mb-2"> </div>
 								</div>
 								<div class="row answers-row">
-									
+
 									<!-- Answer 1 -->
 									<div class="row">
 										<div class="col-md-1 col-sm-2 col-3 px-auto pt-3">
@@ -859,8 +775,8 @@
 												<ul class="lst-none">
 													<li> <a href="#" class="normal-link bold-link"> Andrei A </a></li>
 													<li> <span class="grey-text"> 24 Apr 2018 </span> </li>
-													<li> 
-														<p class="answer-p"> In meniu, televizorul are optiunea de a exporta lista de canale pe un stick usb. Fisierul il deschizi pe calculator cu un program (de exemplu SamsChannelEditor) si le ordonezi cum ai chef. Sunt diverse programe care fac asta, este simplu. Dupa ce faci modificarea si salvezi fisierul, bagi stick-ul la loc in tv si dai import la lista. </p> 
+													<li>
+														<p class="answer-p"> In meniu, televizorul are optiunea de a exporta lista de canale pe un stick usb. Fisierul il deschizi pe calculator cu un program (de exemplu SamsChannelEditor) si le ordonezi cum ai chef. Sunt diverse programe care fac asta, este simplu. Dupa ce faci modificarea si salvezi fisierul, bagi stick-ul la loc in tv si dai import la lista. </p>
 													</li>
 													<li> <a href="#" class="normal-link no-underline font-sz"><i class="far fa-thumbs-up"></i> 6 </a></li>
 												</ul>
@@ -884,8 +800,8 @@
 									<ul class="lst-none">
 										<li> <a href="#" class="normal-link bold-link"> Petronela </a></li>
 										<li> <span class="grey-text"> 13 Apr 2018 </span> </li>
-										<li> 
-											<p class="question-p"> Salut, planuiesc sa cumpar acest TV, insa am o intrebare, serialele si filmele full hd dupa stick/hdd se vad la fel de bine ca pe un tv full hd?, sau se vad pixelat </p> 
+										<li>
+											<p class="question-p"> Salut, planuiesc sa cumpar acest TV, insa am o intrebare, serialele si filmele full hd dupa stick/hdd se vad la fel de bine ca pe un tv full hd?, sau se vad pixelat </p>
 										</li>
 										<li> <a href="#" class="normal-link no-underline font-sz"><i class="far fa-comment-alt"></i> Adauga un raspuns </a></li>
 									</ul>
@@ -905,15 +821,15 @@
 									<ul class="lst-none">
 										<li> <a href="#" class="normal-link bold-link"> Paula </a></li>
 										<li> <span class="grey-text"> 21 Feb 2018 </span> </li>
-										<li> 
-											<p class="question-p">Vede subtitrarea in romana pe Netflix? Eu mai am un Samsung mai vechi si nu o vede - din vina televizorului, nu a Netflixului. </p> 
+										<li>
+											<p class="question-p">Vede subtitrarea in romana pe Netflix? Eu mai am un Samsung mai vechi si nu o vede - din vina televizorului, nu a Netflixului. </p>
 										</li>
 										<li> <a href="#" class="normal-link no-underline font-sz"><i class="far fa-comment-alt"></i> Adauga un raspuns </a></li>
 									</ul>
 									<div class="line mb-2"> </div>
 								</div>
 								<div class="row answers-row">
-									
+
 									<!-- Answer 1 -->
 									<div class="row">
 										<div class="col-md-1 col-sm-2 col-3 px-auto pt-3">
@@ -924,8 +840,8 @@
 												<ul class="lst-none">
 													<li> <a href="#" class="normal-link bold-link"> Gion </a></li>
 													<li> <span class="grey-text"> 22 Feb 2018 </span> </li>
-													<li> 
-														<p class="answer-p"> Vede fara probleme. </p> 
+													<li>
+														<p class="answer-p"> Vede fara probleme. </p>
 													</li>
 													<li> <a href="#" class="normal-link no-underline font-sz"><i class="far fa-thumbs-up"></i> 2 </a></li>
 												</ul>
@@ -944,8 +860,8 @@
 												<ul class="lst-none">
 													<li> <a href="#" class="normal-link bold-link"> Leon </a></li>
 													<li> <span class="grey-text"> 22 Feb 2018 </span> </li>
-													<li> 
-														<p class="answer-p"> Se vede, happy Netflix and chill! ;) </p> 
+													<li>
+														<p class="answer-p"> Se vede, happy Netflix and chill! ;) </p>
 													</li>
 													<li> <a href="#" class="normal-link no-underline font-sz"><i class="far fa-thumbs-up"></i> 667 </a></li>
 												</ul>
@@ -964,8 +880,8 @@
 												<ul class="lst-none">
 													<li> <a href="#" class="normal-link bold-link"> Radu Cristian </a></li>
 													<li> <span class="grey-text"> 23 Feb 2018 </span> </li>
-													<li> 
-														<p class="answer-p"> Mie imi vede pe acest model:) </p> 
+													<li>
+														<p class="answer-p"> Mie imi vede pe acest model:) </p>
 													</li>
 													<li> <a href="#" class="normal-link no-underline font-sz"><i class="far fa-thumbs-up"></i>2 </a></li>
 												</ul>

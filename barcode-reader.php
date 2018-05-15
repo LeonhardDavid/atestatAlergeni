@@ -1,64 +1,4 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  	<!-- Custom css -->
-	<link rel="stylesheet" href="css/colors-v1.css" type="text/css">
-   	<link rel="stylesheet" href="css/styles-v1.css" type="text/css" >
-  	<link rel="stylesheet" href="css/opt1_style.css" type="text/css">
-  	<link rel="stylesheet" href="css/index_style.css" type="text/css">
-  	
-  	<!-- Font awesome -->
-  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-  	
-  	<!-- Animate css -->
-  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-
-  	<!--
-  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
-	-->
-
-	<!-- Bootstrap css, js-->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-	<!-- Multiselect css and jquery -->
-	<link rel="stylesheet" href="css/bootstrap-multiselect.css" type="text/css"/>
-	<script   src="https://code.jquery.com/jquery-3.2.1.min.js"   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>
-	<script type="text/javascript" src="js/bootstrap-multiselect.js"></script>
-
-  <title> Barcode reader </title>
-</head>
-
-<body>
-
-  <header>
-    <nav class="navbar navbar-toggleable-sm navbar-expand-sm sticky-top custom-nav" >
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <a class="navbar-brand nope" href="#">
-        <img src="images/logo_whtie.png" alt="Logo" class="cust1">
-      </a>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link-cust" href="index.php">Acasa</a>
-            <a class="nav-item nav-link-cust" href="#">Optiune2</a>
-            <a class="nav-item nav-link-cust" href="#">Optiune3</a>
-            <a class="nav-item nav-link-cust" href="#">Optiune4</a>
-          </div>
-      </div>
-    </nav>
-  </header>
+<?php require 'header_footer/header.php';?>
 
   <div class="overlay">
 
@@ -110,7 +50,7 @@
 
 	              	<div class="col-6 mx-auto">
 	              		<button class="btn btn-custom btn-scan w-100" type="button" data-toggle="modal" data-target="#livestream_scanner" data-backdrop="false" id="pad1">
-			                <i class="fas fa-camera mx-auto"></i> 	
+			                <i class="fas fa-camera mx-auto"></i>
 		                  	<span class="mx-auto"> Sau scanati codul direct</span>
 	                  	</button>
 	              	</div>
@@ -146,7 +86,7 @@
 				  </button>
 				</div>
 				";
-              $message_love = "<!-- <audio controls autoplay='autoplay' hidden='hidden'> <source src='images/uhah.mp3' type='audio/mp3'> </audio> --> 
+              $message_love = "<!-- <audio controls autoplay='autoplay' hidden='hidden'> <source src='images/uhah.mp3' type='audio/mp3'> </audio> -->
 
              	<div class='alert bg-danger text-white alert-dismissible fade show mx-3' role='alert'>
 				  <strong> Pentru remedierea problemei de dragoste va rugam vizitati site-ul <a class='white-link' href='https://www.bautura-online.ro/catalogsearch/result/?q=jack+daniels&&gclid=Cj0KEQjwofHHBRDS0Pnhpef89ucBEiQASEp6LPcVaQjw7EyVhQ611Ikl8cbgVuFieq5WZkzL0S_ICDMaAtvb8P8HAQ' target='_blank'>acesta</a>!
@@ -181,9 +121,9 @@
                                       foreach ($vector_alergeni as $alerta) {
                                           $message_allergen = "
                                           	<div class='alert bg-danger text-white alert-dismissible fade show mx-3' role='alert'>
-  	                                          <strong> Atentie! </strong> 
-  	                                          Produsul contine alergenul 
-  	                                          <strong>$alerta</strong>! 
+  	                                          <strong> Atentie! </strong>
+  	                                          Produsul contine alergenul
+  	                                          <strong>$alerta</strong>!
                       											  <button type='button' class='close close-btn' data-dismiss='alert' aria-label='Close'>
                       											    <span aria-hidden='true'>&times;</span>
                       											  </button>
@@ -222,18 +162,18 @@
                           if (!empty($generic_name)) {
                               echo "
                               <div class='col-12 my-1'>
-                                <span class='txt-bold'>Nume general: </span> $generic_name 
+                                <span class='txt-bold'>Nume general: </span> $generic_name
                                 </div>
-                              
+
                               ";
                           echo "<hr class='my-0'>";
                           }
                           if (!empty($product_brand)) {
                               echo "
                               <div class='col-12 my-1'>
-                                <span class='txt-bold'>Brand: </span> $product_brand 
+                                <span class='txt-bold'>Brand: </span> $product_brand
                                 </div>
-                              
+
                               ";
                           echo "<hr class='my-0'>";
                           }
@@ -243,7 +183,7 @@
                                 <span class='txt-bold'> Categorii: </span>
                                   $categories
                                 </div>
-                              
+
                               ";
                           echo "<hr class='my-0'>";
                           }
@@ -256,7 +196,7 @@
                             foreach((array)$product_allergens as $alergen){
                               $alergen = substr((string)$alergen,3);
                               echo ucfirst("$alergen");
-                              
+
                               if($alergen != substr((string)$last_element,3))
                                 echo", ";
                             }
@@ -271,7 +211,7 @@
                                 <span class='txt-bold'> Poate contine urme de: </span>
                                   $traces
                                 </div>
-                              
+
                               ";
                           echo "<hr class='my-0'>";
                           }
@@ -357,11 +297,12 @@
 
   	<!-- Initialize the plugin: -->
 	<script>
-	$(function() {  
+	$(function() {
 	 $('#multiselect').multiselect();
 	});
 	</script>
   </footer>
-</body>
 
-</html>
+
+  
+<?php require 'header_footer/footer.php';?>

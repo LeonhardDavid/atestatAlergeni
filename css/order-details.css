@@ -156,7 +156,7 @@ body{
 	.font-sm{
 		font-size: .875rem !important;
 	}
-	
+
 }
 .blue-bg{
 	background-color: rgb(228,241,249);
@@ -226,7 +226,7 @@ body{
 
 @media (min-width: 911px){
 	.address-radio{
-		height: 200px;	
+		height: 200px;
 	}
 
 	.receipt-1-radio, .receipt-2-radio{
@@ -237,7 +237,7 @@ body{
 
 @media (max-width: 910px){
 	.address-radio{
-		height: 180px;	
+		height: 180px;
 	}
 
 	.receipt-1-radio, .receipt-2-radio{
@@ -381,7 +381,7 @@ body{
 }
 
 a.nav-link{
-	color: rgb(23,99,170) !important;	
+	color: rgb(23,99,170) !important;
 }
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
@@ -447,4 +447,80 @@ a.nav-link{
 
 .footer-container{
 	border-top: 1px solid lightgrey;
+}
+.add-to-cart{
+	background-color: var(--navbar-categories-bg-color);
+	border-radius: 5px;
+	cursor: pointer;
+	display: inline-flex;
+}
+
+.add-to-cart:hover{
+	background-color: var(--text-color-red);
+}
+
+.atc-index{
+	height: 2rem !important;
+}
+
+.atc-index .add-to-cart-btn{
+	font-size: 1rem !important;
+	padding: 0px 5px 0px 5px !important;
+}
+
+.atc-index .shopping-cart{
+	font-size: 1.25rem !important;
+	padding: 0 !important;
+}
+
+.add-to-cart .add-to-cart-btn{
+	background-color: transparent;
+	color: white;
+	font-size: 1.25rem;
+	outline: none;
+	cursor: pointer;
+	border: 0;
+	padding: 5px 10px 5px 10px;
+	width: 100%;
+}
+
+.add-to-cart .shopping-cart{
+	width: 40px;
+	background-color: var(--text-color-red);
+	color: white;
+	border-radius: 0px 5px 5px 0px;
+	padding: 5px;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+.add-to-fav{
+	background-color: white ;
+	border-radius: 5px;
+	border: 1px solid var(--navbar-categories-bg-color);
+	cursor: pointer;
+	display: inline-flex;
+}
+
+.add-to-fav:hover{
+	background-color: rgb(235,245,255);
+}
+
+.add-to-fav .add-to-fav-btn{
+	background-color: transparent;
+	color: var(--navbar-categories-bg-color);
+	font-size: 1.2rem;
+	outline: none;
+	cursor: pointer;
+	border: 0;
+	padding: 5px 10px 5px 10px;
+	width: 100%;
+}
+
+.add-to-fav .heart{
+	color: var(--navbar-categories-bg-color);
+	border-radius: 0px 5px 5px 0px;
+	padding: 5px;
+	text-align: center;
+	font-size: 1.5rem;
 }

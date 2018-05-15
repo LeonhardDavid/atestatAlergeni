@@ -20,10 +20,13 @@
     <link rel="stylesheet" href="css/footer.css" type="text/css"/>
     <link rel="stylesheet" href="css/colors.css" type="text/css"/>
     <link rel="stylesheet" href="css/grid.css" type="text/css">
-
+    <link rel="stylesheet" href="css/colors-v1.css" type="text/css">
+  	<link rel="stylesheet" href="css/styles-v1.css" type="text/css" >
+	  <link rel="stylesheet" href="css/opt1_style.css" type="text/css">
+  	<link rel="stylesheet" href="css/index_style.css" type="text/css">
     <!-- animate.css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -39,6 +42,12 @@
     <!-- Range Slider CSS -->
     <link rel="stylesheet" href="css/range-slider/bootstrap-slider.css" type="text/css"/>
     <link rel="stylesheet" href="css/range-slider/bootstrap-slider.min.css" type="text/css"/>
+    
+    <!-- Multiselect css and jquery -->
+    <link rel="stylesheet" href="css/bootstrap-multiselect.css" type="text/css"/>
+    <script   src="https://code.jquery.com/jquery-3.2.1.min.js"   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/bootstrap-multiselect.js"></script>
+
   </head>
 
   <body>

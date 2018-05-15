@@ -6,160 +6,176 @@
   <div class="d-md-none">
     <img src="images/banner-mobile-1.jpg" alt="salomon banner mobile" class="img-responsive w-100 my-4">
   </div>
-  <div class="row-flex">
-    <div class="col-md-12 mx-3">
-        <span class="product-styling">Istoricul tau de navigare</span>
-        <div class="line my-2"></div>
-    </div>
-  </div>
-  <div class="row d-flex justify-content-center">
-    <ul class="list-inline ml-2 my-2">
-      <li class="list-inline-item" id="history1">
-        <img src="images/l1.jpg" alt="Item1" class="img-responsive rounded border border-primary larger">
-      </li>
-      <li class="list-inline-item" id="history2">
-        <img src="images/l2.jpg" alt="Item1" class="img-responsive rounded border border-primary larger">
-      </li>
-      <li class="list-inline-item" id="history3">
-        <img src="images/l3.jpg" alt="Item1" class="img-responsive rounded border border-primary larger">
-      </li>
-      <li class="list-inline-item" id="history4">
-        <img src="images/l4.jpg" alt="Item1" class="img-responsive rounded border border-primary larger">
-      </li>
-      <li class="list-inline-item">
-        <img src="images/l5.jpg" alt="Item1" class="img-responsive rounded border border-primary larger">
-      </li>
-      <li class="list-inline-item">
-        <img src="images/l6.jpg" alt="Item1" class="img-responsive rounded border border-primary larger">
-      </li>
-      <li class="list-inline-item">
-        <img src="images/l7.jpg" alt="Item1" class="img-responsive rounded border border-primary larger">
-      </li>
-      <li class="list-inline-item">
-        <img src="images/l8.jpg" alt="Item1" class="img-responsive rounded border border-primary larger">
-      </li>
-      <li class="list-inline-item">
-        <img src="images/l9.jpg" alt="Item1" class="img-responsive rounded border border-primary larger">
-      </li>
-      <li class="list-inline-item">
-        <img src="images/l10.jpg" alt="Item1" class="img-responsive rounded border border-primary larger">
-      </li>
-    </ul>
-  </div>
-
   <div class="row-flex mx-3">
     <div class="col-md-12 my-3">
         <span class>Alti clienti au fost interesati si de: </span>
     </div>
   </div>
 
-      <div class="product_history_carousel mx-5 row">
-          <div class="styling_bottom">
-              <div class="badge-group">
-                <span class="badge badge-danger custom-badge">NOU!</span>
-                <span class="badge badge-danger custom-badge">-20%</span>
-              </div>
-              <img src="images/p1.jpg" alt="Tricou1" class="mx-auto d-block">
-              <br>
-              <span>Adidas Women reversible<br> track jacket</span>
-              <br>
-              <span class="red">134 lei</span>
-              <span class="grey">165 lei</span>
-              <br>
-              <div class="add-to-cart atc-index">
-                <input class="add-to-cart-btn" type="submit" value="Adauga in cos">
-                <span class="shopping-cart">
-                  <i class="fas fa-shopping-cart"></i>
-                </span>
-              </div>
-          </div>
-          <div class="styling_bottom">
-            <div class="badge-group">
-                <span class="badge badge-danger custom-badge">NOU!</span>
-              </div>
-                <img src="images/p2.jpg" alt="Tricou2" class="mx-auto d-block">
-                <br>
-                <span>Adidas Women reversible<br> track jacket</span>
-                <br>
-                <span class="red">134 lei</span>
-                <span class="grey">165 lei</span>
-                <br>
-                <div class="add-to-cart atc-index">
-                  <input class="add-to-cart-btn" type="submit" value="Adauga in cos">
-                  <span class="shopping-cart">
-                    <i class="fas fa-shopping-cart"></i>
-                  </span>
-                </div>
-          </div>
-          <div class="styling_bottom">
-                <img src="images/p3.jpg" alt="Tricou3" class="mx-auto d-block">
-                <br>
-                <span>Adidas Women reversible<br> track jacket</span>
-                <br>
-                <span class="red">134 lei</span>
-                <span class="grey">165 lei</span>
-                <br>
-                <div class="add-to-cart atc-index">
-                  <input class="add-to-cart-btn" type="submit" value="Adauga in cos">
-                  <span class="shopping-cart">
-                    <i class="fas fa-shopping-cart"></i>
-                  </span>
-                </div>
-          </div>
-          <div class="styling_bottom">
-              <div class="badge-group">
-                <span class="badge badge-danger custom-badge">NOU!</span>
-                <span class="badge badge-danger custom-badge">-20%</span>
-              </div>
-              <img src="images/p1.jpg" alt="Tricou1" class="mx-auto d-block">
-              <br>
-              <span>Adidas Women reversible<br> track jacket</span>
-              <br>
-              <span class="red">134 lei</span>
-              <span class="grey">165 lei</span>
-              <br>
-              <div class="add-to-cart atc-index">
-                <input class="add-to-cart-btn" type="submit" value="Adauga in cos">
-                <span class="shopping-cart">
-                  <i class="fas fa-shopping-cart"></i>
-                </span>
-              </div>
-          </div>
-          <div class="styling_bottom">
-                <img src="images/p4.jpg" alt="Tricou4" class="mx-auto d-block">
-                <br>
-                <span>Adidas Women reversible<br> track jacket</span>
-                <br>
-                <span class="red">134 lei</span>
-                <span class="grey">165 lei</span>
-                <br>
-                <div class="add-to-cart atc-index">
-                  <input class="add-to-cart-btn" type="submit" value="Adauga in cos">
-                  <span class="shopping-cart">
-                    <i class="fas fa-shopping-cart"></i>
-                  </span>
-                </div>
-          </div>
-
-          <div class="styling_bottom" >
-            <div class="badge-group">
-                <span class="badge badge-danger custom-badge">-20%</span>
-              </div>
-                <img src="images/p5.jpg" alt="Tricou5" class="mx-auto d-block">
-                <br>
-                <span>Adidas Women reversible<br> track jacket</span>
-                <br>
-                <span class="red">134 lei</span>
-                <span class="grey">165 lei</span>
-                <br>
-                <div class="add-to-cart atc-index">
-                  <input class="add-to-cart-btn" type="submit" value="Adauga in cos">
-                  <span class="shopping-cart">
-                    <i class="fas fa-shopping-cart"></i>
-                  </span>
-                </div>
-          </div>
+  <div class="product-carousel mx-5 row">
+    <div class="styling">
+      <div class="badge-group">
+        <span class="badge badge-danger custom-badge">NOU!</span>
       </div>
+      <img src="images/pl1.jpg" alt="Product1" class="mx-auto d-block custom-height">
+      Banane
+      <br>
+      <span class="red">4,99 lei</span>
+      <span class="grey">/kg</span>
+      <br>
+      <div class="add-to-cart atc-index">
+      <input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+      <span class="shopping-cart">
+        <i class="fas fa-shopping-cart"></i>
+      </span>
+    </div>
+    </div>
+    <div class="styling">
+      <div class="badge-group">
+        <span class="badge badge-danger custom-badge">NOU!</span>
+        <span class="badge badge-danger custom-badge">-20%</span>
+      </div>
+      <img src="images/pl2.jpg" alt="Product1" class="mx-auto d-block custom-height">
+      Mere
+      <br>
+      <span class="red">7,99 lei</span>
+      <span class="grey">/kg</span>
+      <br>
+      <div class="add-to-cart atc-index">
+        <input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+        <span class="shopping-cart">
+          <i class="fas fa-shopping-cart"></i>
+        </span>
+      </div>
+    </div>
+    <div class="styling">
+
+      <img src="images/pl3.jpg" alt="Product1" class="mx-auto d-block custom-height">
+      Pere
+      <br>
+      <span class="red">8,99 lei</span>
+      <span class="grey">/kg</span>
+      <br>
+      <div class="add-to-cart atc-index">
+      <input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+      <span class="shopping-cart">
+        <i class="fas fa-shopping-cart"></i>
+      </span>
+    </div>
+    </div>
+    <div class="styling">
+
+      <img src="images/pl4.jpg" alt="Product1" class="mx-auto d-block custom-height">
+      Lamai
+      <br>
+      <span class="red">6,99 lei</span>
+      <span class="grey">/kg</span>
+      <br>
+      <div class="add-to-cart atc-index">
+      <input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+      <span class="shopping-cart">
+        <i class="fas fa-shopping-cart"></i>
+      </span>
+    </div>
+    </div>
+    <div class="styling">
+
+      <img src="images/pl5.jpg" alt="Product1" class="mx-auto d-block custom-height">
+      Portocale
+      <br>
+      <span class="red">3,99 lei</span>
+      <span class="grey">/kg</span>
+      <br>
+      <div class="add-to-cart atc-index">
+      <input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+      <span class="shopping-cart">
+        <i class="fas fa-shopping-cart"></i>
+      </span>
+    </div>
+    </div>
+    <div class="styling">
+
+      <img src="images/pl6.jpg" alt="Product1" class="mx-auto d-block custom-height">
+      Castraveti
+      <br>
+      <span class="red">6,99 lei</span>
+      <span class="grey">/kg</span>
+      <br>
+      <div class="add-to-cart atc-index">
+      <input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+      <span class="shopping-cart">
+        <i class="fas fa-shopping-cart"></i>
+      </span>
+    </div>
+    </div>
+    <div class="styling">
+      <div class="badge-group">
+        <span class="badge badge-danger custom-badge">-20%</span>
+      </div>
+      <img src="images/pl7.jpg" alt="Product1" class="mx-auto d-block custom-height">
+      Rosii
+      <br>
+      <span class="red">7,99 lei</span>
+      <span class="grey">/kg</span>
+      <br>
+      <div class="add-to-cart atc-index">
+      <input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+      <span class="shopping-cart">
+        <i class="fas fa-shopping-cart"></i>
+      </span>
+    </div>
+    </div>
+    <div class="styling">
+      <div class="badge-group">
+        <span class="badge badge-danger custom-badge">NOU!</span>
+      </div>
+      <img src="images/pl8.jpg" alt="Product1" class="mx-auto d-block custom-height">
+      Morcovi
+      <br>
+      <span class="red">3,49 lei</span>
+      <span class="grey">/kg</span>
+      <br>
+      <div class="add-to-cart atc-index">
+      <input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+      <span class="shopping-cart">
+        <i class="fas fa-shopping-cart"></i>
+      </span>
+    </div>
+    </div>
+    <div class="styling">
+      <div class="badge-group">
+        <span class="badge badge-danger custom-badge">NOU!</span>
+        <span class="badge badge-danger custom-badge">-20%</span>
+      </div>
+      <img src="images/pl9.jpg" alt="Product1" class="mx-auto d-block custom-height">
+      Brocolli
+      <br>
+      <span class="red">10,99 lei</span>
+      <span class="grey">/kg</span>
+      <br>
+      <div class="add-to-cart atc-index">
+      <input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+      <span class="shopping-cart">
+        <i class="fas fa-shopping-cart"></i>
+      </span>
+    </div>
+    </div>
+    <div class="styling">
+      <img src="images/pl10.jpg" alt="Product1" class="mx-auto d-block custom-height">
+      Struguri
+      <br>
+      <span class="red">14,99 lei</span>
+      <span class="grey">/kg</span>
+      <br>
+      <div class="add-to-cart atc-index">
+      <input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+      <span class="shopping-cart">
+        <i class="fas fa-shopping-cart"></i>
+      </span>
+    </div>
+    </div>
+
+  </div>
   </div>
 </div>
 
