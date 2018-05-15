@@ -83,7 +83,7 @@
 
 											</div>
 
-											<span class="ml-2">3.14</span>
+											<span class="ml-2">4.62</span>
 										</a>
 										<a href="#" class="normal-link"> 7 review-uri </a>
 									</li>
@@ -174,135 +174,245 @@
 				<div class="col-12 buttons py-2 button-row sticky-top d-lg-block d-none">
 					<div class="container product-container py-0 pl-3">
 				<input type="button" class="btn buttons-custom" onClick="document.getElementById('description').scrollIntoView();" value="Descriere"/>
-				<input type="button" class="btn buttons-custom" onClick="document.getElementById('specification').scrollIntoView();" value="Specificatii"/>
-				<input type="button" class="btn buttons-custom" onClick="document.getElementById('review').scrollIntoView();" value="Review-uri (26)"/>
+				<input type="button" class="btn buttons-custom" onClick="document.getElementById('review').scrollIntoView();" value="Review-uri (3)"/>
 				<input type="button" class="btn buttons-custom" onClick="document.getElementById('qanda').scrollIntoView();" value="Intrebari si raspunsuri"/>
 					</div>
 				</div>
 				<div class="container product-container py-0">
 					<div class="cont text-justify px-4 mb-0">
-					<div class="col-12 pt-3" id="description">
+					<div class="col-12 pt-5" id="description">
 						<h3 class="heading-style-desc"> Descriere </h3>
 						<div class="line"> </div>
 						<div class="row my-3">
 							<div class="col-lg-8">
-								<h2 class="heading-style-desc"> MOVE. ADAPT. PROTECT. </h2>
 								<p class="paragraph-style-desc">
-									The first iteration of the Nike Komyuter, the ACG.07.KMTR, silhouette's function guides its stance. The upper transforms from its loose, open state into a sleek, fast silhouette that marries gracefully to a full-rubber bottom with wet traction lugs (derived from the tooling of the Nike Tallac Flyknit ACG). Compositionally, this build simultaneously conveys comfort in speed and a readiness to take on anything.
+									Tara de provenienta: ECUADOR
 								</p>
 								<p class="paragraph-style-desc">
-									Inspiration for the complex design of the ACG.07.KMTR, the latest version of NikeLab’s all-conditions shoe and the first iteration of the new Nike Komyuter silhouette, came in the form of a brown paper bag. It’s a prime example of how sophisticated solutions can stem from straightforward, functional suggestions.
+									Proaspete si delicioase, bananele sunt disponibile pe tot parcursul anului si au un pret bun.
+								</p>
+								<p class="paragraph-style-desc">
+									Familia: Musacee. Denumirea stiintifica: Musa acuminata colla
+								</p>
+
+								<p class="paragraph-style-desc">
+									Intreaga planta este un pseudostem, format din frunze mari care se suprapun una peste alta intr-o maniera circulara. Atinge o inaltime cuprinsa intre 2-6 metri de la suprafata solului in functie de tipurile de soi. La maturitate, rizomul da nastere la flori (inflorescente), care se desfasoara intr-o maniera neteda si care odata ajunse la maturitate dezvota 3-7 buchete ce contin fiecare intre 8-20 de fructe.
+								</p>
+								<p class="paragraph-style-desc">
+									Banana este un fruct bogat in calorii (90 de calorii la 100 grame), dar cu un nivel foarte scazut de grasimi. Fructul contine cantitati mari de antioxidanti, minerale si vitamine.
+								</p>
+
+								<p class="paragraph-style-desc">
+									Pulpa de banana are o compozitie moale, usor de digerat, cu zaharuri simple, cum ar fi fructoza si zaharoza care atunci cand sunt consumate incarca rezervorul cu energie al intregului organism si  ne revitalizeaza instantaneu, asadar, datorita acestor calitati, bananele sunt folosite de sportivi pentru a obtine energie instantanee si ca supliment alimentar in plan de tratament pentru copii subponderali.
 								</p>
 							</div>
-
 							<div class="col-lg-4">
-								<img class="img-desc mx-auto d-block" src="images/product-images/product-desc-1.jpg">
+								<img src="images/product-images/banana1.jpg" class="img-desc mx-auto d-block" alt="banananaa">
 							</div>
 						</div>
-						<div class="row my-3">
-							<div class="col-lg-4">
-								<img class="img-desc mx-auto d-block" src="images/product-images/product-desc-2.jpg">
-							</div>
-							<div class="col-lg-8">
-								<h2 class="heading-style-desc"> CONSTRUCTED TO PROTECT. BUILT TO MOVE. </h2>
-								<p class="paragraph-style-desc">
-									A proposition for increased access and ease led designers to place a bag around a foot and scrunch it to form the shape of a shoe. This elementary act informed an inventive outcome: facilitating the metamorphosis of a single-piece upper from a wide-open entry to a supportive closed state would result in a new performance silhouette.
-								</p>
-								<p class="paragraph-style-desc">
-									Ultimately, the designers fashioned the ACG.07.KMTR with a four-way stretch water-resistant upper shell that conforms to the foot through an integrated draw cord and stabilizes via a forefoot strap equipped with a Fidlock magnetic buckle.
-								</p>
-								<p class="paragraph-style-desc">
-									Therein lies the complexity: In order to facilitate a shoe with high function and high comfort, translating the brown paper bag to high performance is something akin to a science experiment.
-								</p>
+							<div class="row">
+								<div class="col-lg-6">
+									<table class="mx-auto" style="width: 280px;" border="1" cellspacing="0" cellpadding="1">
+									   <tbody>
+									      <tr>
+									         <td width="101">
+									            <p align="center"><strong>Principiu</strong></p>
+									         </td>
+									         <td width="68">
+									            <p align="center"><strong>Valoare nutrient</strong></p>
+									         </td>
+									         <td width="89">
+									            <p align="center"><strong>Procentul din DZR</strong></p>
+									         </td>
+									      </tr>
+									      <tr>
+									         <td width="101">Energie</td>
+									         <td width="68">90 Kcal</td>
+									         <td width="89">4,5%</td>
+									      </tr>
+									      <tr>
+									         <td width="101">Carbohidratii</td>
+									         <td width="68">22.84 g</td>
+									         <td width="89">18%</td>
+									      </tr>
+									      <tr>
+									         <td width="101">Protein?</td>
+									         <td width="68">1.09g</td>
+									         <td width="89">2%</td>
+									      </tr>
+									      <tr>
+									         <td width="101">Total de gr?simi</td>
+									         <td width="68">0.33 g</td>
+									         <td width="89">1%</td>
+									      </tr>
+									      <tr>
+									         <td width="101">Colesterol</td>
+									         <td width="68">0 mg</td>
+									         <td width="89">0%</td>
+									      </tr>
+									      <tr>
+									         <td width="101">Fibre alimentare</td>
+									         <td width="68">2.60 g</td>
+									         <td width="89">7%</td>
+									      </tr>
+									      <tr>
+									         <td width="101">
+									            <p align="center"><strong>Vitamine</strong></p>
+									         </td>
+									         <td width="68"></td>
+									         <td width="89"></td>
+									      </tr>
+									      <tr>
+									         <td width="101">Folati</td>
+									         <td width="68">20 micrograme</td>
+									         <td width="89">5%</td>
+									      </tr>
+									      <tr>
+									         <td width="101">Niacin</td>
+									         <td width="68">0.665 mg</td>
+									         <td width="89">4%</td>
+									      </tr>
+									      <tr>
+									         <td width="101">Acid pantotenic</td>
+									         <td width="68">0.334 mg</td>
+									         <td width="89">7%</td>
+									      </tr>
+									      <tr>
+									         <td width="101">Piridoxin?</td>
+									         <td width="68">0.367 mg</td>
+									         <td width="89">28%</td>
+									      </tr>
+									      <tr>
+									         <td width="101">Riboflavin?</td>
+									         <td width="68">0.073 mg</td>
+									         <td width="89">5%</td>
+									      </tr>
+									      <tr>
+									         <td width="101">Tiamin?</td>
+									         <td width="68">0.031 mg</td>
+									         <td width="89">2%</td>
+									      </tr>
+									      <tr>
+									         <td width="101">Vitamina A</td>
+									         <td width="68">64 UI</td>
+									         <td width="89">2%</td>
+									      </tr>
+									      <tr>
+									         <td width="101">Vitamina C</td>
+									         <td width="68">8.7 mg</td>
+									         <td width="89">15%</td>
+									      </tr>
+									      <tr>
+									         <td width="101">Vitamina E</td>
+									         <td width="68">0,10 mg</td>
+									         <td width="89">1%</td>
+									      </tr>
+									      <tr>
+									         <td width="101">Vitamina K</td>
+									         <td width="68">0.5 g</td>
+									         <td width="89">1%</td>
+									      </tr>
+									  </tbody>
+									</table>
+								</div>
+								<div class="col-lg-6">
+									<table class="mx-auto" style="width: 280px;" border="1" cellspacing="0" cellpadding="1">
+										<tbody>
+									      <tr>
+									         <td width="101">
+									            <p align="center"><strong>Electroli?i</strong></p>
+									         </td>
+									         <td width="68"></td>
+									         <td width="89"></td>
+									      </tr>
+									      <tr>
+									         <td width="101">Sodiu</td>
+									         <td width="68">1 mg</td>
+									         <td width="89">0%</td>
+									      </tr>
+									      <tr>
+									         <td width="101">Potasiu</td>
+									         <td width="68">358 mg</td>
+									         <td width="89">8%</td>
+									      </tr>
+									      <tr>
+									         <td width="101">
+									            <p align="center"><strong>Minerale</strong></p>
+									         </td>
+									         <td width="68"></td>
+									         <td width="89"></td>
+									      </tr>
+									      <tr>
+									         <td width="101">Calciu</td>
+									         <td width="68">5 mg</td>
+									         <td width="89">0,5%</td>
+									      </tr>
+									      <tr>
+									         <td width="101">Cupru</td>
+									         <td width="68">0.078 mg</td>
+									         <td width="89">8%</td>
+									      </tr>
+									      <tr>
+									         <td width="101">Fier</td>
+									         <td width="68">0,26 mg</td>
+									         <td width="89">2%</td>
+									      </tr>
+									      <tr>
+									         <td width="101">Magneziu</td>
+									         <td width="68">27 mg</td>
+									         <td width="89">7%</td>
+									      </tr>
+									      <tr>
+									         <td width="101">Mangan</td>
+									         <td width="68">0.270 mg</td>
+									         <td width="89">13%</td>
+									      </tr>
+									      <tr>
+									         <td width="101">Fosfor</td>
+									         <td width="68">22 mg</td>
+									         <td width="89">3%</td>
+									      </tr>
+									      <tr>
+									         <td width="101">Seleniu</td>
+									         <td width="68">1.0 g</td>
+									         <td width="89">2%</td>
+									      </tr>
+									      <tr>
+									         <td width="101">Zinc</td>
+									         <td width="68">0,15 mg</td>
+									         <td width="89">1%</td>
+									      </tr>
+									      <tr>
+									         <td width="101">
+									            <p align="center"><strong>Fito-nutrienti</strong></p>
+									         </td>
+									         <td width="68"></td>
+									         <td width="89"></td>
+									      </tr>
+									      <tr>
+									         <td width="101">Caroten-α</td>
+									         <td width="68">25 micrograme</td>
+									         <td width="89">–</td>
+									      </tr>
+									      <tr>
+									         <td width="101">Caroten-SS</td>
+									         <td width="68">26 micrograme</td>
+									         <td width="89">–</td>
+									      </tr>
+									      <tr>
+									         <td width="101">Luteina-zeaxantina</td>
+									         <td width="68">22 micrograme</td>
+									         <td width="89">–</td>
+									      </tr>
+									   </tbody>
+									</table>
+								</div>
 							</div>
 						</div>
-						<div class="row my-3 justify-content-center">
-							<div class="col-md-8 col-12">
-								<p class="grey-text">
-									“This shoe is water resistant, light, flexible, easy to put on, has great traction and introduces a new aesthetic,” says Nike NSW footwear designer, Gerald Sullivan. “Moreover, it reduces functional elements to bare necessity — one doesn’t need the distractions of complicated entry and lockdown systems when moving around the city.”
-								</p>
-							</div>
-							<div class="col-md-8 col-12">
-								<img class="img-desc mx-auto d-block" src="images/product-images/product-desc-gif.gif">
-							</div>
-							<div class="col-md-8 col-12 mt-4">
-								<p class="grey-text">
-									“We trialed a number of closure systems, and I began thinking about how a parachute unfurls and wondered how that might operate in reverse. Ultimately what worked best was pulling the cord through the shoe via a single hinge. This act molds the bag-like upper into form,” explains Sullivan. “Secondary lockdown is achieved through the magnetic buckle, which is not only low profile, but adds a distinct panache to the shoe’s form.”
-								</p>
-							</div>
-						</div>
-						<div class="row my-3">
-							<div class="col-lg-6">
-								<p class="paragraph-style-desc">
-									To understand the origin of the ACG.07.KMTR’s premise is to appreciate its broad parameters. The shoe was created for all-day urban wear in a range of environments. This includes flash rains and temperature shifts, and everything from hard concrete sidewalks to a variety of indoor floorings. It also takes into account that the wearer could easily cover more ground over the course of a day’s action than an elite athlete does in a training session.
-								</p>
-							</div>
-							<div class="col-lg-6">
-								<p class="paragraph-style-desc">
-									The ACG.07.KMTR’s function guides its stance. The upper transforms from its loose, open state into a sleek, fast silhouette that marries gracefully to a full-rubber bottom with wet traction lugs (derived from the tooling of the Nike Tallac Flyknit ACG). Compositionally, this build simultaneously conveys comfort in speed and a readiness to take on anything. Reflective hits on the logo and welding seams help ensure the all-day, all-challenges equipment is balanced with requisite safety features. As a full package, it is a far cry from a brown paper bag.
-								</p>
-							</div>
-						</div>
-
-					</div>
-
-
-					<div class="col-12 pt-3" id="specification">
-						<h3 class="heading-style-desc"> Specificatii tehnice </h3>
-						<div class="line"> </div>
-						<table class="table table-striped table-responsive-md mt-4 resp-font-sz-sm text-left">
-						  <!--
-						  <thead>
-						    <tr>
-						      <th scope="col">col-header-1</th>
-						      <th scope="col">col-header-2</th>
-						    </tr>
-						  </thead>
-							-->
-						  <tbody>
-						    <tr class="t-row-height">
-						      <th scope="row">Brand:</th>
-						      <td>NIKE</td>
-						    </tr>
-						    <tr class="t-row-height">
-						      <th scope="row">Designer:</th>
-						      <td>Acronym founder Errolson Hugh</td>
-						    </tr>
-						    <tr class="t-row-height">
-						      <th scope="row">Product type:</th>
-						      <td>All conditions urban footwear.</td>
-						    </tr>
-						    <tr class="t-row-height">
-						      <th scope="row">Protection:</th>
-						      <td>	A water-repellent textile upper helps keep moisture out for weather protection without the bulk and weight of a boot.</td>
-						    </tr>
-						    <tr class="t-row-height">
-						      <th scope="row">Fit:</th>
-						      <td>The lightweight upper provides four-way stretch for a flexible, sock-like fit.</td>
-						    </tr>
-						    <tr class="t-row-height">
-						      <th scope="row">Straps</th>
-						      <td>Magnetically fastened.</td>
-						    </tr>
-						    <tr class="t-row-height">
-						      <th scope="row">Outsole:</th>
-						      <td>	Rubber outsole for traction.</td>
-						    </tr>
-						    <tr class="t-row-height">
-						      <th scope="row">Outsole pattern:</th>
-						      <td>Rugged outsole pattern inspired by the NikeLab ACG Tallac Flyknit.</td>
-						    </tr>
-						    <tr class="t-row-height">
-						      <th scope="row">Midsole:</th>
-						      <td>Lightweight foam midsole for comfort.</td>
-						    </tr>
-						  </tbody>
-						</table>
-					</div>
 
 
 					<div class="col-12 pt-3 text-left" id="review">
-						<h3 class="heading-style-desc"> Review-uri (26 de review-uri) </h3>
+						<h3 class="heading-style-desc"> Review-uri (3 review-uri) </h3>
 						<div class="line"> </div>
 						<div class="row pt-5 review-row">
 							<div class="col-md-6 col-lg-4">
@@ -323,7 +433,7 @@
 									</table>
 
 								</div>
-								<span class="bold-text"> 4.62 </span> <span class="font-sz"> (26 de review-uri)</span>
+								<span class="bold-text"> 4.62 </span> <span class="font-sz"> (3 review-uri)</span>
 							</div>
 							<div class="col-lg-4 d-lg-block d-none">
 								<div class="row my-1">
@@ -480,7 +590,7 @@
 					<div class="line"></div>
 					<!-- Review user 1-->
 
-					<div class="row user-review-row mt-3 mx-auto">
+					<div class="row w-100 user-review-row mt-3 mx-auto">
 						<div class="col-md-2">
 							<ul class="lst-none">
 								<li class="my-4"> <a href="#" class="user-circle"> B </a></li>
@@ -490,7 +600,7 @@
 						</div>
 						<div class="col-md-10">
 							<ul class="lst-none">
-								<li> <a class="review-title" href="#">  TV Samsung 40MU6102 - Best buy la un buget de 2k </a></li>
+								<li> <a class="review-title" href="#">  Foarte bune! </a></li>
 								<li>
 								<div class="stars">
 
@@ -511,16 +621,7 @@
 								</li>
 								<li class="text-left">
 									<p>
-										Il am de 2 zile si pot sa va zic ca mi-a depasit un pic asteptarile... Imaginea este foarte buna, mai am un Sony XD8077 si evident imaginea e mai buna la Sony dar si pretul pe masura.
-									</p>
-									<p>
-										In schimb meniul la Samsung si partea de smart sunt incredibil de fluide/rapide chiar mai bune decat la Sony. Mi-a luat un pic sa ma obisnuesc cu telecomanda foarte fina/minimalista in materie de butoane dar isi face treaba destul de bine. Setarile initiale se fac rapid, i-am pus un cablu de lan si un card CI, vede instant reteaua fara setari suplimentare. Pt a vedea si canalele blocate gen HBO trebuie sa sunati la provider (in cazul meu RDS) ca sa reinitializeze ei cardul.
-									</p>
-									<p>
-										Singura remarca negativa este pretul, care este un pic mai mare decat poti sa il gasesti la alt furnizor... Eu l-am prins cu 2,000 LEI (e drept, fara suport de prindere pe perete, dar in cazul meu nici nu era necesar acesta).
-									</p>
-									<p>
-										In concluzie, este un TV foarte bun, un "best-buy" dupa parerea mea, modern si cu o conectivitate excelenta. 4.8* din 5*
+										Au ajuns rapid prin curier si le-am savurat pe toate!! Multumesc!
 									</p>
 								</li>
 								<li>
@@ -536,7 +637,7 @@
 					</div>
 
 					<!-- Review user 2-->
-					<div class="row user-review-row mt-3 mx-auto">
+					<div class="row w-100 user-review-row mt-3 mx-auto">
 						<div class="col-md-2">
 							<ul class="lst-none">
 								<li class="my-4"> <a href="#" class="user-circle"> L </a></li>
@@ -566,12 +667,10 @@
 								</div>
 								</li>
 								<li class="text-left">
-									<p>
+									<p>			
 										Salut,
 
-										Intampin si eu probleme cu un TV 4k Samsung Seria UE43MU6102. Daca rulez filme din Media Server, sau ma uit la Youtube, sau poate chiar 4k de pe un stick totul merge super bine. Cand ma uit pe un post HD, ex Antena 1 HD sau Digi Sport 1 HD sau Protv HD, la un interval de timp intre 1-2 minute am o sacadare a imaginii din momentul respectiv (de o secunda, insa e sesizabila mereu)... Am incercat sa resetez televizorul la setarile din fabrica, am incercat sa dezactivez optiunile de imagine din meniu, am achizitionat noi cabluri noi din ONT-ul de la RDS in TV, nimic... Televizorul are o optiune Signal Information, si acolo poti vedea puterea semnalului primit si tot timpul e 100% si niciun bit error, atasez si poze. Nu stiu ce sa mai fac... Mentionez ca doar posturile care sunt HD au problema asta...
-
-										Tv-ul are ultima versiune de firmware instalata...
+										Am comandat 5kg de banane prin serviciul dvs insa la mine au ajuns 6kg as dori sa returnez unul este posibil?
 									</p>
 
 								</li>
@@ -588,7 +687,7 @@
 					</div>
 
 					<!-- Review user3-->
-					<div class="row user-review-row mt-3 mx-auto">
+					<div class="row w-100 user-review-row mt-3 mx-auto">
 						<div class="col-md-2">
 							<ul class="lst-none">
 								<li class="my-4"> <a href="#" class="user-circle"> U </a></li>
@@ -619,20 +718,9 @@
 								</li>
 								<li class="text-left">
 									<p>
-										Am tinut neaparat sa scriu acest review, pentru ca am fost cat pe ce sa returnez produsul pentru neatenția mea!
-										Am achiziționat acum o saptamana acest produs si l-am incercat in diferite feluri. Calitatea imaginii in videoclipurile 4K este ireproșabila, partea Smart la fel, se misca foarte foarte bine.
+										Recomand serviciul!!
 									</p>
-									<p>
-										DAR... La conectarea consolelor de jocuri Xbox sau PlayStation, in timpul jocurilor, imaginea sacada... Echivalentul scăderii Frame-urilor in joc, lucru extrem de frustrant având in vedere calitatea imaginii si potențialul pe care tv ul il avea in filme / clipuri 4K.
-										Menționez ca am testat consolele pe un tv mai vechi full hd samsung pe care il am si imaginea avea o calitate mai slaba dar jocul era fluent si nesacadat.
-										Astazi m am interesat care sunt demersurile pentru returnarea lui si chiar inainte de a il împacheta am decis sa ma joc cu setările acestuia.
-									</p>
-									<p>
-										Era foarte simplu, la setările avansate am posibilitatea de a activa modul game care este special pentru console video si rezolva problema mai sus menționata prin optimizarea imaginii la configurația consolei.
-									</p>
-									<p>
-										Așadar, recomand acest produs, raportul calitate / pret este extraordinar si merita cu siguranta 2400 RON, pentru ce oferă!
-									</p>
+								
 								</li>
 								<li>
 									<ul class="lst-none dsp-flex">
@@ -673,7 +761,7 @@
 					<div class="col-12 py-3 px-0" id="qanda">
 						<div class="row pb-3 mx-auto">
 							<div class="col-xl-10 col-lg-9 col-md-8 my-auto pb-1">
-								<h2 class="heading-style-desc resp-font-sz my-auto"> Intrebarile si raspunsurile clientilor <span class="grey-text font-sz"> (50 de intrebari) </span> </h2>
+								<h2 class="heading-style-desc resp-font-sz my-auto"> Intrebarile si raspunsurile clientilor <span class="grey-text font-sz"> (2 intrebari) </span> </h2>
 							</div>
 							<div class="col-xl-2 col-lg-3 col-md-4 my-auto pb-1">
 								<button class="btn btn-question text-center w-100"> Adauga intrebare</button>
@@ -693,7 +781,7 @@
 										<li> <a href="#" class="normal-link bold-link"> Bogdan </a></li>
 										<li> <span class="grey-text"> 01 Mar 2018 </span> </li>
 										<li>
-											<p class="question-p"> Pot sa conectez un PS4 PRO? </p>
+											<p class="question-p"> Pot sa platesc in rate? </p>
 										</li>
 										<li> <a href="#" class="normal-link no-underline font-sz"><i class="far fa-comment-alt"></i> Adauga un raspuns </a></li>
 									</ul>
@@ -712,29 +800,10 @@
 													<li> <a href="#" class="normal-link bold-link"> Anghel Alexandru </a></li>
 													<li> <span class="grey-text"> 22 Mar 2018 </span> </li>
 													<li>
-														<p class="answer-p"> De ce doamne iarta-ma nu ai putea sa conectezi un ps4 pro la el? </p>
+														<p class="answer-p"> De ce doamne iarta-ma ai vrea sa platesti in rate, saracule?
+														 </p>
 													</li>
 													<li> <a href="#" class="normal-link no-underline font-sz"><i class="far fa-thumbs-up"></i> 51 </a></li>
-												</ul>
-											</div>
-										</div>
-										<div class="line mb-2"></div>
-									</div>
-
-									<!-- Answer 2-->
-									<div class="row">
-										<div class="col-md-1 col-sm-2 col-3 px-auto pt-3">
-											<a href="#" class="user-circle-sm"> N </a>
-										</div>
-										<div class="col-md-11 col-sm-10 col-9 pl-4">
-											<div class="row">
-												<ul class="lst-none">
-													<li> <a href="#" class="normal-link bold-link"> Neculae Gabriel </a></li>
-													<li> <span class="grey-text"> 07 Apr 2018 </span> </li>
-													<li>
-														<p class="answer-p"> Ca sa arata ca si-a luat si PS4 PRO... </p>
-													</li>
-													<li> <a href="#" class="normal-link no-underline font-sz"><i class="far fa-thumbs-up"></i> A fost util raspunsul? </a></li>
 												</ul>
 											</div>
 										</div>
@@ -757,7 +826,7 @@
 										<li> <a href="#" class="normal-link bold-link"> Emilian </a></li>
 										<li> <span class="grey-text"> 19 Apr 2018 </span> </li>
 										<li>
-											<p class="question-p"> Am cumparat tv Samsung seria 6 si nu reusesc deloc sa fac lista de canale in ordinea pe care o vreau eu. Ma poate ajuta cineva?  </p>
+											<p class="question-p"> Sunt proaspete?  </p>
 										</li>
 										<li> <a href="#" class="normal-link no-underline font-sz"><i class="far fa-comment-alt"></i> Adauga un raspuns </a></li>
 									</ul>
@@ -776,114 +845,9 @@
 													<li> <a href="#" class="normal-link bold-link"> Andrei A </a></li>
 													<li> <span class="grey-text"> 24 Apr 2018 </span> </li>
 													<li>
-														<p class="answer-p"> In meniu, televizorul are optiunea de a exporta lista de canale pe un stick usb. Fisierul il deschizi pe calculator cu un program (de exemplu SamsChannelEditor) si le ordonezi cum ai chef. Sunt diverse programe care fac asta, este simplu. Dupa ce faci modificarea si salvezi fisierul, bagi stick-ul la loc in tv si dai import la lista. </p>
+														<p class="answer-p"> DA! </p>
 													</li>
 													<li> <a href="#" class="normal-link no-underline font-sz"><i class="far fa-thumbs-up"></i> 6 </a></li>
-												</ul>
-											</div>
-										</div>
-									</div>
-
-								</div>
-							</div>
-						</div>
-
-						<div class="line mb-2"></div>
-
-						<!-- Question only 3-->
-						<div class="row question-answer-row pt-4 mx-auto">
-							<div class="col-md-1 col-2 px-2 pt-2">
-								<a href="#" class="user-circle-sm"> P </a>
-							</div>
-							<div class="col-md-11 col-10 pl-4">
-								<div class="row question-row">
-									<ul class="lst-none">
-										<li> <a href="#" class="normal-link bold-link"> Petronela </a></li>
-										<li> <span class="grey-text"> 13 Apr 2018 </span> </li>
-										<li>
-											<p class="question-p"> Salut, planuiesc sa cumpar acest TV, insa am o intrebare, serialele si filmele full hd dupa stick/hdd se vad la fel de bine ca pe un tv full hd?, sau se vad pixelat </p>
-										</li>
-										<li> <a href="#" class="normal-link no-underline font-sz"><i class="far fa-comment-alt"></i> Adauga un raspuns </a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-
-						<div class="line mb-2"></div>
-
-						<!-- Question + 3 answers 4-->
-						<div class="row question-answer-row pt-4 mx-auto">
-							<div class="col-md-1 col-2 px-2 pt-2">
-								<a href="#" class="user-circle-sm"> P </a>
-							</div>
-							<div class="col-md-11 col-10 pl-4">
-								<div class="row question-row">
-									<ul class="lst-none">
-										<li> <a href="#" class="normal-link bold-link"> Paula </a></li>
-										<li> <span class="grey-text"> 21 Feb 2018 </span> </li>
-										<li>
-											<p class="question-p">Vede subtitrarea in romana pe Netflix? Eu mai am un Samsung mai vechi si nu o vede - din vina televizorului, nu a Netflixului. </p>
-										</li>
-										<li> <a href="#" class="normal-link no-underline font-sz"><i class="far fa-comment-alt"></i> Adauga un raspuns </a></li>
-									</ul>
-									<div class="line mb-2"> </div>
-								</div>
-								<div class="row answers-row">
-
-									<!-- Answer 1 -->
-									<div class="row">
-										<div class="col-md-1 col-sm-2 col-3 px-auto pt-3">
-											<a href="#" class="user-circle-sm"> G </a>
-										</div>
-										<div class="col-md-11 col-sm-10 col-9 pl-4">
-											<div class="row">
-												<ul class="lst-none">
-													<li> <a href="#" class="normal-link bold-link"> Gion </a></li>
-													<li> <span class="grey-text"> 22 Feb 2018 </span> </li>
-													<li>
-														<p class="answer-p"> Vede fara probleme. </p>
-													</li>
-													<li> <a href="#" class="normal-link no-underline font-sz"><i class="far fa-thumbs-up"></i> 2 </a></li>
-												</ul>
-											</div>
-										</div>
-										<div class="line mb-2"></div>
-									</div>
-
-									<!-- Answer 2 -->
-									<div class="row">
-										<div class="col-md-1 col-sm-2 col-3 px-auto pt-3">
-											<a href="#" class="user-circle-sm"> L </a>
-										</div>
-										<div class="col-md-11 col-sm-10 col-9 pl-4">
-											<div class="row">
-												<ul class="lst-none">
-													<li> <a href="#" class="normal-link bold-link"> Leon </a></li>
-													<li> <span class="grey-text"> 22 Feb 2018 </span> </li>
-													<li>
-														<p class="answer-p"> Se vede, happy Netflix and chill! ;) </p>
-													</li>
-													<li> <a href="#" class="normal-link no-underline font-sz"><i class="far fa-thumbs-up"></i> 667 </a></li>
-												</ul>
-											</div>
-										</div>
-										<div class="line mb-2"></div>
-									</div>
-
-									<!-- Answer 3 -->
-									<div class="row">
-										<div class="col-md-1 col-sm-2 col-3 px-auto pt-3">
-											<a href="#" class="user-circle-sm"> R </a>
-										</div>
-										<div class="col-md-11 col-sm-10 col-9 pl-4">
-											<div class="row">
-												<ul class="lst-none">
-													<li> <a href="#" class="normal-link bold-link"> Radu Cristian </a></li>
-													<li> <span class="grey-text"> 23 Feb 2018 </span> </li>
-													<li>
-														<p class="answer-p"> Mie imi vede pe acest model:) </p>
-													</li>
-													<li> <a href="#" class="normal-link no-underline font-sz"><i class="far fa-thumbs-up"></i>2 </a></li>
 												</ul>
 											</div>
 										</div>

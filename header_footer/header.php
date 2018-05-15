@@ -20,10 +20,6 @@
     <link rel="stylesheet" href="css/footer.css" type="text/css"/>
     <link rel="stylesheet" href="css/colors.css" type="text/css"/>
     <link rel="stylesheet" href="css/grid.css" type="text/css">
-    <link rel="stylesheet" href="css/colors-v1.css" type="text/css">
-  	<link rel="stylesheet" href="css/styles-v1.css" type="text/css" >
-	  <link rel="stylesheet" href="css/opt1_style.css" type="text/css">
-  	<link rel="stylesheet" href="css/index_style.css" type="text/css">
     <!-- animate.css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
@@ -1268,7 +1264,7 @@
   </script>
 
 <!-- Header after scroll -->
-<div class="d-none d-lg-block px-0 header-style header-background header-scroll sticky-top">
+<div class="d-none d-lg-block px-0 header-style header-background header-scroll sticky-top" >
 <div class="container head-height">
 
   <div class="row head-height">
@@ -1305,6 +1301,118 @@
                       <div class="tab-pane fade h-100 show active h-100" id="list-category0-copy" role="tabpanel" aria-labelledby="list-category0-copy-list">
 
                         <div class="row h-100 tab-list-background tlb-bg0">
+                          <div class="col-md-6">
+
+                            <div class="row">
+                              <div class="col">
+
+                                <!-- First column of links -->
+                                <div class="row">
+                                  <ul class="links">
+                                    <li>
+                                    <a href="#" class="top-link"> Rosaceae </a>
+                                    </li>
+                                    <li>
+                                    <a href="#" class="secondary-link"> Mere & Pere </a>
+                                    </li>
+                                    <li>
+                                    <a href="#" class="secondary-link"> Piersici & Caise </a>
+                                    </li>
+                                    <li>
+                                    <a href="#" class="secondary-link"> Visine & Cirese </a>
+                                    </li>
+                                    <li>
+                                    <a href="#" class="secondary-link"> Capsuni </a>
+                                    </li>
+                                    <li>
+                                    <a href="#" class="secondary-link"> Zmeura </a>
+                                    </li>
+                                  </ul>
+                                </div>
+
+                                <div class="row">
+
+                                  <ul class="links">
+                                    <li>
+                                      <a href="#" class="top-link"> Berries </a>
+                                    </li>
+
+                                    <li>
+                                      <a href="#" class="secondary-link"> Afine </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> Coacaze </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> Kiwi </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> Struguri </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> Avocado</a>
+                                    </li>
+                                  </ul>
+
+                                </div>
+                              </div>
+
+                              <div class="col">
+
+                                <!-- Second column of links -->
+                                <div class="row">
+
+                                  <ul class="links">
+                                    <li>
+                                      <a href="#" class="top-link"> Citrice</a>
+                                    </li>
+
+                                    <li>
+                                      <a href="#" class="secondary-link"> Lamai </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> Portocale</a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> Mandarine & Clementine</a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> Grapefruit</a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> Pomelo </a>
+                                    </li>
+                                  </ul>
+                                </div>
+
+                                <div class="row">
+
+                                  <ul class="links">
+                                    <li>
+                                      <a href="#" class="top-link"> Alte fructe proaspete </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> Banane </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> Mango </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> Pepeni </a>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-md-5">
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="tab-pane fade h-100" id="list-category1-copy" role="tabpanel" aria-labelledby="list-category1-copy-list">
+                        <div class="row h-100 tab-list-background tlb-bg1">
                           <div class="col-md-7">
 
                             <div class="row">
@@ -1409,8 +1517,8 @@
                         </div>
                       </div>
 
-                      <div class="tab-pane fade h-100" id="list-category1-copy" role="tabpanel" aria-labelledby="list-category1-copy-list">
-                        <div class="row  h-100 tab-list-background tlb-bg1">
+                      <div class="tab-pane fade h-100" id="list-category2-copy" role="tabpanel" aria-labelledby="list-category2-copy-list">
+                        <div class="row h-100 tab-list-background tlb-bg2">
                           <div class="col-md-7">
 
                             <div class="row">
@@ -1510,41 +1618,433 @@
                             </div>
                           </div>
 
-                          <div class="col-md-5 image-right">
+                          <div class="col-md-5">
                           </div>
                         </div>
                       </div>
 
-                      <div class="tab-pane fade h-100" id="list-category2-copy" role="tabpanel" aria-labelledby="list-category2-copy-list">
-                        category2-copy
-                      </div>
-
                       <div class="tab-pane fade h-100" id="list-category3-copy" role="tabpanel" aria-labelledby="list-category3-copy-list">
-                        category3-copy
+                        <div class="row h-100 tab-list-background tlb-bg3">
+                          <div class="col-md-7">
+
+                            <div class="row">
+                              <div class="col">
+
+                                <!-- First column of links -->
+                                <div class="row">
+                                  <ul class="links">
+                                    <li>
+                                    <a href="#" class="top-link"> montes </a>
+                                    </li>
+                                    <li>
+                                    <a href="#" class="secondary-link"> eros </a>
+                                    </li>
+                                    <li>
+                                    <a href="#" class="secondary-link"> faucibus proin venenatis dolor </a>
+                                    </li>
+                                    <li>
+                                    <a href="#" class="secondary-link"> arcu justo habitant</a>
+                                    </li>
+                                  </ul>
+                                </div>
+
+                                <div class="row">
+
+                                  <ul class="links">
+                                    <li>
+                                      <a href="#" class="top-link"> eleifend phasellus tristique </a>
+                                    </li>
+
+                                    <li>
+                                      <a href="#" class="secondary-link"> mauris suspendisee </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> dapibus amet </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> cubilia bibendum ultrices </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> quam cras litora consectetur </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link">  dui lacus aliquam quis velit</a>
+                                    </li>
+                                  </ul>
+
+                                </div>
+                              </div>
+
+                              <div class="col">
+
+                                <!-- Second column of links -->
+                                <div class="row">
+
+                                  <ul class="links">
+                                    <li>
+                                      <a href="#" class="top-link"> feugiat eleifend</a>
+                                    </li>
+
+                                    <li>
+                                      <a href="#" class="secondary-link"> eget id </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> penetiubus tempor tristique</a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> congaue</a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> henderit</a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> fames dictustm sensectus</a>
+                                    </li>
+                                  </ul>
+                                </div>
+
+                                <div class="row">
+
+                                  <ul class="links">
+                                    <li>
+                                      <a href="#" class="top-link"> lorem ipsum dolor </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> auctor magna </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> massa senescut arcu </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> curabitur ultrices </a>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-md-5">
+                          </div>
+                        </div>
                       </div>
 
                       <div class="tab-pane fade h-100" id="list-category4-copy" role="tabpanel" aria-labelledby="list-category4-copy-list">
-                        category4-copy
+                        <div class="row h-100 tab-list-background tlb-bg4">
+                          <div class="col-md-7">
+
+                            <div class="row">
+                              <div class="col">
+
+                                <!-- First column of links -->
+                                <div class="row">
+                                  <ul class="links">
+                                    <li>
+                                    <a href="#" class="top-link"> montes </a>
+                                    </li>
+                                    <li>
+                                    <a href="#" class="secondary-link"> eros </a>
+                                    </li>
+                                    <li>
+                                    <a href="#" class="secondary-link"> faucibus proin venenatis dolor </a>
+                                    </li>
+                                    <li>
+                                    <a href="#" class="secondary-link"> arcu justo habitant</a>
+                                    </li>
+                                  </ul>
+                                </div>
+
+                                <div class="row">
+
+                                  <ul class="links">
+                                    <li>
+                                      <a href="#" class="top-link"> eleifend phasellus tristique </a>
+                                    </li>
+
+                                    <li>
+                                      <a href="#" class="secondary-link"> mauris suspendisee </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> dapibus amet </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> cubilia bibendum ultrices </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> quam cras litora consectetur </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link">  dui lacus aliquam quis velit</a>
+                                    </li>
+                                  </ul>
+
+                                </div>
+                              </div>
+
+                              <div class="col">
+
+                                <!-- Second column of links -->
+                                <div class="row">
+
+                                  <ul class="links">
+                                    <li>
+                                      <a href="#" class="top-link"> feugiat eleifend</a>
+                                    </li>
+
+                                    <li>
+                                      <a href="#" class="secondary-link"> eget id </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> penetiubus tempor tristique</a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> congaue</a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> henderit</a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> fames dictustm sensectus</a>
+                                    </li>
+                                  </ul>
+                                </div>
+
+                                <div class="row">
+
+                                  <ul class="links">
+                                    <li>
+                                      <a href="#" class="top-link"> lorem ipsum dolor </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> auctor magna </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> massa senescut arcu </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> curabitur ultrices </a>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-md-5">
+                          </div>
+                        </div>
                       </div>
 
                       <div class="tab-pane fade h-100" id="list-category5-copy" role="tabpanel" aria-labelledby="list-category5-copy-list">
-                        category5-copy
+                        <div class="row h-100 tab-list-background tlb-bg5">
+                          <div class="col-md-7">
+
+                            <div class="row">
+                              <div class="col">
+
+                                <!-- First column of links -->
+                                <div class="row">
+                                  <ul class="links">
+                                    <li>
+                                    <a href="#" class="top-link"> montes </a>
+                                    </li>
+                                    <li>
+                                    <a href="#" class="secondary-link"> eros </a>
+                                    </li>
+                                    <li>
+                                    <a href="#" class="secondary-link"> faucibus proin venenatis dolor </a>
+                                    </li>
+                                    <li>
+                                    <a href="#" class="secondary-link"> arcu justo habitant</a>
+                                    </li>
+                                  </ul>
+                                </div>
+
+                                <div class="row">
+
+                                  <ul class="links">
+                                    <li>
+                                      <a href="#" class="top-link"> eleifend phasellus tristique </a>
+                                    </li>
+
+                                    <li>
+                                      <a href="#" class="secondary-link"> mauris suspendisee </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> dapibus amet </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> cubilia bibendum ultrices </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> quam cras litora consectetur </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link">  dui lacus aliquam quis velit</a>
+                                    </li>
+                                  </ul>
+
+                                </div>
+                              </div>
+
+                              <div class="col">
+
+                                <!-- Second column of links -->
+                                <div class="row">
+
+                                  <ul class="links">
+                                    <li>
+                                      <a href="#" class="top-link"> feugiat eleifend</a>
+                                    </li>
+
+                                    <li>
+                                      <a href="#" class="secondary-link"> eget id </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> penetiubus tempor tristique</a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> congaue</a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> henderit</a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> fames dictustm sensectus</a>
+                                    </li>
+                                  </ul>
+                                </div>
+
+                                <div class="row">
+
+                                  <ul class="links">
+                                    <li>
+                                      <a href="#" class="top-link"> lorem ipsum dolor </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> auctor magna </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> massa senescut arcu </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> curabitur ultrices </a>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-md-5">
+                          </div>
+                        </div>
                       </div>
 
                       <div class="tab-pane fade h-100" id="list-category6-copy" role="tabpanel" aria-labelledby="list-category6-copy-list">
-                        category6-copy
-                      </div>
+                        <div class="row h-100 tab-list-background tlb-bg6">
+                          <div class="col-md-7">
 
-                      <div class="tab-pane fade h-100" id="list-category7-copy" role="tabpanel" aria-labelledby="list-category7-copy-list">
-                        category7-copy
-                      </div>
+                            <div class="row">
+                              <div class="col">
 
-                      <div class="tab-pane fade h-100" id="list-category8-copy" role="tabpanel" aria-labelledby="list-category8-copy-list">
-                        category8-copy
-                      </div>
+                                <!-- First column of links -->
+                                <div class="row">
+                                  <ul class="links">
+                                    <li>
+                                    <a href="#" class="top-link"> montes </a>
+                                    </li>
+                                    <li>
+                                    <a href="#" class="secondary-link"> eros </a>
+                                    </li>
+                                    <li>
+                                    <a href="#" class="secondary-link"> faucibus proin venenatis dolor </a>
+                                    </li>
+                                    <li>
+                                    <a href="#" class="secondary-link"> arcu justo habitant</a>
+                                    </li>
+                                  </ul>
+                                </div>
 
-                      <div class="tab-pane fade h-100" id="list-category9-copy" role="tabpanel" aria-labelledby="list-category9-copy-list">
-                        category9-copy
+                                <div class="row">
+
+                                  <ul class="links">
+                                    <li>
+                                      <a href="#" class="top-link"> eleifend phasellus tristique </a>
+                                    </li>
+
+                                    <li>
+                                      <a href="#" class="secondary-link"> mauris suspendisee </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> dapibus amet </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> cubilia bibendum ultrices </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> quam cras litora consectetur </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link">  dui lacus aliquam quis velit</a>
+                                    </li>
+                                  </ul>
+
+                                </div>
+                              </div>
+
+                              <div class="col">
+
+                                <!-- Second column of links -->
+                                <div class="row">
+
+                                  <ul class="links">
+                                    <li>
+                                      <a href="#" class="top-link"> feugiat eleifend</a>
+                                    </li>
+
+                                    <li>
+                                      <a href="#" class="secondary-link"> eget id </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> penetiubus tempor tristique</a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> congaue</a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> henderit</a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> fames dictustm sensectus</a>
+                                    </li>
+                                  </ul>
+                                </div>
+
+                                <div class="row">
+
+                                  <ul class="links">
+                                    <li>
+                                      <a href="#" class="top-link"> lorem ipsum dolor </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> auctor magna </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> massa senescut arcu </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> curabitur ultrices </a>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-md-5">
+                          </div>
+                        </div>
                       </div>
 
                     </div>

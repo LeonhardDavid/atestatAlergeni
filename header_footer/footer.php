@@ -296,7 +296,7 @@
 	      </div>
 
 	      <div class="col-lg-4 text-center">
-	        powered by <strong> Gabi</strong>
+	        powered by <strong> Leo && Radu</strong>
 	      </div>
 
 

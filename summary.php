@@ -25,7 +25,7 @@
 	<div class="container my-2 px-4 py-2">
 		<div class="row w-100 mx-auto">
 			<div class="col-md-2 mx-auto mb-1">
-				<img src="images/logo_blue.svg" alt="Page_logo" class="img-fluid d-block mx-auto">
+				<img src="images/logo_alt.png" alt="Page_logo" class="img-fluid d-block mx-auto">
 			</div>
 			<div class="col-md-10 col-11 pr-0 mx-auto">
 				<div class="row">
@@ -54,14 +54,14 @@
 
 					<div class="row w-100">
 						<div class="col-3 text-left px-0">
-							<span class="roadmap-txt-cyan">Cosul meu </span>
+							<span class="roadmap-txt-cyan"><a class="normal-link" href="cart.php">Cosul meu </a></span>
 						</div>
 						<div class="col-sm-2 col-3 text-center px-0">
-							<span class="roadmap-txt-cyan">Detalii comanda </span>
+							<span class="roadmap-txt-cyan"><a class="normal-link" href="order-details.php">Detalii comanda </a></span>
 						</div>
 						<div class="col-2 d-sm-block d-none px-0"></div>
 						<div class="col-sm-2 col-3 text-center px-0">
-							<span class="roadmap-txt-cyan  bold-txt">Sumar comanda </span>
+							<span class="roadmap-txt-cyan  bold-txt"><a class="normal-link" href="summary.php">Sumar comanda </a></span>
 						</div>
 						<div class="col-3 text-right px-0">
 							<span class="roadmap-txt-grey">Comanda plasata </span>
@@ -216,21 +216,23 @@
 				<form>
 				<div class="custom-control custom-checkbox">
   					<input type="checkbox" class="custom-control-input" id="customCheck1" required>
-  				<label class="custom-control-label" for="customCheck1">Sunt de acord cu <a href=""> termenii si conditiile</a> Nexst.</label>
+  				<label class="custom-control-label" for="customCheck1">Sunt de acord cu <a href=""> termenii si conditiile</a> Lions.</label>
 				</div>
 				</form>
 				</div>
 			</div>
 				<div class="row my-3 pb-3">
 				<div class="col-12 d-flex align-self-center justify-content-center">
-				<form>
-						<div class="add-to-cart w-100">
-							<input class="add-to-cart-btn" type="submit" value="Trimite comanda">
-								<span class="shopping-cart">
-									<i class="fas fa-angle-double-right"></i>
-								</span>
-						</div>
-				</form>
+					<a class="normal-link" href="order-placed.php">
+						<form>
+								<div class="add-to-cart w-100">
+									<input class="add-to-cart-btn" type="submit" value="Trimite comanda">
+										<span class="shopping-cart">
+											<i class="fas fa-angle-double-right"></i>
+										</span>
+								</div>
+						</form>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -240,7 +242,7 @@
 		<div class="container-fluid footer-container px-5 py-3">
 			<div class="row">
 				<span class="grey-txt bold-txt">
-					La Nexst te bucuri de:
+					La Lions te bucuri de:
 				</span>
 			</div>
 			<div class="row">
@@ -254,7 +256,7 @@
 								<span class="font-md bold-txt">Deschiderea coletului la livrare </span>
 							</div>
 							<div class="row">
-								<span class="font-md"> pentru produsele vandute de Nexst </span>
+								<span class="font-md"> pentru produsele vandute de Lions </span>
 							</div>
 						</div>
 					</div>
@@ -284,7 +286,7 @@
 								<span class="font-md bold-txt">30 de zile drept de retur</span>
 							</div>
 							<div class="row">
-								<span class="font-md"> pentru produsele vandute de Nexst </span>
+								<span class="font-md"> pentru produsele vandute de Lions </span>
 							</div>
 						</div>
 					</div>

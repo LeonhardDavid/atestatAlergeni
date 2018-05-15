@@ -163,6 +163,24 @@ Slider images
 	animation-duration: 2.5s !important;
 }
 
+@media (min-width: 400px) and (max-width: 800px){
+	.top-title{
+		font-size: 44px;
+	}
+	.under-title{
+		font-size: 30px;
+	}
+}
+
+@media (max-width: 400px){
+	.top-title{
+		font-size: 35px;
+	}
+	.under-title{
+		font-size: 25px;
+	}
+}
+
 /*
 Row after gallery
 */

@@ -273,7 +273,7 @@ product image gallery
 }
 
 .row .button-row{
-	top: 3.5rem !important;
+	top: 3.4rem !important;
 	background-color: var(--navbar-categories-bg-color);
 	z-index: 15 !important;
 }

@@ -26,7 +26,7 @@
 	<div class="container container-resp-md my-5">
     <div class="row w-100 mx-auto">
 			<div class="col-md-2 mx-auto mb-1">
-				<img src="images/logo_blue.svg" alt="Page_logo" class="img-fluid d-block mx-auto">
+				<img src="images/logo_alt.png" alt="Page_logo" class="img-fluid d-block mx-auto">
 			</div>
 			<div class="col-md-10 col-11 pr-0 mx-auto">
 				<div class="row">
@@ -57,7 +57,7 @@
 
 					<div class="row w-100">
 						<div class="col-3 text-left px-0">
-							<span class="roadmap-txt-cyan bold-txt">Cosul meu</span>
+							<span class="roadmap-txt-cyan bold-txt"><a href="cart.php" class="normal-link">Cosul meu</a></span>
 						</div>
 						<div class="col-sm-2 col-3 text-center px-0">
 							<span class="roadmap-txt-grey">Detalii comanda</span>
@@ -227,7 +227,7 @@
 								<div class="col-sm-4 col-5 my-2 left-line font-resp">
 									<h4>Total:</h4>
 									<h4>2339<sup>,94</sup> Lei</h4>
-									<button type="button" class="btn btn-primary btn-block btn-cust my-3 px-1 font-resp-summary">Pasul urmator</button>
+									<button type="button" class="btn btn-primary btn-block btn-cust my-3 px-1 font-resp-summary" > <a class="normal-link" href="order-details.php">Pasul urmator</a></button>
 								</div>
 							</div>
 						</div>
@@ -268,7 +268,7 @@
 							<h4>2489<sup>,94</sup> Lei</h4>
 						</div>
 						<div class="col-12">
-							<button type="button" class="btn btn-primary btn-lg btn-block btn-cust font-resp-summary">Pasul urmator</button>
+							<button type="button" class="btn btn-primary btn-lg btn-block btn-cust font-resp-summary"><a class="normal-link" href="order-details.php">Pasul urmator</a></button>
 						</div>
 						<div class="col-12 mt-2 font-resp-summary">
 							<h5>Ai un voucher sau card cadou?</h5>
@@ -290,7 +290,7 @@
 	</div>
   <footer class="top-line">
       <div class="container my-3 mx-auto">
-        © Copyright 2017 NEXST. All rights reserved.
+        © Copyright 2018 Lions. All rights reserved.
       </div>
   </footer>
 

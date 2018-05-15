@@ -88,6 +88,14 @@
   fill: white !important;
 }
 
+@media (max-width: 992px){
+  .logo-white{
+    width: 120px !important;
+    position: absolute;
+    transform: translate(35px,-35px);
+  }
+}
+
 .header-style{
    z-index: 9999;
    position:relative;
@@ -98,6 +106,8 @@
   background-position: center;
   background-size: cover;
   background-attachment: scroll;
+   position: sticky;
+   top: -1px !important;
 }
 
 .tab-list-background{

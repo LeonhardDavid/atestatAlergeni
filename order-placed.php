@@ -25,7 +25,7 @@
 	<div class="container my-2 px-4 py-2">
 		<div class="row w-100 mx-auto">
 			<div class="col-md-2 mx-auto mb-1">
-				<img src="images/logo_blue.svg" alt="Page_logo" class="img-fluid d-block mx-auto">
+				<img src="images/logo_alt.png" alt="Page_logo" class="img-fluid d-block mx-auto">
 			</div>
 			<div class="col-md-10 col-11 pr-0 mx-auto">
 				<div class="row">
@@ -55,17 +55,17 @@
 
 					<div class="row w-100">
 						<div class="col-3 text-left px-0">
-							<span class="roadmap-txt-cyan">Cosul meu </span>
+							<span class="roadmap-txt-cyan"><a class="normal-link" href="cart.php">Cosul meu </a> </span>
 						</div>
 						<div class="col-sm-2 col-3 text-center px-0">
-							<span class="roadmap-txt-cyan">Detalii comanda </span>
+							<span class="roadmap-txt-cyan"><a class="normal-link" href="order-details.php">Detalii comanda </a> </span>
 						</div>
 						<div class="col-2 d-sm-block d-none px-0"></div>
 						<div class="col-sm-2 col-3 text-center px-0">
-							<span class="roadmap-txt-cyan ">Sumar comanda </span>
+							<span class="roadmap-txt-cyan "><a class="normal-link" href="summary.php">Sumar comanda </a> </span>
 						</div>
 						<div class="col-3 text-right px-0">
-							<span class="roadmap-txt-cyan bold-txt">Comanda plasata </span>
+							<span class="roadmap-txt-cyan bold-txt"><a class="normal-link" href="order-placed.php">Comanda plasata </a> </span>
 						</div>
 					</div>
 				</div>
@@ -125,9 +125,9 @@
 				</div>
 					<div class="col-11 d-flex justify-content-start">
 					<span class="align-left">
-					<p class="font-lg my-2"><b>Comanda livrata de:</b>&nbsp; Nexst</p>
+					<p class="font-lg my-2"><b>Comanda livrata de:</b>&nbsp; Lions</p>
 					<p class="font-md my-2"><b>Modalitate de livrare:</b>&nbsp; Livrare prin curier</p>
-					<p class="font-md my-2"><b>Status:</b>&nbsp; Comanda ta a fost preluata si urmeaza sa fie livrata de Nexst</p>
+					<p class="font-md my-2"><b>Status:</b>&nbsp; Comanda ta a fost preluata si urmeaza sa fie livrata de Lions</p>
 					<p class="font-md my-2"><b>Data estimata de livrare:</b>&nbsp;sambata, 5 mai - luni, 7 mai</p>
 					<div class="container white-bg">
 						<div class="row">
@@ -152,7 +152,7 @@
 		<div class="container-fluid footer-container px-5 py-3">
 			<div class="row">
 				<span class="grey-txt bold-txt">
-					La Nexst te bucuri de:
+					La Lions te bucuri de:
 				</span>
 			</div>
 			<div class="row">
@@ -166,7 +166,7 @@
 								<span class="font-md bold-txt">Deschiderea coletului la livrare </span>
 							</div>
 							<div class="row">
-								<span class="font-md"> pentru produsele vandute de Nexst </span>
+								<span class="font-md"> pentru produsele vandute de Lions </span>
 							</div>
 						</div>
 					</div>
@@ -196,7 +196,7 @@
 								<span class="font-md bold-txt">30 de zile drept de retur</span>
 							</div>
 							<div class="row">
-								<span class="font-md"> pentru produsele vandute de Nexst </span>
+								<span class="font-md"> pentru produsele vandute de Lions </span>
 							</div>
 						</div>
 					</div>

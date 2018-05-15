@@ -3,7 +3,7 @@
 <!-- Begin code -->
 
 	<!-- Main photo slider desktop-->
-	<div id="carouselExampleIndicators-main1-desktop" class="carousel slide translate-y-up d-none d-md-block" data-ride="carousel" data-interval="false" data-keyboard="true">
+	<div id="carouselExampleIndicators-main1-desktop" class="carousel slide translate-y-up d-none d-md-block" data-ride="carousel" data-interval="3000" data-keyboard="true">
 	  <ol class="carousel-indicators">
 	    <li data-target="#carouselExampleIndicators-main1-desktop" data-slide-to="0" class="active"></li>
 	    <li data-target="#carouselExampleIndicators-main1-desktop" data-slide-to="1"></li>
@@ -18,12 +18,20 @@
 	      	 <div class="under-title text-center"> Magazinul online care te ajută să fii sănătos!</div>
 	      </div>
 	    </div>
+	    <!--
 	    <div class="carousel-item ">
 	      <img class="d-block w-100 main-slider" src="images/main-slider-image-desktop-2.jpg" alt="Second slide" >
 
 	    </div>
+	-->
 	    <div class="carousel-item ">
 	      <img class="d-block w-100 main-slider" src="images/main-slider-image-desktop-3.jpg" alt="Third slide" >
+	      <a href="barcode-reader.php">
+		      <div class="animated fadeInUp container-fluid title-div">
+		      	 <div class="top-title text-center">Verifică alergenii!</div>
+		      	 <div class="under-title text-center"> Către barcode scanner <i class="fas fa-arrow-right"></i></div>
+		      </div>
+		  </a>
 	    </div>
 
 	  <a class="carousel-control-prev" href="#carouselExampleIndicators-main1-desktop" role="button" data-slide="prev">
@@ -39,7 +47,7 @@
 
 	<!-- Main photo slider mobile -->
 
-	<div id="carouselExampleIndicators-main1-mobile" class="carousel slide translate-y-up d-md-none" data-ride="carousel" data-interval="false" data-keyboard="true">
+	<div id="carouselExampleIndicators-main1-mobile" class="carousel slide translate-y-up d-md-none" data-ride="carousel" data-interval="3000" data-keyboard="true">
 	  <ol class="carousel-indicators">
 	    <li data-target="#carouselExampleIndicators-main1-mobile" data-slide-to="0" class="active"></li>
 	    <li data-target="#carouselExampleIndicators-main1-mobile" data-slide-to="1"></li>
@@ -50,14 +58,24 @@
 	    <div class="carousel-item active ">
 	      <img class="d-block w-100 main-slider " src="images/main-slider-image-mobile-1.jpg" alt="First slide" >
 
+	      <div class="animated fadeInUp container-fluid title-div">
+	      	 <div class="top-title text-center">Mănâncă sănătos!</div>
+	      	 <div class="under-title text-center"> Magazinul online care te ajută să fii sănătos!</div>
+	      </div>
 
 	    </div>
+	    <!--
 	    <div class="carousel-item ">
 	      <img class="d-block w-100 main-slider" src="images/main-slider-image-mobile-2.jpg" alt="Second slide" >
 
 	    </div>
+	-->
 	    <div class="carousel-item ">
 	      <img class="d-block w-100 main-slider" src="images/main-slider-image-mobile-3.jpg" alt="Third slide" >
+	      <div class="animated fadeInUp container-fluid title-div">
+	      	 <div class="top-title text-center">Verifică alergenii!</div>
+	      	 <div class="under-title text-center"> Către barcode scanner <i class="fas fa-arrow-right"></i></div>
+	      </div>
 	    </div>
 
 	  <a class="carousel-control-prev" href="#carouselExampleIndicators-main1-mobile" role="button" data-slide="prev">
@@ -267,7 +285,7 @@
 			      		<div class="col-md-6 h-100">
 
 			      			<!-- Mini-slider 1-->
-								<div id="carouselExampleIndicators-item1" class="carousel slide h-100 align" data-ride="carousel" data-interval="false" data-keyboard="true">
+								<div id="carouselExampleIndicators-item1" class="carousel slide h-100 align" data-ride="carousel" data-interval="3000" data-keyboard="true">
 									<ol class="carousel-indicators">
 								    	<li data-target="#carouselExampleIndicators-item1" data-slide-to="0" class="active"></li>
 								    	<li data-target="#carouselExampleIndicators-item1" data-slide-to="1"></li>
