@@ -222,7 +222,7 @@
       </div>
 
       <div class="col-md-3 top-col my-5">
-        <img src="images/logo.svg" class="footer-logo">
+        <img src="images/lions-logo.svg" class="footer-logo" style="width: 200px;">
         <hr class="footer-line-thicc">
         <ul class="social-icons">
           <li> <a href="#" class="social-icons-a"> <i class="fab fa-twitter"></i> </a></li>
@@ -254,7 +254,7 @@
   <div class="d-lg-none">
     <div class="row top-row mx-0">
       <div class="top-col text-center">
-        <img src="images/logo.svg" class="footer-logo-mobile">
+        <img src="images/lions-logo.svg" class="footer-logo-mobile" style="width: 200px;">
           <hr class="footer-line-thicc">
           <ul class="social-icons">
             <li> <a href="#" class="social-icons-a"> <i class="fab fa-twitter"></i> </a></li>
