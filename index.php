@@ -11,7 +11,7 @@
 	  </ol>
 
 	  <div class="carousel-inner">
-	    <div class="carousel-item active ">
+	    <div class="carousel-item active">
 	      <img class="d-block w-100 main-slider " src="images/main-slider-image-desktop-1.jpg" alt="First slide" >
 	      <div class="animated fadeInUp container-fluid title-div">
 	      	 <div class="top-title text-center">Mănâncă sănătos!</div>
